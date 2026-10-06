@@ -2,7 +2,21 @@ export const VERSION=1;
 export function defaultSettings(){return {category:'all',collection:'all',filter:'all',mode:'learn',length:'all'};}
 export function normalizeSettings(raw,bank){const s=defaultSettings();if(!raw||typeof raw!=='object')return s;for(const [key,allowed] of Object.entries({mode:['learn','exam'],length:['10','20','40','all','endless'],filter:['all','unseen','incorrect','marked'],category:['all',...new Set(bank.map(q=>q.category))]}))if(allowed.includes(raw[key]))s[key]=raw[key];const lectures=new Set(bank.map(q=>q.collection));if(Array.isArray(raw.collection)){const valid=[...new Set(raw.collection.filter(x=>lectures.has(x)))];s.collection=raw.collection.length&&!valid.length?'all':valid;}else if(lectures.has(raw.collection))s.collection=[raw.collection];return s;}
 export function sessionSize(available,length){return ['all','endless'].includes(length)?available:Math.min(available,Number(length));}
-export function empty(){return {schema_version:VERSION,questions:{},groups:{},concepts:{},flags:{},decisions:{},exams:[],session:null};}
+export function empty(){return {schema_version:VERSION,questions:{},groups:{},concepts:{},flags:{},decisions:{},exams:[],session:null,applied_remediation_batches:[]};}
+export function reconcileFlags(p,batch){
+ if(!batch?.batch_id||!Array.isArray(batch.flagged_question_ids))return 0;
+ p.applied_remediation_batches??=[];
+ if(p.applied_remediation_batches.includes(batch.batch_id))return 0;
+ let resolved=0;
+ for(const id of batch.flagged_question_ids){
+  const flag=p.flags[id];
+  if(flag?.status==='open'&&(!flag.date||(Number.isFinite(Date.parse(flag.date))&&Date.parse(flag.date)<=Date.parse(batch.created_at)))){
+   flag.status='resolved';flag.remediation_batch=batch.batch_id;flag.resolved_at=batch.created_at;resolved++;
+  }
+ }
+ p.applied_remediation_batches.push(batch.batch_id);
+ return resolved;
+}
 export function shuffle(a,rng=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function filtered(bank,p,{category='all',collection='all',filter='all'}={}){
  return bank.filter(q=>(category==='all'||q.category===category)&&(collection==='all'||(Array.isArray(collection)?collection.includes(q.collection):q.collection===collection))).filter(q=>{
@@ -25,6 +39,7 @@ export function validateImport(p,bank){
  for(const g of Object.values(p.groups))if(!Number.isInteger(g.times_seen)||g.times_seen<0)throw Error('Invalid group progress.');
  for(const c of Object.values(p.concepts))if(!Number.isInteger(c.correct)||!Number.isInteger(c.incorrect)||c.correct<0||c.incorrect<0)throw Error('Invalid concept progress.');
  if(!Array.isArray(p.exams))throw Error('Invalid exam history.');
+ if(p.applied_remediation_batches!==undefined&&(!Array.isArray(p.applied_remediation_batches)||p.applied_remediation_batches.some(x=>typeof x!=='string')))throw Error('Invalid remediation history.');
  if(p.session){const s=p.session;if(!['learn','exam'].includes(s.mode)||!Array.isArray(s.items)||s.items.length>10000||!Number.isInteger(s.index)||s.index<0||s.index>=s.items.length)throw Error('Invalid saved session.');
  for(const i of s.items)if(!ids.has(i.id)||!Array.isArray(i.order)||[...i.order].sort().join()!=='0,1,2,3'||!([null,0,1,2,3].includes(i.draft))||typeof i.locked!=='boolean'||i.locked&&i.draft===null)throw Error('Invalid session item.');}
  return p;

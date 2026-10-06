@@ -1,29 +1,54 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "status": "PASS",
-  "bank_version": "2026-10-05-renal-r9-lecture-review-1",
+  "bank_version": "renal-2026-10-06-r2",
   "source_files": 62,
-  "scored_source_groups": 38,
-  "scored_variants": 76,
-  "questions": 95,
+  "usable_sources": 43,
   "reference_only_sources": 19,
-  "question_level_citations": 218,
-  "designated_documents_and_captures": 37,
+  "scored_source_groups": 38,
+  "verified_variants": 76,
+  "questions": 95,
+  "collections": [
+    "R1",
+    "R2",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9"
+  ],
+  "learner_flag_remediation": {
+    "batch_id": "renal-flags-2026-10-06-r1",
+    "flags_resolved": 5,
+    "questions_changed": 13,
+    "derivatives_changed": 12,
+    "status": "PASS"
+  },
   "automated_tests": {
-    "passed": 11,
+    "passed": 12,
     "failed": 0
   },
   "validation": {
     "manifest_and_question_bank": "PASS",
-    "source_tree_files": 301,
-    "static_dist_files": 276,
-    "verified_site_data_asset_paths": 203
+    "immutable_source_and_variant_verification": "PASS",
+    "static_dist_files": 313,
+    "dist_rebuilt_from_source": true
   },
-  "review_reference": "reports/full-bank-review-2026-10-05.md",
+  "visual_review": {
+    "status": "PASS",
+    "scope": "All 12 learner-remediation PNG derivatives inspected at native resolution",
+    "correction": "Re-rendered the R6 paracellular route derivative from the immutable original and its declared masks after visual review detected an almost blank generated asset"
+  },
+  "source_integrity": "All 62 manual source captures retained their recorded SHA-256 values",
+  "reports": [
+    "reports/learner-flag-remediation-2026-10-06.json",
+    "reports/learner-flag-bank-audit-2026-10-06.md"
+  ],
   "limitations": [
-    "Coverage remains partial across the included lectures",
-    "Public redistribution permission for course images has not been verified",
-    "Browser progress is local to each browser and site address",
-    "This quiz is for educational use and is not clinical guidance"
+    "Course coverage remains limited to the eight listed renal collections",
+    "Public redistribution permission for user-supplied course material has not been verified",
+    "Browser-local progress requires export and import across browsers or site addresses",
+    "This educational quiz is not a substitute for clinical guidance"
   ]
 }

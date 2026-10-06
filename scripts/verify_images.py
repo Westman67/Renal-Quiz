@@ -44,6 +44,10 @@ for s in m['sources']:
         for x0, y0, x1, y1 in v['transform']['masks']:
             assert 0 <= x0 < x1 <= expected.width and 0 <= y0 < y1 <= expected.height
             d.rectangle((x0, y0, x1 - 1, y1 - 1), fill=(0, 0, 0))
+        for polygon in v['transform'].get('polygons', []):
+            assert len(polygon) >= 3
+            assert all(0 <= x < expected.width and 0 <= y < expected.height for x, y in polygon)
+            d.polygon([tuple(point) for point in polygon], fill=(0, 0, 0))
         assert delta.getbbox() is None, ('Pixels changed outside declared mask', s['relative_path'], v['variant_id'])
         for key, fmt in [('image', 'WEBP'), ('zoom_image', 'PNG')]:
             assert re.fullmatch(r'assets/[a-f0-9]{24}\.(png|webp)', v[key])
