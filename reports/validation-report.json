@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-05",
+  "status": "PASS",
+  "bank_version": "2026-10-05-renal-r9-lecture-review-1",
+  "source_files": 62,
+  "scored_source_groups": 38,
+  "scored_variants": 76,
+  "questions": 95,
+  "reference_only_sources": 19,
+  "question_level_citations": 218,
+  "designated_documents_and_captures": 37,
+  "automated_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "validation": {
+    "manifest_and_question_bank": "PASS",
+    "source_tree_files": 301,
+    "static_dist_files": 276,
+    "verified_site_data_asset_paths": 203
+  },
+  "review_reference": "reports/full-bank-review-2026-10-05.md",
+  "limitations": [
+    "Coverage remains partial across the included lectures",
+    "Public redistribution permission for course images has not been verified",
+    "Browser progress is local to each browser and site address",
+    "This quiz is for educational use and is not clinical guidance"
+  ]
+}
