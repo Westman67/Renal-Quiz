@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "bank_version": "2026-10-05-renal-r9-lecture-review-1",
+  "bank_version": "renal-2026-10-06-r2",
   "title": "Renal Picture Quiz",
   "lecture": "mixed",
   "questions": [
@@ -3929,29 +3929,29 @@
       "asset_id": "asset-54b5ec0e8f3fd5f2",
       "source_group_id": "group-496dbcfd578f21c7",
       "source_id": "src-54b5ec0e8f3fd5f2",
-      "variant_id": "var-c200fd8ccb236b10b238f774",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R5 low-pressure TGF efferent constriction",
-      "stem": "In the low-NaCl macula-densa diagram, what response is hidden in the blue starburst on the efferent side?",
-      "visual_target": "In the low-NaCl macula-densa diagram, what response is hidden in the blue starburst on the efferent side?",
+      "variant_id": "var-7f8de49cc8fb4af302214faf",
+      "question_type": "Hemodynamic Prediction",
+      "tested_concept": "R5 low-pressure TGF efferent constriction hemodynamic consequence",
+      "stem": "In this low-NaCl macula-densa diagram, what paired RPF and Pgc changes follow the blue-arrow vessel response considered alone?",
+      "visual_target": "Use the blue vessel arrows and glomerular anatomy to predict RPF and Pgc, with outcome boxes hidden.",
       "joint_composite": false,
       "options": [
-        "Efferent constriction",
-        "Efferent dilation",
-        "Afferent constriction",
-        "Afferent dilation"
+        "RPF decreases; Pgc increases",
+        "RPF increases; Pgc increases",
+        "RPF increases; Pgc decreases",
+        "RPF decreases; Pgc decreases"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Blue arrows converge on the labeled efferent vessel, and the adjacent Pgc box rises: efferent constriction.",
-        "Dilation would not match the inward blue arrows or the adjacent rise in Pgc.",
-        "The blue starburst is beside the labeled efferent vessel, not the afferent vessel.",
-        "The red afferent side has outward arrows; this masked blue target is efferent."
+        "The blue inward arrows indicate efferent constriction, which lowers RPF and raises Pgc.",
+        "The blue vessel arrows give a different result: RPF should decrease, not increase.",
+        "The blue vessel arrows give a different result: RPF should decrease, not increase; Pgc should increase, not decrease.",
+        "The blue vessel arrows give a different result: Pgc should increase, not decrease."
       ],
-      "explanation": "Blue arrows converge on the labeled efferent vessel, and the adjacent Pgc box rises: efferent constriction.",
+      "explanation": "The blue inward arrows indicate efferent constriction, which lowers RPF and raises Pgc.",
       "visual_clues": [
-        "Low NaCl at macula densa",
-        "Blue arrows press inward around the efferent vessel"
+        "Blue arrows show the vessel caliber response",
+        "The blue-arrow vessel is identified by its position at the vascular pole"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R5 RLS p. 12; decisive arrows, curves, or labels independently checked.",
@@ -3965,10 +3965,15 @@
           "document": "R5/Tubuloglomerular Feedback with decreased blood pressure.png",
           "page": null,
           "sha256": "54b5ec0e8f3fd5f23b8536a58ee67f320463ac8e6c6194aeb006eb8d2c927564"
+        },
+        {
+          "document": "R4 Renal Plasma Flow (Physiology) RLS.pdf",
+          "page": 16,
+          "sha256": "573c8a7ec7eaadd5388975da4f76c83eae078c3da18ba0884e1ce94fb9f476f2"
         }
       ],
-      "image": "assets/c200fd8ccb236b10b238f774.webp",
-      "zoom_image": "assets/c200fd8ccb236b10b238f774.png",
+      "image": "assets/7f8de49cc8fb4af302214faf.webp",
+      "zoom_image": "assets/7f8de49cc8fb4af302214faf.png",
       "original_image": "assets/54b5ec0e8f3fd5f23b8536a5.png",
       "original_filename": "R5/Tubuloglomerular Feedback with decreased blood pressure.png",
       "category": "Diagram",
@@ -3983,29 +3988,29 @@
       "asset_id": "asset-54b5ec0e8f3fd5f2",
       "source_group_id": "group-496dbcfd578f21c7",
       "source_id": "src-54b5ec0e8f3fd5f2",
-      "variant_id": "var-67669b52760be93e81b87e66",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R5 low-pressure TGF afferent dilation",
-      "stem": "In the low-NaCl macula-densa diagram, what response is hidden in the red starburst on the afferent side?",
-      "visual_target": "In the low-NaCl macula-densa diagram, what response is hidden in the red starburst on the afferent side?",
+      "variant_id": "var-7de6a33ee3fae2cf23c14909",
+      "question_type": "Hemodynamic Prediction",
+      "tested_concept": "R5 low-pressure TGF afferent dilation hemodynamic consequence",
+      "stem": "In this low-NaCl macula-densa diagram, what paired RPF and Pgc changes follow the red-arrow vessel response considered alone?",
+      "visual_target": "Use the red vessel arrows and glomerular anatomy to predict RPF and Pgc, with outcome boxes hidden.",
       "joint_composite": false,
       "options": [
-        "Afferent dilation",
-        "Afferent constriction",
-        "Efferent dilation",
-        "Efferent constriction"
+        "RPF decreases; Pgc increases",
+        "RPF increases; Pgc increases",
+        "RPF increases; Pgc decreases",
+        "RPF decreases; Pgc decreases"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "choice_rationales": [
-        "Red arrows spread from the labeled afferent vessel, with increased RPF and Pgc shown above: afferent dilation.",
-        "Constriction conflicts with the outward red arrows and the shown rise in RPF.",
-        "The red starburst is on the labeled afferent rather than the blue efferent side.",
-        "Efferent constriction is the separate blue response across the glomerulus."
+        "The red vessel arrows give a different result: RPF should increase, not decrease.",
+        "The red outward arrows indicate afferent dilation, which raises both RPF and Pgc.",
+        "The red vessel arrows give a different result: Pgc should increase, not decrease.",
+        "The red vessel arrows give a different result: RPF should increase, not decrease; Pgc should increase, not decrease."
       ],
-      "explanation": "Red arrows spread from the labeled afferent vessel, with increased RPF and Pgc shown above: afferent dilation.",
+      "explanation": "The red outward arrows indicate afferent dilation, which raises both RPF and Pgc.",
       "visual_clues": [
-        "Red afferent-side arrows point outward",
-        "RPF and Pgc rise above this branch"
+        "Red arrows show the vessel caliber response",
+        "The red-arrow vessel is identified by its position at the vascular pole"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R5 RLS p. 12; decisive arrows, curves, or labels independently checked.",
@@ -4019,10 +4024,15 @@
           "document": "R5/Tubuloglomerular Feedback with decreased blood pressure.png",
           "page": null,
           "sha256": "54b5ec0e8f3fd5f23b8536a58ee67f320463ac8e6c6194aeb006eb8d2c927564"
+        },
+        {
+          "document": "R4 Renal Plasma Flow (Physiology) RLS.pdf",
+          "page": 16,
+          "sha256": "573c8a7ec7eaadd5388975da4f76c83eae078c3da18ba0884e1ce94fb9f476f2"
         }
       ],
-      "image": "assets/67669b52760be93e81b87e66.webp",
-      "zoom_image": "assets/67669b52760be93e81b87e66.png",
+      "image": "assets/7de6a33ee3fae2cf23c14909.webp",
+      "zoom_image": "assets/7de6a33ee3fae2cf23c14909.png",
       "original_image": "assets/54b5ec0e8f3fd5f23b8536a5.png",
       "original_filename": "R5/Tubuloglomerular Feedback with decreased blood pressure.png",
       "category": "Diagram",
@@ -4037,29 +4047,29 @@
       "asset_id": "asset-2be861262c4c59cd",
       "source_group_id": "group-496dbcfd578f21c7",
       "source_id": "src-2be861262c4c59cd",
-      "variant_id": "var-c32819dce8b9386b84ecbe66",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R5 high-pressure TGF efferent dilation",
-      "stem": "In the high-NaCl macula-densa diagram, what response is hidden in the blue efferent-side starburst?",
-      "visual_target": "In the high-NaCl macula-densa diagram, what response is hidden in the blue efferent-side starburst?",
+      "variant_id": "var-9f134dfa9b2b9fae9cf001b5",
+      "question_type": "Hemodynamic Prediction",
+      "tested_concept": "R5 high-pressure TGF efferent dilation hemodynamic consequence",
+      "stem": "In this high-NaCl macula-densa diagram, what paired RPF and Pgc changes follow the blue-arrow vessel response considered alone?",
+      "visual_target": "Use the blue vessel arrows and glomerular anatomy to predict RPF and Pgc, with outcome boxes hidden.",
       "joint_composite": false,
       "options": [
-        "Efferent dilation",
-        "Efferent constriction",
-        "Afferent dilation",
-        "Afferent constriction"
+        "RPF decreases; Pgc increases",
+        "RPF increases; Pgc increases",
+        "RPF increases; Pgc decreases",
+        "RPF decreases; Pgc decreases"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "Blue arrows diverge from the labeled efferent vessel and its adjacent Pgc box falls: efferent dilation.",
-        "Constriction would make the blue arrows converge rather than spread apart.",
-        "The masked starburst sits on the efferent vessel, not the red afferent side.",
-        "Afferent constriction is the separate red action across the glomerulus."
+        "The blue vessel arrows give a different result: RPF should increase, not decrease; Pgc should decrease, not increase.",
+        "The blue vessel arrows give a different result: Pgc should decrease, not increase.",
+        "The blue outward arrows indicate efferent dilation, which raises RPF and lowers Pgc.",
+        "The blue vessel arrows give a different result: RPF should increase, not decrease."
       ],
-      "explanation": "Blue arrows diverge from the labeled efferent vessel and its adjacent Pgc box falls: efferent dilation.",
+      "explanation": "The blue outward arrows indicate efferent dilation, which raises RPF and lowers Pgc.",
       "visual_clues": [
-        "High NaCl at macula densa",
-        "Blue arrows spread away from the efferent vessel"
+        "Blue arrows show the vessel caliber response",
+        "The blue-arrow vessel is identified by its position at the vascular pole"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R5 RLS p. 13; decisive arrows, curves, or labels independently checked.",
@@ -4073,10 +4083,15 @@
           "document": "R5/Tubuloglomerular Feedback with increased blood pressure.png",
           "page": null,
           "sha256": "2be861262c4c59cdbaac290cced30ca7813552f956a4965422c7fb8c9f68b25a"
+        },
+        {
+          "document": "R4 Renal Plasma Flow (Physiology) RLS.pdf",
+          "page": 16,
+          "sha256": "573c8a7ec7eaadd5388975da4f76c83eae078c3da18ba0884e1ce94fb9f476f2"
         }
       ],
-      "image": "assets/c32819dce8b9386b84ecbe66.webp",
-      "zoom_image": "assets/c32819dce8b9386b84ecbe66.png",
+      "image": "assets/9f134dfa9b2b9fae9cf001b5.webp",
+      "zoom_image": "assets/9f134dfa9b2b9fae9cf001b5.png",
       "original_image": "assets/2be861262c4c59cdbaac290c.png",
       "original_filename": "R5/Tubuloglomerular Feedback with increased blood pressure.png",
       "category": "Diagram",
@@ -4091,29 +4106,29 @@
       "asset_id": "asset-2be861262c4c59cd",
       "source_group_id": "group-496dbcfd578f21c7",
       "source_id": "src-2be861262c4c59cd",
-      "variant_id": "var-c8133fbcb20778849735b75c",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R5 high-pressure TGF afferent constriction",
-      "stem": "In the high-NaCl macula-densa diagram, what response is hidden in the red afferent-side starburst?",
-      "visual_target": "In the high-NaCl macula-densa diagram, what response is hidden in the red afferent-side starburst?",
+      "variant_id": "var-67c99d955c582dd2a520784d",
+      "question_type": "Hemodynamic Prediction",
+      "tested_concept": "R5 high-pressure TGF afferent constriction hemodynamic consequence",
+      "stem": "In this high-NaCl macula-densa diagram, what paired RPF and Pgc changes follow the red-arrow vessel response considered alone?",
+      "visual_target": "Use the red vessel arrows and glomerular anatomy to predict RPF and Pgc, with outcome boxes hidden.",
       "joint_composite": false,
       "options": [
-        "Afferent constriction",
-        "Afferent dilation",
-        "Efferent constriction",
-        "Efferent dilation"
+        "RPF decreases; Pgc increases",
+        "RPF increases; Pgc increases",
+        "RPF increases; Pgc decreases",
+        "RPF decreases; Pgc decreases"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "choice_rationales": [
-        "The red arrows converge on the labeled afferent vessel and the neighboring RPF/Pgc box falls.",
-        "Dilation conflicts with inward arrows and the displayed reduction in RPF.",
-        "The red starburst is beside the afferent vessel, not the blue efferent branch.",
-        "Efferent dilation is the separate blue response on the opposite side."
+        "The red vessel arrows give a different result: Pgc should decrease, not increase.",
+        "The red vessel arrows give a different result: RPF should decrease, not increase; Pgc should decrease, not increase.",
+        "The red vessel arrows give a different result: RPF should decrease, not increase.",
+        "The red inward arrows indicate afferent constriction, which lowers both RPF and Pgc."
       ],
-      "explanation": "The red arrows converge on the labeled afferent vessel and the neighboring RPF/Pgc box falls.",
+      "explanation": "The red inward arrows indicate afferent constriction, which lowers both RPF and Pgc.",
       "visual_clues": [
-        "High macula-densa NaCl",
-        "Red arrows converge on the afferent vessel"
+        "Red arrows show the vessel caliber response",
+        "The red-arrow vessel is identified by its position at the vascular pole"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R5 RLS p. 13; decisive arrows, curves, or labels independently checked.",
@@ -4127,10 +4142,15 @@
           "document": "R5/Tubuloglomerular Feedback with increased blood pressure.png",
           "page": null,
           "sha256": "2be861262c4c59cdbaac290cced30ca7813552f956a4965422c7fb8c9f68b25a"
+        },
+        {
+          "document": "R4 Renal Plasma Flow (Physiology) RLS.pdf",
+          "page": 16,
+          "sha256": "573c8a7ec7eaadd5388975da4f76c83eae078c3da18ba0884e1ce94fb9f476f2"
         }
       ],
-      "image": "assets/c8133fbcb20778849735b75c.webp",
-      "zoom_image": "assets/c8133fbcb20778849735b75c.png",
+      "image": "assets/67c99d955c582dd2a520784d.webp",
+      "zoom_image": "assets/67c99d955c582dd2a520784d.png",
       "original_image": "assets/2be861262c4c59cdbaac290c.png",
       "original_filename": "R5/Tubuloglomerular Feedback with increased blood pressure.png",
       "category": "Diagram",
@@ -4199,11 +4219,11 @@
       "asset_id": "asset-9ba9a9fd14e5c648",
       "source_group_id": "group-9ba9a9fd14e5c648",
       "source_id": "src-9ba9a9fd14e5c648",
-      "variant_id": "var-5b26a54e7ab2cee63993d356",
+      "variant_id": "var-4a1992f9dd7613285188a448",
       "question_type": "Physiologic Interpretation",
       "tested_concept": "R6 blood-to-lumen secretion of drugs in proximal tubule",
-      "stem": "In the lower penicillin and diuretic pathway, what transport direction is represented by the leftward arrows?",
-      "visual_target": "In the lower penicillin and diuretic pathway, what transport direction is represented by the leftward arrows?",
+      "stem": "What transport process do the lower blue carriers and leftward arrows depict in this proximal-tubule cell?",
+      "visual_target": "Trace the lower carrier pathway from the blood side to the lumen side.",
       "joint_composite": false,
       "options": [
         "Secretion from blood into tubular lumen",
@@ -4213,15 +4233,15 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The lower arrows start on the blood side, cross the cell, and end in the left-hand lumen.",
-        "Reabsorption is the opposite, rightward amino-acid pathway in the upper half.",
-        "No glomerular capillary or Bowman’s space is present in this proximal-cell schematic.",
-        "The lower arrows cross both cell faces and end in the lumen, not within the cell."
+        "The lower arrows traverse the cell from the blood side into the tubular lumen, which is secretion.",
+        "Reabsorption follows the upper, opposite-direction pathway from lumen toward blood.",
+        "This image depicts a proximal-tubule cell, not a glomerular capillary and Bowman’s space.",
+        "The lower path crosses both cell faces and ends in the lumen rather than stopping in the cell."
       ],
-      "explanation": "The lower arrows start on the blood side, cross the cell, and end in the left-hand lumen.",
+      "explanation": "The lower blue-carrier arrows cross from blood at right through the cell to lumen at left, depicting tubular secretion.",
       "visual_clues": [
-        "Blood is labeled at right and lumen at left",
-        "Lower arrows traverse the cell right to left"
+        "Blood is on the right and lumen on the left",
+        "Lower carrier arrows point toward the lumen"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 26; decisive arrows, curves, or labels independently checked.",
@@ -4237,8 +4257,8 @@
           "sha256": "9ba9a9fd14e5c64872ea9c8cd04ac70ceb5b4264865dfd75cb245cb63fee1b30"
         }
       ],
-      "image": "assets/5b26a54e7ab2cee63993d356.webp",
-      "zoom_image": "assets/5b26a54e7ab2cee63993d356.png",
+      "image": "assets/4a1992f9dd7613285188a448.webp",
+      "zoom_image": "assets/4a1992f9dd7613285188a448.png",
       "original_image": "assets/9ba9a9fd14e5c64872ea9c8c.png",
       "original_filename": "R6/Proximal Tubule Amino Acid and Drug Transport.png",
       "category": "Diagram",
@@ -4416,28 +4436,28 @@
       "source_group_id": "group-ed6c39d57b344290",
       "source_id": "src-ed6c39d57b344290",
       "variant_id": "var-84195359c5d77605eed284da",
-      "question_type": "Pathway",
-      "tested_concept": "R6 proximal tubule transcellular and paracellular water pathways",
-      "stem": "Which two water routes are simultaneously depicted between the lumen and blood in this proximal-tubule image?",
-      "visual_target": "Which two water routes are simultaneously depicted between the lumen and blood in this proximal-tubule image?",
+      "question_type": "Route Identification",
+      "tested_concept": "R6 proximal tubule paracellular water route",
+      "stem": "The lower dotted H₂O path bypasses the proximal-tubule cell. Which epithelial route does it take?",
+      "visual_target": "Identify the lower water path relative to the cell boundaries and upper aquaporin route.",
       "joint_composite": false,
       "options": [
-        "Through aquaporin 1 channels and between neighboring cells",
-        "Only through aquaporin 2 on the apical membrane",
-        "Only through the Na⁺/K⁺ pump",
-        "From blood back to lumen through chloride channels"
+        "Paracellular movement between neighboring cells",
+        "Transcellular movement through aquaporin 1",
+        "Active transport by Na⁺/K⁺-ATPase",
+        "Movement from blood into the tubular lumen"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The middle water arrows pass through aquaporin 1 at both membranes; a separate lower dotted path bypasses the cell.",
-        "Both water channels are labeled aquaporin 1, and the lower dotted route is also shown.",
-        "The blue Na⁺/K⁺ pump exchanges ions on the upper right, away from both water paths.",
-        "Both water arrow systems run toward blood, not backward through chloride channels."
+        "The lower dotted path passes through the gap between adjacent cells from lumen toward blood.",
+        "The upper water path crosses the cell through aquaporin 1; the lower one bypasses it.",
+        "The Na⁺/K⁺ pump moves ions at the basolateral membrane, not the lower water path.",
+        "The lower dotted arrow runs from the lumen on the left toward blood on the right."
       ],
-      "explanation": "The middle water arrows pass through aquaporin 1 at both membranes; a separate lower dotted path bypasses the cell.",
+      "explanation": "The lower dotted water route passes between adjacent proximal-tubule cells, so it is paracellular.",
       "visual_clues": [
-        "Water crosses two membrane channels in the middle",
-        "A separate dotted water path passes below the cell"
+        "Lower dotted H₂O arrow crosses the intercellular gap",
+        "Upper arrows instead pass through two aquaporin 1 channels"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 23; decisive arrows, curves, or labels independently checked.",
@@ -4469,11 +4489,11 @@
       "asset_id": "asset-308e454563cbf730",
       "source_group_id": "group-308e454563cbf730",
       "source_id": "src-308e454563cbf730",
-      "variant_id": "var-c0712d986717493a371d8272",
+      "variant_id": "var-1900645d5fab9958987c3763",
       "question_type": "Pathway",
       "tested_concept": "R6 carbon dioxide intermediate in proximal bicarbonate reclamation",
-      "stem": "What crosses the apical membrane along the dotted arrow after luminal bicarbonate is converted near carbonic anhydrase?",
-      "visual_target": "What crosses the apical membrane along the dotted arrow after luminal bicarbonate is converted near carbonic anhydrase?",
+      "stem": "After luminal HCO₃⁻ is converted near carbonic anhydrase, which products follow the dotted apical path into the proximal cell?",
+      "visual_target": "Identify the two masked small molecules on either side of the dotted apical path.",
       "joint_composite": false,
       "options": [
         "CO₂ and H₂O",
@@ -4488,10 +4508,10 @@
         "H₂CO₃ appears above the luminal and cytosolic conversion steps, not on the crossing arrow.",
         "Na⁺ and Cl⁻ use separate membrane arrows and are not the dotted apical pair."
       ],
-      "explanation": "The dotted arrow is labeled H₂O + CO₂ on both sides of the apical membrane.",
+      "explanation": "Luminal H₂CO₃ is converted to H₂O and CO₂, which follow the dotted path into the cell.",
       "visual_clues": [
-        "Dotted apical crossing from lumen into cell",
-        "H₂O + CO₂ labels flank that crossing"
+        "Carbonic anhydrase acts beside luminal H₂CO₃",
+        "The dotted path crosses the apical membrane"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 25; decisive arrows, curves, or labels independently checked.",
@@ -4507,8 +4527,8 @@
           "sha256": "308e454563cbf7305a3bb8657cc08d4d80a0222e9b12a70506a29bf230a8839c"
         }
       ],
-      "image": "assets/c0712d986717493a371d8272.webp",
-      "zoom_image": "assets/c0712d986717493a371d8272.png",
+      "image": "assets/1900645d5fab9958987c3763.webp",
+      "zoom_image": "assets/1900645d5fab9958987c3763.png",
       "original_image": "assets/308e454563cbf7305a3bb865.png",
       "original_filename": "R6/Proximal Tubule HCO3 Transport.png",
       "category": "Diagram",
@@ -4523,29 +4543,29 @@
       "asset_id": "asset-faca334f97ca3a2e",
       "source_group_id": "group-faca334f97ca3a2e",
       "source_id": "src-faca334f97ca3a2e",
-      "variant_id": "var-da5256d020fe54a55f57d5ff",
-      "question_type": "Transporter Identification",
-      "tested_concept": "R6 proximal tubule apical sodium hydrogen exchanger",
-      "stem": "Which transporter is hidden in the green lumen-facing box where Na⁺ enters and H⁺ exits?",
-      "visual_target": "Which transporter is hidden in the green lumen-facing box where Na⁺ enters and H⁺ exits?",
+      "variant_id": "var-594a84fffa9426a4e4f371bc",
+      "question_type": "Ion Identification",
+      "tested_concept": "R6 proximal tubule apical hydrogen secretion via sodium exchange",
+      "stem": "In the green apical exchanger, Na⁺ enters the cell. Which ion is hidden on the oppositely directed lumenward arrow?",
+      "visual_target": "Identify the counter-transported ion on the green apical carrier.",
       "joint_composite": false,
       "options": [
-        "Na⁺/H⁺ exchanger",
-        "Na⁺/K⁺-ATPase",
-        "Na⁺/Cl⁻ cotransporter",
-        "Aquaporin 1"
+        "H⁺",
+        "K⁺",
+        "Cl⁻",
+        "HCO₃⁻"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The green apical box has Na⁺ moving into the cell and H⁺ moving toward the lumen.",
-        "The Na⁺/K⁺ pump is the blue basolateral oval exchanging Na⁺ and K⁺.",
-        "No Cl⁻ arrow accompanies Na⁺ at this green apical box.",
-        "Aquaporin carries water, not the opposed Na⁺ and H⁺ arrows shown."
+        "This apical Na⁺/H⁺ exchanger secretes H⁺ toward the lumen while Na⁺ enters the cell.",
+        "K⁺ appears at the basolateral pump and leak paths, not on this apical counter-transport arrow.",
+        "The green apical exchanger does not show a chloride counter-transport path.",
+        "Bicarbonate is not the ion moving lumenward through this green Na⁺ exchanger."
       ],
-      "explanation": "The green apical box has Na⁺ moving into the cell and H⁺ moving toward the lumen.",
+      "explanation": "Na⁺ enters through the green apical exchanger while H⁺ is secreted in the opposite direction.",
       "visual_clues": [
-        "Na⁺ enters from lumen at green box",
-        "H⁺ arrow leaves through the same box"
+        "Na⁺ enters at the green apical carrier",
+        "The hidden ion moves in the opposite direction toward the lumen"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 22; decisive arrows, curves, or labels independently checked.",
@@ -4561,8 +4581,8 @@
           "sha256": "faca334f97ca3a2eb965658a43f3a6a82cdf30433a6c8da6374124713d91c0fc"
         }
       ],
-      "image": "assets/da5256d020fe54a55f57d5ff.webp",
-      "zoom_image": "assets/da5256d020fe54a55f57d5ff.png",
+      "image": "assets/594a84fffa9426a4e4f371bc.webp",
+      "zoom_image": "assets/594a84fffa9426a4e4f371bc.png",
       "original_image": "assets/faca334f97ca3a2eb965658a.png",
       "original_filename": "R6/Proximal Tubule Na Transport.png",
       "category": "Diagram",
@@ -4577,11 +4597,11 @@
       "asset_id": "asset-7e200b10089a7608",
       "source_group_id": "group-7e200b10089a7608",
       "source_id": "src-7e200b10089a7608",
-      "variant_id": "var-7a7741afbb6b09728fdcfd50",
+      "variant_id": "var-772d3be93db8f8644bf6ab3c",
       "question_type": "Pathway",
       "tested_concept": "R6 transcellular proximal reabsorption route",
       "stem": "What route is hidden beside the upper red arrow that crosses through the tubular cell?",
-      "visual_target": "What route is hidden beside the upper red arrow that crosses through the tubular cell?",
+      "visual_target": "Compare the upper through-cell arrow with the lower between-cell arrow; both route names are hidden.",
       "joint_composite": false,
       "options": [
         "Transcellular",
@@ -4598,8 +4618,8 @@
       ],
       "explanation": "The red arrow traverses the cell body between its lumen-facing and interstitial faces.",
       "visual_clues": [
-        "Upper red arrow crosses cell interior",
-        "Lower orange arrow takes a between-cell path"
+        "Upper red arrow crosses a tubular cell",
+        "Lower orange arrow passes between tubular cells"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 13; decisive arrows, curves, or labels independently checked.",
@@ -4615,8 +4635,8 @@
           "sha256": "7e200b10089a7608a85a71f50fd75ecd48313879efa00c13662d1c037b778465"
         }
       ],
-      "image": "assets/7a7741afbb6b09728fdcfd50.webp",
-      "zoom_image": "assets/7a7741afbb6b09728fdcfd50.png",
+      "image": "assets/772d3be93db8f8644bf6ab3c.webp",
+      "zoom_image": "assets/772d3be93db8f8644bf6ab3c.png",
       "original_image": "assets/7e200b10089a7608a85a71f5.png",
       "original_filename": "R6/Trans vs Paracellular Transport.png",
       "category": "Diagram",
@@ -4631,11 +4651,11 @@
       "asset_id": "asset-7e200b10089a7608",
       "source_group_id": "group-7e200b10089a7608",
       "source_id": "src-7e200b10089a7608",
-      "variant_id": "var-d6362f5aade6f536bde5b11d",
+      "variant_id": "var-4c6402dc0e464a41a7f9c278",
       "question_type": "Pathway",
       "tested_concept": "R6 paracellular proximal reabsorption route",
       "stem": "What route is hidden beside the lower orange arrow that passes between tubular cells?",
-      "visual_target": "What route is hidden beside the lower orange arrow that passes between tubular cells?",
+      "visual_target": "Compare the upper through-cell arrow with the lower between-cell arrow; both route names are hidden.",
       "joint_composite": false,
       "options": [
         "Paracellular",
@@ -4652,8 +4672,8 @@
       ],
       "explanation": "The orange arrow passes through the intercellular gap rather than the cell interior.",
       "visual_clues": [
-        "Lower orange arrow traverses the between-cell gap",
-        "Upper red arrow crosses a cell"
+        "Upper red arrow crosses a tubular cell",
+        "Lower orange arrow passes between tubular cells"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R6 RLS p. 13; decisive arrows, curves, or labels independently checked.",
@@ -4669,8 +4689,8 @@
           "sha256": "7e200b10089a7608a85a71f50fd75ecd48313879efa00c13662d1c037b778465"
         }
       ],
-      "image": "assets/d6362f5aade6f536bde5b11d.webp",
-      "zoom_image": "assets/d6362f5aade6f536bde5b11d.png",
+      "image": "assets/4c6402dc0e464a41a7f9c278.webp",
+      "zoom_image": "assets/4c6402dc0e464a41a7f9c278.png",
       "original_image": "assets/7e200b10089a7608a85a71f5.png",
       "original_filename": "R6/Trans vs Paracellular Transport.png",
       "category": "Diagram",
@@ -4901,29 +4921,29 @@
       "asset_id": "asset-0f17f0bd9d25ea15",
       "source_group_id": "group-0f17f0bd9d25ea15",
       "source_id": "src-0f17f0bd9d25ea15",
-      "variant_id": "var-40a40cb661250dfbeee830e5",
-      "question_type": "Transporter Identification",
-      "tested_concept": "R7 thick ascending limb Na K 2Cl cotransport stoichiometry",
-      "stem": "What ion combination is carried inward through the green lumen-facing cotransporter in this straight-distal/TAL diagram?",
-      "visual_target": "What ion combination is carried inward through the green lumen-facing cotransporter in this straight-distal/TAL diagram?",
+      "variant_id": "var-02e79ca3e8b37ad986cdbcf9",
+      "question_type": "Ion Stoichiometry",
+      "tested_concept": "R7 TAL NKCC2 two-chloride stoichiometry",
+      "stem": "At the green apical cotransporter, what ion and count belong on the masked middle inward arrow?",
+      "visual_target": "Identify the middle inward stream between the visible Na⁺ and K⁺ streams.",
       "joint_composite": false,
       "options": [
-        "1 Na⁺, 2 Cl⁻, and 1 K⁺",
-        "1 Na⁺ and 1 Cl⁻ only",
-        "1 Na⁺ and 1 K⁺ only",
-        "2 Na⁺, 1 Cl⁻, and 1 K⁺"
+        "2 Cl⁻",
+        "1 Cl⁻",
+        "2 K⁺",
+        "1 Ca²⁺"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Three inward arrows beside the green carrier are labeled Na⁺, 2 Cl⁻, and K⁺.",
-        "The diagram shows an additional inward K⁺ arrow alongside Na⁺ and two Cl⁻.",
-        "A distinct 2 Cl⁻ arrow also enters through the green carrier.",
-        "The number 2 is attached to Cl⁻, not Na⁺, beside this carrier."
+        "The TAL Na⁺/K⁺/2Cl⁻ cotransporter carries two chloride ions in the middle stream.",
+        "The visible Na⁺ and K⁺ streams each carry one ion; chloride is the two-ion component.",
+        "K⁺ is already labeled on the lower inward arrow, not the masked middle arrow.",
+        "Ca²⁺ is shown on the paracellular route, not through this green apical carrier."
       ],
-      "explanation": "Three inward arrows beside the green carrier are labeled Na⁺, 2 Cl⁻, and K⁺.",
+      "explanation": "The masked middle stream is 2 Cl⁻ in the TAL Na⁺/K⁺/2Cl⁻ cotransporter.",
       "visual_clues": [
-        "Green apical carrier receives three ion streams",
-        "The chloride stream is marked 2 Cl⁻"
+        "The middle arrow enters the same carrier as Na⁺ and K⁺",
+        "Ca²⁺ is separately labeled on the paracellular route"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Original manual capture visually matched to R7 RLS p. 12; decisive arrows, curves, or labels independently checked.",
@@ -4939,8 +4959,8 @@
           "sha256": "0f17f0bd9d25ea151209a54824ba19041052fdd591e35c21930f2d9b9e93fc0c"
         }
       ],
-      "image": "assets/40a40cb661250dfbeee830e5.webp",
-      "zoom_image": "assets/40a40cb661250dfbeee830e5.png",
+      "image": "assets/02e79ca3e8b37ad986cdbcf9.webp",
+      "zoom_image": "assets/02e79ca3e8b37ad986cdbcf9.png",
       "original_image": "assets/0f17f0bd9d25ea151209a548.png",
       "original_filename": "R7/Straight Distal Transporter Na:Cl:K Co-Transporter Diagram.png",
       "category": "Diagram",
@@ -5171,11 +5191,11 @@
       "asset_id": "asset-3bc2fc96c06c0eb1",
       "source_group_id": "group-3bc2fc96c06c0eb1",
       "source_id": "src-3bc2fc96c06c0eb1",
-      "variant_id": "var-6c48c2b195490f41d04586c2",
+      "variant_id": "var-e45f64a306bd57ec5a3f6121",
       "question_type": "Pathway",
       "tested_concept": "Permeable ammonia exits the proximal cell into lumen",
-      "stem": "Which glutamine-derived form follows the upper dotted route from the proximal-tubule cell into the lumen?",
-      "visual_target": "Which glutamine-derived form follows the upper dotted route from the proximal-tubule cell into the lumen?",
+      "stem": "Which uncharged glutamine-derived species follows the upper dotted path from the proximal cell into the lumen?",
+      "visual_target": "Distinguish the upper dotted diffusion path from the lower carrier-associated ammonium path.",
       "joint_composite": false,
       "options": [
         "NH₃",
@@ -5190,10 +5210,10 @@
         "HCO₃⁻ is shown moving toward blood on the right, not along the upper apical route.",
         "α-ketoglutarate remains on the intracellular branch leading to new bicarbonate."
       ],
-      "explanation": "The upper red dotted arrow carries NH₃ leftward across the apical side into the lumen.",
+      "explanation": "The upper dotted route depicts NH₃ diffusion into the lumen, separate from lower NH₄⁺ secretion.",
       "visual_clues": [
-        "Upper red dotted arrow runs from cell to lumen",
-        "Lower green carrier handles a different ammonium route"
+        "Upper dotted path exits without the green apical carrier",
+        "Lower path crosses the green apical carrier"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Manual capture visually matched to R9 Acid-Base Regulation (Physiology) RLS.pdf p. 22.",
@@ -5209,8 +5229,8 @@
           "sha256": "3bc2fc96c06c0eb1cf049fc323662fb0a17fe7943c814746929080d377eed9c1"
         }
       ],
-      "image": "assets/6c48c2b195490f41d04586c2.webp",
-      "zoom_image": "assets/6c48c2b195490f41d04586c2.png",
+      "image": "assets/e45f64a306bd57ec5a3f6121.webp",
+      "zoom_image": "assets/e45f64a306bd57ec5a3f6121.png",
       "original_image": "assets/3bc2fc96c06c0eb1cf049fc3.png",
       "original_filename": "R9/Where NH3 Comes from.png",
       "category": "Diagram",
@@ -5225,11 +5245,11 @@
       "asset_id": "asset-3bc2fc96c06c0eb1",
       "source_group_id": "group-3bc2fc96c06c0eb1",
       "source_id": "src-3bc2fc96c06c0eb1",
-      "variant_id": "var-da3100290b20d7393deaebad",
+      "variant_id": "var-e7ffd148ee98107df44a7495",
       "question_type": "Integrated Mechanism",
       "tested_concept": "Glutamine-derived ammonium and new bicarbonate outputs",
-      "stem": "Following both branches from glutamine in this proximal-cell diagram, which paired outputs and destinations are shown?",
-      "visual_target": "Following both branches from glutamine in this proximal-cell diagram, which paired outputs and destinations are shown?",
+      "stem": "Following the two glutamine-derived branches, what paired outputs travel lumenward and bloodward?",
+      "visual_target": "Trace the lower lumenward branch and the α-ketoglutarate-to-blood branch with their product labels hidden.",
       "joint_composite": false,
       "options": [
         "Two NH₄⁺ toward lumen and two new HCO₃⁻ toward blood",
@@ -5244,10 +5264,10 @@
         "NH₃ moves toward lumen, and the right branch explicitly shows new bicarbonate entering blood.",
         "α-ketoglutarate feeds bicarbonate production, while the other branch visibly produces ammonium."
       ],
-      "explanation": "The left branch labels 2 NH₄⁺ and points into the lumen, while the right branch labels 2 new HCO₃⁻ toward blood.",
+      "explanation": "Glutamine yields two NH₄⁺ toward the lumen and α-ketoglutarate-derived two new HCO₃⁻ toward blood.",
       "visual_clues": [
-        "Glutamine splits into left ammonium and right α-ketoglutarate branches",
-        "The right-hand output is labeled new bicarbonate"
+        "The left branch heads toward the lumen via the green apical carrier",
+        "The α-ketoglutarate branch points to the blood side"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Manual capture visually matched to R9 Acid-Base Regulation (Physiology) RLS.pdf p. 22.",
@@ -5263,8 +5283,8 @@
           "sha256": "3bc2fc96c06c0eb1cf049fc323662fb0a17fe7943c814746929080d377eed9c1"
         }
       ],
-      "image": "assets/da3100290b20d7393deaebad.webp",
-      "zoom_image": "assets/da3100290b20d7393deaebad.png",
+      "image": "assets/e7ffd148ee98107df44a7495.webp",
+      "zoom_image": "assets/e7ffd148ee98107df44a7495.png",
       "original_image": "assets/3bc2fc96c06c0eb1cf049fc3.png",
       "original_filename": "R9/Where NH3 Comes from.png",
       "category": "Diagram",

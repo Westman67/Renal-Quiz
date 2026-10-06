@@ -4,9 +4,9 @@
   "lecture_id": "mixed",
   "source_directory": "../Renal/Manual",
   "source_count_physical": 62,
-  "approval": "User approved R1–R9 lecture-grounded picture-quiz review and R9 import on 2026-10-05.",
-  "stage": "R9 import and full-bank audit complete; source originals and final variants visually reviewed",
-  "generated_at": "2026-10-05T19:49:02-04:00",
+  "approval": "User approved the R1–R9 course-grounded bank and, on 2026-10-06, approved the displayed learner-flag remediation prompt.",
+  "stage": "2026-10-06 learner-flag remediation complete; updated variants visually reviewed",
+  "generated_at": "2026-10-06T11:20:55-04:00",
   "sources": [
     {
       "relative_path": "R1/Screenshot 2026-09-29 at 12.17.18 PM.png",
@@ -3623,9 +3623,9 @@
       "original_asset": "assets/54b5ec0e8f3fd5f23b8536a5.png",
       "variants": [
         {
-          "variant_id": "var-c200fd8ccb236b10b238f774",
-          "image": "assets/c200fd8ccb236b10b238f774.webp",
-          "zoom_image": "assets/c200fd8ccb236b10b238f774.png",
+          "variant_id": "var-7f8de49cc8fb4af302214faf",
+          "image": "assets/7f8de49cc8fb4af302214faf.webp",
+          "zoom_image": "assets/7f8de49cc8fb4af302214faf.png",
           "transform": {
             "masks": [
               [
@@ -3633,6 +3633,18 @@
                 214,
                 270,
                 266
+              ],
+              [
+                154,
+                105,
+                235,
+                148
+              ],
+              [
+                807,
+                162,
+                960,
+                205
               ]
             ],
             "input_dimensions": [
@@ -3640,7 +3652,7 @@
               838
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
             "fills": [
               {
                 "sample": [
@@ -3652,24 +3664,108 @@
                   217,
                   217
                 ]
+              },
+              {
+                "sample": [
+                  245,
+                  125
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "sample": [
+                  975,
+                  182
+                ],
+                "rgb": [
+                  255,
+                  254,
+                  255
+                ]
               }
             ],
-            "target": "R5 low-pressure TGF efferent constriction",
+            "target": "R5 low-pressure TGF efferent constriction hemodynamic consequence",
             "normalized_masks": [
               [
                 0.06343906510851419,
                 0.2553699284009546,
                 0.22537562604340566,
                 0.31742243436754175
+              ],
+              [
+                0.1285475792988314,
+                0.12529832935560858,
+                0.19616026711185308,
+                0.1766109785202864
+              ],
+              [
+                0.6736227045075125,
+                0.19331742243436753,
+                0.8013355592654424,
+                0.24463007159904535
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  225,
+                  444
+                ],
+                [
+                  280,
+                  389
+                ],
+                [
+                  291,
+                  400
+                ],
+                [
+                  237,
+                  455
+                ]
+              ],
+              [
+                [
+                  739,
+                  379
+                ],
+                [
+                  803,
+                  437
+                ],
+                [
+                  791,
+                  450
+                ],
+                [
+                  728,
+                  393
+                ]
+              ]
+            ],
+            "polygon_fills": [
+              [
+                255,
+                255,
+                255
+              ],
+              [
+                255,
+                255,
+                255
               ]
             ]
           },
-          "visual_review": "PENDING second-pass individual native-size review"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         },
         {
-          "variant_id": "var-67669b52760be93e81b87e66",
-          "image": "assets/67669b52760be93e81b87e66.webp",
-          "zoom_image": "assets/67669b52760be93e81b87e66.png",
+          "variant_id": "var-7de6a33ee3fae2cf23c14909",
+          "image": "assets/7de6a33ee3fae2cf23c14909.webp",
+          "zoom_image": "assets/7de6a33ee3fae2cf23c14909.png",
           "transform": {
             "masks": [
               [
@@ -3677,6 +3773,18 @@
                 258,
                 944,
                 307
+              ],
+              [
+                154,
+                105,
+                235,
+                148
+              ],
+              [
+                807,
+                162,
+                960,
+                205
               ]
             ],
             "input_dimensions": [
@@ -3684,7 +3792,7 @@
               838
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
             "fills": [
               {
                 "sample": [
@@ -3696,19 +3804,103 @@
                   218,
                   217
                 ]
+              },
+              {
+                "sample": [
+                  245,
+                  125
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "sample": [
+                  975,
+                  182
+                ],
+                "rgb": [
+                  255,
+                  254,
+                  255
+                ]
               }
             ],
-            "target": "R5 low-pressure TGF afferent dilation",
+            "target": "R5 low-pressure TGF afferent dilation hemodynamic consequence",
             "normalized_masks": [
               [
                 0.672787979966611,
                 0.30787589498806683,
                 0.7879799666110183,
                 0.36634844868735084
+              ],
+              [
+                0.1285475792988314,
+                0.12529832935560858,
+                0.19616026711185308,
+                0.1766109785202864
+              ],
+              [
+                0.6736227045075125,
+                0.19331742243436753,
+                0.8013355592654424,
+                0.24463007159904535
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  225,
+                  444
+                ],
+                [
+                  280,
+                  389
+                ],
+                [
+                  291,
+                  400
+                ],
+                [
+                  237,
+                  455
+                ]
+              ],
+              [
+                [
+                  739,
+                  379
+                ],
+                [
+                  803,
+                  437
+                ],
+                [
+                  791,
+                  450
+                ],
+                [
+                  728,
+                  393
+                ]
+              ]
+            ],
+            "polygon_fills": [
+              [
+                255,
+                255,
+                255
+              ],
+              [
+                255,
+                255,
+                255
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -3725,9 +3917,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-c200fd8ccb236b10b238f774",
-      "image": "assets/c200fd8ccb236b10b238f774.webp",
-      "zoom_image": "assets/c200fd8ccb236b10b238f774.png",
+      "variant_id": "var-7f8de49cc8fb4af302214faf",
+      "image": "assets/7f8de49cc8fb4af302214faf.webp",
+      "zoom_image": "assets/7f8de49cc8fb4af302214faf.png",
       "transform": {
         "masks": [
           [
@@ -3735,6 +3927,18 @@
             214,
             270,
             266
+          ],
+          [
+            154,
+            105,
+            235,
+            148
+          ],
+          [
+            807,
+            162,
+            960,
+            205
           ]
         ],
         "input_dimensions": [
@@ -3742,7 +3946,7 @@
           838
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
         "fills": [
           {
             "sample": [
@@ -3754,19 +3958,103 @@
               217,
               217
             ]
+          },
+          {
+            "sample": [
+              245,
+              125
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "sample": [
+              975,
+              182
+            ],
+            "rgb": [
+              255,
+              254,
+              255
+            ]
           }
         ],
-        "target": "R5 low-pressure TGF efferent constriction",
+        "target": "R5 low-pressure TGF efferent constriction hemodynamic consequence",
         "normalized_masks": [
           [
             0.06343906510851419,
             0.2553699284009546,
             0.22537562604340566,
             0.31742243436754175
+          ],
+          [
+            0.1285475792988314,
+            0.12529832935560858,
+            0.19616026711185308,
+            0.1766109785202864
+          ],
+          [
+            0.6736227045075125,
+            0.19331742243436753,
+            0.8013355592654424,
+            0.24463007159904535
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              225,
+              444
+            ],
+            [
+              280,
+              389
+            ],
+            [
+              291,
+              400
+            ],
+            [
+              237,
+              455
+            ]
+          ],
+          [
+            [
+              739,
+              379
+            ],
+            [
+              803,
+              437
+            ],
+            [
+              791,
+              450
+            ],
+            [
+              728,
+              393
+            ]
+          ]
+        ],
+        "polygon_fills": [
+          [
+            255,
+            255,
+            255
+          ],
+          [
+            255,
+            255,
+            255
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R5/Tubuloglomerular Feedback with increased blood pressure.png",
@@ -3802,9 +4090,9 @@
       "original_asset": "assets/2be861262c4c59cdbaac290c.png",
       "variants": [
         {
-          "variant_id": "var-c32819dce8b9386b84ecbe66",
-          "image": "assets/c32819dce8b9386b84ecbe66.webp",
-          "zoom_image": "assets/c32819dce8b9386b84ecbe66.png",
+          "variant_id": "var-9f134dfa9b2b9fae9cf001b5",
+          "image": "assets/9f134dfa9b2b9fae9cf001b5.webp",
+          "zoom_image": "assets/9f134dfa9b2b9fae9cf001b5.png",
           "transform": {
             "masks": [
               [
@@ -3812,6 +4100,18 @@
                 218,
                 219,
                 266
+              ],
+              [
+                124,
+                117,
+                207,
+                161
+              ],
+              [
+                811,
+                133,
+                965,
+                178
               ]
             ],
             "input_dimensions": [
@@ -3819,7 +4119,7 @@
               824
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
             "fills": [
               {
                 "sample": [
@@ -3831,24 +4131,108 @@
                   179,
                   199
                 ]
+              },
+              {
+                "sample": [
+                  224,
+                  143
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "sample": [
+                  982,
+                  154
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
               }
             ],
-            "target": "R5 high-pressure TGF efferent dilation",
+            "target": "R5 high-pressure TGF efferent dilation hemodynamic consequence",
             "normalized_masks": [
               [
                 0.07890222984562607,
                 0.2645631067961165,
                 0.18782161234991424,
                 0.32281553398058255
+              ],
+              [
+                0.10634648370497427,
+                0.14199029126213591,
+                0.17753001715265868,
+                0.1953883495145631
+              ],
+              [
+                0.6955403087478559,
+                0.16140776699029127,
+                0.8276157804459692,
+                0.21601941747572814
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  193,
+                  437
+                ],
+                [
+                  246,
+                  381
+                ],
+                [
+                  260,
+                  394
+                ],
+                [
+                  207,
+                  450
+                ]
+              ],
+              [
+                [
+                  700,
+                  358
+                ],
+                [
+                  775,
+                  419
+                ],
+                [
+                  763,
+                  433
+                ],
+                [
+                  688,
+                  374
+                ]
+              ]
+            ],
+            "polygon_fills": [
+              [
+                255,
+                255,
+                255
+              ],
+              [
+                255,
+                255,
+                255
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         },
         {
-          "variant_id": "var-c8133fbcb20778849735b75c",
-          "image": "assets/c8133fbcb20778849735b75c.webp",
-          "zoom_image": "assets/c8133fbcb20778849735b75c.png",
+          "variant_id": "var-67c99d955c582dd2a520784d",
+          "image": "assets/67c99d955c582dd2a520784d.webp",
+          "zoom_image": "assets/67c99d955c582dd2a520784d.png",
           "transform": {
             "masks": [
               [
@@ -3856,6 +4240,18 @@
                 237,
                 1026,
                 285
+              ],
+              [
+                124,
+                117,
+                207,
+                161
+              ],
+              [
+                811,
+                133,
+                965,
+                178
               ]
             ],
             "input_dimensions": [
@@ -3863,7 +4259,7 @@
               824
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
             "fills": [
               {
                 "sample": [
@@ -3875,19 +4271,103 @@
                   217,
                   217
                 ]
+              },
+              {
+                "sample": [
+                  224,
+                  143
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "sample": [
+                  982,
+                  154
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
               }
             ],
-            "target": "R5 high-pressure TGF afferent constriction",
+            "target": "R5 high-pressure TGF afferent constriction hemodynamic consequence",
             "normalized_masks": [
               [
                 0.6706689536878216,
                 0.28762135922330095,
                 0.8799313893653516,
                 0.345873786407767
+              ],
+              [
+                0.10634648370497427,
+                0.14199029126213591,
+                0.17753001715265868,
+                0.1953883495145631
+              ],
+              [
+                0.6955403087478559,
+                0.16140776699029127,
+                0.8276157804459692,
+                0.21601941747572814
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  193,
+                  437
+                ],
+                [
+                  246,
+                  381
+                ],
+                [
+                  260,
+                  394
+                ],
+                [
+                  207,
+                  450
+                ]
+              ],
+              [
+                [
+                  700,
+                  358
+                ],
+                [
+                  775,
+                  419
+                ],
+                [
+                  763,
+                  433
+                ],
+                [
+                  688,
+                  374
+                ]
+              ]
+            ],
+            "polygon_fills": [
+              [
+                255,
+                255,
+                255
+              ],
+              [
+                255,
+                255,
+                255
               ]
             ]
           },
-          "visual_review": "PENDING second-pass individual native-size review"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -3904,9 +4384,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-c32819dce8b9386b84ecbe66",
-      "image": "assets/c32819dce8b9386b84ecbe66.webp",
-      "zoom_image": "assets/c32819dce8b9386b84ecbe66.png",
+      "variant_id": "var-9f134dfa9b2b9fae9cf001b5",
+      "image": "assets/9f134dfa9b2b9fae9cf001b5.webp",
+      "zoom_image": "assets/9f134dfa9b2b9fae9cf001b5.png",
       "transform": {
         "masks": [
           [
@@ -3914,6 +4394,18 @@
             218,
             219,
             266
+          ],
+          [
+            124,
+            117,
+            207,
+            161
+          ],
+          [
+            811,
+            133,
+            965,
+            178
           ]
         ],
         "input_dimensions": [
@@ -3921,7 +4413,7 @@
           824
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque outcome-text rectangles and rotated vessel-name text polygons; all caliber arrows and vessel borders preserved",
         "fills": [
           {
             "sample": [
@@ -3933,19 +4425,103 @@
               179,
               199
             ]
+          },
+          {
+            "sample": [
+              224,
+              143
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "sample": [
+              982,
+              154
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
           }
         ],
-        "target": "R5 high-pressure TGF efferent dilation",
+        "target": "R5 high-pressure TGF efferent dilation hemodynamic consequence",
         "normalized_masks": [
           [
             0.07890222984562607,
             0.2645631067961165,
             0.18782161234991424,
             0.32281553398058255
+          ],
+          [
+            0.10634648370497427,
+            0.14199029126213591,
+            0.17753001715265868,
+            0.1953883495145631
+          ],
+          [
+            0.6955403087478559,
+            0.16140776699029127,
+            0.8276157804459692,
+            0.21601941747572814
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              193,
+              437
+            ],
+            [
+              246,
+              381
+            ],
+            [
+              260,
+              394
+            ],
+            [
+              207,
+              450
+            ]
+          ],
+          [
+            [
+              700,
+              358
+            ],
+            [
+              775,
+              419
+            ],
+            [
+              763,
+              433
+            ],
+            [
+              688,
+              374
+            ]
+          ]
+        ],
+        "polygon_fills": [
+          [
+            255,
+            255,
+            255
+          ],
+          [
+            255,
+            255,
+            255
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R6/Glucose Threshold.png",
@@ -4064,9 +4640,9 @@
       "original_asset": "assets/9ba9a9fd14e5c64872ea9c8c.png",
       "variants": [
         {
-          "variant_id": "var-5b26a54e7ab2cee63993d356",
-          "image": "assets/5b26a54e7ab2cee63993d356.webp",
-          "zoom_image": "assets/5b26a54e7ab2cee63993d356.png",
+          "variant_id": "var-4a1992f9dd7613285188a448",
+          "image": "assets/4a1992f9dd7613285188a448.webp",
+          "zoom_image": "assets/4a1992f9dd7613285188a448.png",
           "transform": {
             "masks": [
               [
@@ -4074,6 +4650,18 @@
                 405,
                 493,
                 434
+              ],
+              [
+                24,
+                386,
+                168,
+                489
+              ],
+              [
+                701,
+                385,
+                851,
+                490
               ]
             ],
             "input_dimensions": [
@@ -4081,7 +4669,7 @@
               674
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
             "fills": [
               {
                 "sample": [
@@ -4093,6 +4681,28 @@
                   242,
                   242
                 ]
+              },
+              {
+                "sample": [
+                  18,
+                  372
+                ],
+                "rgb": [
+                  217,
+                  232,
+                  204
+                ]
+              },
+              {
+                "sample": [
+                  699,
+                  369
+                ],
+                "rgb": [
+                  217,
+                  232,
+                  203
+                ]
               }
             ],
             "target": "R6 blood-to-lumen secretion of drugs in proximal tubule",
@@ -4102,10 +4712,22 @@
                 0.6008902077151336,
                 0.5759345794392523,
                 0.6439169139465876
+              ],
+              [
+                0.028037383177570093,
+                0.5727002967359051,
+                0.19626168224299065,
+                0.7255192878338279
+              ],
+              [
+                0.8189252336448598,
+                0.5712166172106825,
+                0.9941588785046729,
+                0.7270029673590505
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -4122,9 +4744,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-5b26a54e7ab2cee63993d356",
-      "image": "assets/5b26a54e7ab2cee63993d356.webp",
-      "zoom_image": "assets/5b26a54e7ab2cee63993d356.png",
+      "variant_id": "var-4a1992f9dd7613285188a448",
+      "image": "assets/4a1992f9dd7613285188a448.webp",
+      "zoom_image": "assets/4a1992f9dd7613285188a448.png",
       "transform": {
         "masks": [
           [
@@ -4132,6 +4754,18 @@
             405,
             493,
             434
+          ],
+          [
+            24,
+            386,
+            168,
+            489
+          ],
+          [
+            701,
+            385,
+            851,
+            490
           ]
         ],
         "input_dimensions": [
@@ -4139,7 +4773,7 @@
           674
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
         "fills": [
           {
             "sample": [
@@ -4151,6 +4785,28 @@
               242,
               242
             ]
+          },
+          {
+            "sample": [
+              18,
+              372
+            ],
+            "rgb": [
+              217,
+              232,
+              204
+            ]
+          },
+          {
+            "sample": [
+              699,
+              369
+            ],
+            "rgb": [
+              217,
+              232,
+              203
+            ]
           }
         ],
         "target": "R6 blood-to-lumen secretion of drugs in proximal tubule",
@@ -4160,10 +4816,22 @@
             0.6008902077151336,
             0.5759345794392523,
             0.6439169139465876
+          ],
+          [
+            0.028037383177570093,
+            0.5727002967359051,
+            0.19626168224299065,
+            0.7255192878338279
+          ],
+          [
+            0.8189252336448598,
+            0.5712166172106825,
+            0.9941588785046729,
+            0.7270029673590505
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R6/Proximal Tubule Cl Transport.png",
@@ -4613,22 +5281,71 @@
       "original_asset": "assets/308e454563cbf7305a3bb865.png",
       "variants": [
         {
-          "variant_id": "var-c0712d986717493a371d8272",
-          "image": "assets/c0712d986717493a371d8272.webp",
-          "zoom_image": "assets/c0712d986717493a371d8272.png",
+          "variant_id": "var-1900645d5fab9958987c3763",
+          "image": "assets/1900645d5fab9958987c3763.webp",
+          "zoom_image": "assets/1900645d5fab9958987c3763.png",
           "transform": {
-            "masks": [],
+            "masks": [
+              [
+                131,
+                545,
+                267,
+                583
+              ],
+              [
+                500,
+                546,
+                635,
+                583
+              ]
+            ],
             "input_dimensions": [
               1012,
               714
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Unmodified original image; visual relationship is tested without a target-label mask",
-            "fills": [],
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
+            "fills": [
+              {
+                "sample": [
+                  125,
+                  542
+                ],
+                "rgb": [
+                  211,
+                  225,
+                  195
+                ]
+              },
+              {
+                "sample": [
+                  500,
+                  539
+                ],
+                "rgb": [
+                  243,
+                  242,
+                  242
+                ]
+              }
+            ],
             "target": "R6 carbon dioxide intermediate in proximal bicarbonate reclamation",
-            "normalized_masks": []
+            "normalized_masks": [
+              [
+                0.12944664031620554,
+                0.7633053221288515,
+                0.26383399209486164,
+                0.8165266106442577
+              ],
+              [
+                0.49407114624505927,
+                0.7647058823529411,
+                0.6274703557312253,
+                0.8165266106442577
+              ]
+            ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -4645,22 +5362,71 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-c0712d986717493a371d8272",
-      "image": "assets/c0712d986717493a371d8272.webp",
-      "zoom_image": "assets/c0712d986717493a371d8272.png",
+      "variant_id": "var-1900645d5fab9958987c3763",
+      "image": "assets/1900645d5fab9958987c3763.webp",
+      "zoom_image": "assets/1900645d5fab9958987c3763.png",
       "transform": {
-        "masks": [],
+        "masks": [
+          [
+            131,
+            545,
+            267,
+            583
+          ],
+          [
+            500,
+            546,
+            635,
+            583
+          ]
+        ],
         "input_dimensions": [
           1012,
           714
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Unmodified original image; visual relationship is tested without a target-label mask",
-        "fills": [],
+        "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
+        "fills": [
+          {
+            "sample": [
+              125,
+              542
+            ],
+            "rgb": [
+              211,
+              225,
+              195
+            ]
+          },
+          {
+            "sample": [
+              500,
+              539
+            ],
+            "rgb": [
+              243,
+              242,
+              242
+            ]
+          }
+        ],
         "target": "R6 carbon dioxide intermediate in proximal bicarbonate reclamation",
-        "normalized_masks": []
+        "normalized_masks": [
+          [
+            0.12944664031620554,
+            0.7633053221288515,
+            0.26383399209486164,
+            0.8165266106442577
+          ],
+          [
+            0.49407114624505927,
+            0.7647058823529411,
+            0.6274703557312253,
+            0.8165266106442577
+          ]
+        ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R6/Proximal Tubule Na Transport.png",
@@ -4696,9 +5462,9 @@
       "original_asset": "assets/faca334f97ca3a2eb965658a.png",
       "variants": [
         {
-          "variant_id": "var-da5256d020fe54a55f57d5ff",
-          "image": "assets/da5256d020fe54a55f57d5ff.webp",
-          "zoom_image": "assets/da5256d020fe54a55f57d5ff.png",
+          "variant_id": "var-594a84fffa9426a4e4f371bc",
+          "image": "assets/594a84fffa9426a4e4f371bc.webp",
+          "zoom_image": "assets/594a84fffa9426a4e4f371bc.png",
           "transform": {
             "masks": [
               [
@@ -4706,6 +5472,12 @@
                 436,
                 296,
                 502
+              ],
+              [
+                315,
+                490,
+                353,
+                520
               ]
             ],
             "input_dimensions": [
@@ -4713,7 +5485,7 @@
               772
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
             "fills": [
               {
                 "sample": [
@@ -4725,19 +5497,36 @@
                   174,
                   91
                 ]
+              },
+              {
+                "sample": [
+                  353,
+                  515
+                ],
+                "rgb": [
+                  242,
+                  243,
+                  243
+                ]
               }
             ],
-            "target": "R6 proximal tubule apical sodium hydrogen exchanger",
+            "target": "R6 proximal tubule apical hydrogen secretion via sodium exchange",
             "normalized_masks": [
               [
                 0.23479318734793186,
                 0.5647668393782384,
                 0.36009732360097324,
                 0.6502590673575129
+              ],
+              [
+                0.38321167883211676,
+                0.6347150259067358,
+                0.42944038929440387,
+                0.6735751295336787
               ]
             ]
           },
-          "visual_review": "PENDING second-pass individual native-size review"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -4754,9 +5543,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-da5256d020fe54a55f57d5ff",
-      "image": "assets/da5256d020fe54a55f57d5ff.webp",
-      "zoom_image": "assets/da5256d020fe54a55f57d5ff.png",
+      "variant_id": "var-594a84fffa9426a4e4f371bc",
+      "image": "assets/594a84fffa9426a4e4f371bc.webp",
+      "zoom_image": "assets/594a84fffa9426a4e4f371bc.png",
       "transform": {
         "masks": [
           [
@@ -4764,6 +5553,12 @@
             436,
             296,
             502
+          ],
+          [
+            315,
+            490,
+            353,
+            520
           ]
         ],
         "input_dimensions": [
@@ -4771,7 +5566,7 @@
           772
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
         "fills": [
           {
             "sample": [
@@ -4783,19 +5578,36 @@
               174,
               91
             ]
+          },
+          {
+            "sample": [
+              353,
+              515
+            ],
+            "rgb": [
+              242,
+              243,
+              243
+            ]
           }
         ],
-        "target": "R6 proximal tubule apical sodium hydrogen exchanger",
+        "target": "R6 proximal tubule apical hydrogen secretion via sodium exchange",
         "normalized_masks": [
           [
             0.23479318734793186,
             0.5647668393782384,
             0.36009732360097324,
             0.6502590673575129
+          ],
+          [
+            0.38321167883211676,
+            0.6347150259067358,
+            0.42944038929440387,
+            0.6735751295336787
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R6/Reabsorption of various substances in the proximal tubule.png",
@@ -4880,9 +5692,9 @@
       "original_asset": "assets/7e200b10089a7608a85a71f5.png",
       "variants": [
         {
-          "variant_id": "var-7a7741afbb6b09728fdcfd50",
-          "image": "assets/7a7741afbb6b09728fdcfd50.webp",
-          "zoom_image": "assets/7a7741afbb6b09728fdcfd50.png",
+          "variant_id": "var-772d3be93db8f8644bf6ab3c",
+          "image": "assets/772d3be93db8f8644bf6ab3c.webp",
+          "zoom_image": "assets/772d3be93db8f8644bf6ab3c.png",
           "transform": {
             "masks": [
               [
@@ -4890,6 +5702,12 @@
                 183,
                 825,
                 221
+              ],
+              [
+                628,
+                290,
+                808,
+                335
               ]
             ],
             "input_dimensions": [
@@ -4897,12 +5715,23 @@
               796
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
             "fills": [
               {
                 "sample": [
                   625,
                   177
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  224
+                ]
+              },
+              {
+                "sample": [
+                  626,
+                  286
                 ],
                 "rgb": [
                   255,
@@ -4918,15 +5747,21 @@
                 0.22989949748743718,
                 0.7445848375451264,
                 0.2776381909547739
+              ],
+              [
+                0.5667870036101083,
+                0.36432160804020103,
+                0.7292418772563177,
+                0.42085427135678394
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         },
         {
-          "variant_id": "var-d6362f5aade6f536bde5b11d",
-          "image": "assets/d6362f5aade6f536bde5b11d.webp",
-          "zoom_image": "assets/d6362f5aade6f536bde5b11d.png",
+          "variant_id": "var-4c6402dc0e464a41a7f9c278",
+          "image": "assets/4c6402dc0e464a41a7f9c278.webp",
+          "zoom_image": "assets/4c6402dc0e464a41a7f9c278.png",
           "transform": {
             "masks": [
               [
@@ -4934,6 +5769,12 @@
                 293,
                 803,
                 330
+              ],
+              [
+                628,
+                181,
+                828,
+                225
               ]
             ],
             "input_dimensions": [
@@ -4941,12 +5782,23 @@
               796
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
             "fills": [
               {
                 "sample": [
                   626,
                   284
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  224
+                ]
+              },
+              {
+                "sample": [
+                  625,
+                  177
                 ],
                 "rgb": [
                   255,
@@ -4962,10 +5814,16 @@
                 0.36809045226130654,
                 0.7247292418772563,
                 0.41457286432160806
+              ],
+              [
+                0.5667870036101083,
+                0.22738693467336685,
+                0.7472924187725631,
+                0.28266331658291455
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -4982,9 +5840,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-7a7741afbb6b09728fdcfd50",
-      "image": "assets/7a7741afbb6b09728fdcfd50.webp",
-      "zoom_image": "assets/7a7741afbb6b09728fdcfd50.png",
+      "variant_id": "var-772d3be93db8f8644bf6ab3c",
+      "image": "assets/772d3be93db8f8644bf6ab3c.webp",
+      "zoom_image": "assets/772d3be93db8f8644bf6ab3c.png",
       "transform": {
         "masks": [
           [
@@ -4992,6 +5850,12 @@
             183,
             825,
             221
+          ],
+          [
+            628,
+            290,
+            808,
+            335
           ]
         ],
         "input_dimensions": [
@@ -4999,12 +5863,23 @@
           796
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
         "fills": [
           {
             "sample": [
               625,
               177
+            ],
+            "rgb": [
+              255,
+              255,
+              224
+            ]
+          },
+          {
+            "sample": [
+              626,
+              286
             ],
             "rgb": [
               255,
@@ -5020,10 +5895,16 @@
             0.22989949748743718,
             0.7445848375451264,
             0.2776381909547739
+          ],
+          [
+            0.5667870036101083,
+            0.36432160804020103,
+            0.7292418772563177,
+            0.42085427135678394
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R7/Collecting Duct Intercalated Cells Chart.png",
@@ -5887,9 +6768,9 @@
       "original_asset": "assets/0f17f0bd9d25ea151209a548.png",
       "variants": [
         {
-          "variant_id": "var-40a40cb661250dfbeee830e5",
-          "image": "assets/40a40cb661250dfbeee830e5.webp",
-          "zoom_image": "assets/40a40cb661250dfbeee830e5.png",
+          "variant_id": "var-02e79ca3e8b37ad986cdbcf9",
+          "image": "assets/02e79ca3e8b37ad986cdbcf9.webp",
+          "zoom_image": "assets/02e79ca3e8b37ad986cdbcf9.png",
           "transform": {
             "masks": [
               [
@@ -5897,6 +6778,12 @@
                 113,
                 444,
                 181
+              ],
+              [
+                79,
+                245,
+                169,
+                296
               ]
             ],
             "input_dimensions": [
@@ -5904,7 +6791,7 @@
               804
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+            "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
             "fills": [
               {
                 "sample": [
@@ -5916,19 +6803,36 @@
                   241,
                   243
                 ]
+              },
+              {
+                "sample": [
+                  74,
+                  242
+                ],
+                "rgb": [
+                  253,
+                  243,
+                  206
+                ]
               }
             ],
-            "target": "R7 thick ascending limb Na K 2Cl cotransport stoichiometry",
+            "target": "R7 TAL NKCC2 two-chloride stoichiometry",
             "normalized_masks": [
               [
                 0.2698412698412698,
                 0.14054726368159204,
                 0.5034013605442177,
                 0.22512437810945274
+              ],
+              [
+                0.08956916099773243,
+                0.30472636815920395,
+                0.19160997732426305,
+                0.3681592039800995
               ]
             ]
           },
-          "visual_review": "PENDING individual native-size comparison"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -5945,9 +6849,9 @@
           "reason": "No additional distinct image-dependent answer is established from this capture."
         }
       ],
-      "variant_id": "var-40a40cb661250dfbeee830e5",
-      "image": "assets/40a40cb661250dfbeee830e5.webp",
-      "zoom_image": "assets/40a40cb661250dfbeee830e5.png",
+      "variant_id": "var-02e79ca3e8b37ad986cdbcf9",
+      "image": "assets/02e79ca3e8b37ad986cdbcf9.webp",
+      "zoom_image": "assets/02e79ca3e8b37ad986cdbcf9.png",
       "transform": {
         "masks": [
           [
@@ -5955,6 +6859,12 @@
             113,
             444,
             181
+          ],
+          [
+            79,
+            245,
+            169,
+            296
           ]
         ],
         "input_dimensions": [
@@ -5962,7 +6872,7 @@
           804
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Opaque target-text masks only; no graph data, arrows, cell borders, or tissue changed",
+        "method": "Opaque answer-text masks only; arrows, carrier contours, cell boundaries, and tissue preserved",
         "fills": [
           {
             "sample": [
@@ -5974,19 +6884,36 @@
               241,
               243
             ]
+          },
+          {
+            "sample": [
+              74,
+              242
+            ],
+            "rgb": [
+              253,
+              243,
+              206
+            ]
           }
         ],
-        "target": "R7 thick ascending limb Na K 2Cl cotransport stoichiometry",
+        "target": "R7 TAL NKCC2 two-chloride stoichiometry",
         "normalized_masks": [
           [
             0.2698412698412698,
             0.14054726368159204,
             0.5034013605442177,
             0.22512437810945274
+          ],
+          [
+            0.08956916099773243,
+            0.30472636815920395,
+            0.19160997732426305,
+            0.3681592039800995
           ]
         ]
       },
-      "visual_review": "PASS: original and each final variant inspected at native size; target hidden without deleting decisive context."
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     },
     {
       "relative_path": "R8/ADH MoA.png",
@@ -6535,40 +7462,322 @@
       "original_asset": "assets/3bc2fc96c06c0eb1cf049fc3.png",
       "variants": [
         {
-          "variant_id": "var-6c48c2b195490f41d04586c2",
-          "image": "assets/6c48c2b195490f41d04586c2.webp",
-          "zoom_image": "assets/6c48c2b195490f41d04586c2.png",
+          "variant_id": "var-e45f64a306bd57ec5a3f6121",
+          "image": "assets/e45f64a306bd57ec5a3f6121.webp",
+          "zoom_image": "assets/e45f64a306bd57ec5a3f6121.png",
           "transform": {
-            "masks": [],
+            "masks": [
+              [
+                300,
+                78,
+                685,
+                133
+              ],
+              [
+                70,
+                352,
+                158,
+                409
+              ],
+              [
+                359,
+                350,
+                443,
+                407
+              ],
+              [
+                831,
+                783,
+                1006,
+                836
+              ]
+            ],
             "input_dimensions": [
               1350,
               860
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Unmodified original; complete diagram interpreted",
-            "fills": [],
+            "method": "Opaque answer-text masks sampled from local background; all pathway arrows and cell boundaries preserved",
+            "fills": [
+              {
+                "sample": [
+                  300,
+                  73
+                ],
+                "rgb": [
+                  247,
+                  229,
+                  216
+                ]
+              },
+              {
+                "sample": [
+                  56,
+                  339
+                ],
+                "rgb": [
+                  208,
+                  224,
+                  240
+                ]
+              },
+              {
+                "sample": [
+                  352,
+                  341
+                ],
+                "rgb": [
+                  242,
+                  242,
+                  242
+                ]
+              },
+              {
+                "sample": [
+                  850,
+                  750
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              }
+            ],
             "target": "Permeable ammonia exits the proximal cell into lumen",
-            "normalized_masks": []
+            "normalized_masks": [
+              [
+                0.2222222222222222,
+                0.09069767441860466,
+                0.5074074074074074,
+                0.15465116279069768
+              ],
+              [
+                0.05185185185185185,
+                0.40930232558139534,
+                0.11703703703703704,
+                0.4755813953488372
+              ],
+              [
+                0.2659259259259259,
+                0.4069767441860465,
+                0.32814814814814813,
+                0.47325581395348837
+              ],
+              [
+                0.6155555555555555,
+                0.9104651162790698,
+                0.7451851851851852,
+                0.9720930232558139
+              ]
+            ]
           },
-          "visual_review": "PASS: native-size original and final variant inspected; target and mechanism remain legible"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         },
         {
-          "variant_id": "var-da3100290b20d7393deaebad",
-          "image": "assets/da3100290b20d7393deaebad.webp",
-          "zoom_image": "assets/da3100290b20d7393deaebad.png",
+          "variant_id": "var-e7ffd148ee98107df44a7495",
+          "image": "assets/e7ffd148ee98107df44a7495.webp",
+          "zoom_image": "assets/e7ffd148ee98107df44a7495.png",
           "transform": {
-            "masks": [],
+            "masks": [
+              [
+                300,
+                78,
+                685,
+                133
+              ],
+              [
+                32,
+                520,
+                151,
+                582
+              ],
+              [
+                327,
+                520,
+                456,
+                584
+              ],
+              [
+                502,
+                410,
+                650,
+                464
+              ],
+              [
+                780,
+                368,
+                932,
+                427
+              ],
+              [
+                960,
+                368,
+                1231,
+                427
+              ],
+              [
+                746,
+                564,
+                971,
+                600
+              ],
+              [
+                831,
+                783,
+                1333,
+                838
+              ]
+            ],
             "input_dimensions": [
               1350,
               860
             ],
             "coordinate_basis": "immutable_original_pixels",
-            "method": "Unmodified original; complete diagram interpreted",
-            "fills": [],
+            "method": "Opaque answer-text masks sampled from local background; all pathway arrows and cell boundaries preserved",
+            "fills": [
+              {
+                "sample": [
+                  300,
+                  73
+                ],
+                "rgb": [
+                  247,
+                  229,
+                  216
+                ]
+              },
+              {
+                "sample": [
+                  29,
+                  512
+                ],
+                "rgb": [
+                  195,
+                  216,
+                  235
+                ]
+              },
+              {
+                "sample": [
+                  315,
+                  517
+                ],
+                "rgb": [
+                  242,
+                  242,
+                  242
+                ]
+              },
+              {
+                "sample": [
+                  489,
+                  405
+                ],
+                "rgb": [
+                  241,
+                  242,
+                  243
+                ]
+              },
+              {
+                "sample": [
+                  860,
+                  355
+                ],
+                "rgb": [
+                  208,
+                  223,
+                  240
+                ]
+              },
+              {
+                "sample": [
+                  955,
+                  360
+                ],
+                "rgb": [
+                  206,
+                  224,
+                  240
+                ]
+              },
+              {
+                "sample": [
+                  730,
+                  558
+                ],
+                "rgb": [
+                  171,
+                  190,
+                  211
+                ]
+              },
+              {
+                "sample": [
+                  850,
+                  750
+                ],
+                "rgb": [
+                  255,
+                  255,
+                  255
+                ]
+              }
+            ],
             "target": "Glutamine-derived ammonium and new bicarbonate outputs",
-            "normalized_masks": []
+            "normalized_masks": [
+              [
+                0.2222222222222222,
+                0.09069767441860466,
+                0.5074074074074074,
+                0.15465116279069768
+              ],
+              [
+                0.023703703703703703,
+                0.6046511627906976,
+                0.11185185185185186,
+                0.6767441860465117
+              ],
+              [
+                0.24222222222222223,
+                0.6046511627906976,
+                0.3377777777777778,
+                0.6790697674418604
+              ],
+              [
+                0.3718518518518519,
+                0.47674418604651164,
+                0.48148148148148145,
+                0.5395348837209303
+              ],
+              [
+                0.5777777777777777,
+                0.42790697674418604,
+                0.6903703703703704,
+                0.4965116279069767
+              ],
+              [
+                0.7111111111111111,
+                0.42790697674418604,
+                0.9118518518518518,
+                0.4965116279069767
+              ],
+              [
+                0.5525925925925926,
+                0.6558139534883721,
+                0.7192592592592593,
+                0.6976744186046512
+              ],
+              [
+                0.6155555555555555,
+                0.9104651162790698,
+                0.9874074074074074,
+                0.9744186046511628
+              ]
+            ]
           },
-          "visual_review": "PASS: native-size original and final variant inspected; target and mechanism remain legible"
+          "visual_review": "Native-size derivative inspected 2026-10-06; target text hidden, anatomy/arrows/axes preserved."
         }
       ],
       "variant_review_complete": true,
@@ -6580,21 +7789,117 @@
           "reason": "Source-backed visual relationship."
         }
       ],
-      "variant_id": "var-6c48c2b195490f41d04586c2",
-      "image": "assets/6c48c2b195490f41d04586c2.webp",
-      "zoom_image": "assets/6c48c2b195490f41d04586c2.png",
+      "variant_id": "var-e45f64a306bd57ec5a3f6121",
+      "image": "assets/e45f64a306bd57ec5a3f6121.webp",
+      "zoom_image": "assets/e45f64a306bd57ec5a3f6121.png",
       "transform": {
-        "masks": [],
+        "masks": [
+          [
+            300,
+            78,
+            685,
+            133
+          ],
+          [
+            70,
+            352,
+            158,
+            409
+          ],
+          [
+            359,
+            350,
+            443,
+            407
+          ],
+          [
+            831,
+            783,
+            1006,
+            836
+          ]
+        ],
         "input_dimensions": [
           1350,
           860
         ],
         "coordinate_basis": "immutable_original_pixels",
-        "method": "Unmodified original; complete diagram interpreted",
-        "fills": [],
+        "method": "Opaque answer-text masks sampled from local background; all pathway arrows and cell boundaries preserved",
+        "fills": [
+          {
+            "sample": [
+              300,
+              73
+            ],
+            "rgb": [
+              247,
+              229,
+              216
+            ]
+          },
+          {
+            "sample": [
+              56,
+              339
+            ],
+            "rgb": [
+              208,
+              224,
+              240
+            ]
+          },
+          {
+            "sample": [
+              352,
+              341
+            ],
+            "rgb": [
+              242,
+              242,
+              242
+            ]
+          },
+          {
+            "sample": [
+              850,
+              750
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
+          }
+        ],
         "target": "Permeable ammonia exits the proximal cell into lumen",
-        "normalized_masks": []
-      }
+        "normalized_masks": [
+          [
+            0.2222222222222222,
+            0.09069767441860466,
+            0.5074074074074074,
+            0.15465116279069768
+          ],
+          [
+            0.05185185185185185,
+            0.40930232558139534,
+            0.11703703703703704,
+            0.4755813953488372
+          ],
+          [
+            0.2659259259259259,
+            0.4069767441860465,
+            0.32814814814814813,
+            0.47325581395348837
+          ],
+          [
+            0.6155555555555555,
+            0.9104651162790698,
+            0.7451851851851852,
+            0.9720930232558139
+          ]
+        ]
+      },
+      "visual_review": "All updated derivatives for this source individually inspected at native size on 2026-10-06."
     }
   ],
   "visual_review_completed_at": "2026-10-05T19:37:05-04:00",
