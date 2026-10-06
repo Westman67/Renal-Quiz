@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lectures": {
+    "R1": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Renal corpuscle and vascular-pole structures",
+        "Cortex versus medulla",
+        "Filtration-barrier layers and direction",
+        "Urinary space and medullary mitochondrial comparison"
+      ],
+      "gaps": [
+        "Size-and-charge filterability graph",
+        "Osmolarity/tonicity visuals beyond the separate R2 captures",
+        "Full tubular identification, including proximal versus distal convoluted tubules"
+      ],
+      "next_capture": "An unlabeled manual capture from R1.2 Renal Histology p. 3 would improve cortical-structure testing.",
+      "basis": "R1 source and question review; 16 original captures, 7 scored image families. This is partial lecture coverage."
+    },
+    "R2": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "ICF/ECF volume changes after three solution additions",
+        "Shared final osmolality direction in the three diagrams"
+      ],
+      "gaps": [
+        "Other R2 visual targets and the two case-study images were not manually supplied."
+      ],
+      "next_capture": "Supply additional manual R2 captures if broader visual coverage is wanted.",
+      "basis": "Three manual solution-addition diagrams matched to R2 RLS p. 26."
+    },
+    "R4": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "The four-by-four arteriolar resistance outcome table, one masked arrow per cell"
+      ],
+      "gaps": [
+        "The capillary oncotic-pressure curves and clearance/Fick visuals were not manually supplied."
+      ],
+      "next_capture": "Supply R4 manual captures for the oncotic-pressure and clearance graphs if desired.",
+      "basis": "One manual resistance-table capture matched to R4 RLS pp. 16 and 23–24."
+    },
+    "R5": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "JGA anatomy and histology",
+        "Low- and high-pressure tubuloglomerular-feedback arteriole responses",
+        "ANP counter-regulation shown against TGF"
+      ],
+      "gaps": [
+        "The autoregulatory plateau figure was not manually supplied."
+      ],
+      "next_capture": "A complete manual R5 autoregulatory plateau capture would broaden visual coverage.",
+      "basis": "Six manual R5 captures; 11 scored questions, matched to RLS pp. 9–13 and 28. Coverage remains partial."
+    },
+    "R6": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Brush border, mitochondria, and tubule-to-capillary orientation in EM",
+        "Transcellular versus paracellular routes",
+        "Na⁺, water, Cl⁻, HCO₃⁻, amino-acid/drug, and glucose transport diagrams",
+        "Glucose threshold graph"
+      ],
+      "gaps": [
+        "Two H&E views remain references because of softness or labels over tissue.",
+        "The proximal-tubule TF/P graph remains a reference because its y-axis label is clipped.",
+        "The peritubular Starling-force diagram has not been manually supplied."
+      ],
+      "next_capture": "A complete readable Starling-force diagram or uncropped TF/P graph would extend coverage.",
+      "basis": "Fifteen distinct manual R6 captures, including one renamed byte-identical H&E original; 15 scored questions. Matched to RLS pp. 4–5, 9, 13, and 22–28. Coverage remains partial."
+    },
+    "R7": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Collecting-duct and distal-tubule EM cell/ultrastructure features",
+        "TAL NKCC ion stoichiometry",
+        "Type 1 versus type 2 distal-cell transporter patterns",
+        "Principal and α-intercalated cell transport patterns"
+      ],
+      "gaps": [
+        "Two H&E crops remain non-scored for softness, direct labels, or clipping.",
+        "Four text-only summary cards remain teaching references, not picture-identification questions.",
+        "The countercurrent gradient, urea recycling, vasa recta exchange, and full diuretic-site map are not visually tested."
+      ],
+      "next_capture": "Supply a complete countercurrent or urea/vasa-recta diagram for broader R7 visual coverage.",
+      "basis": "Fourteen manual R7 captures; 11 scored questions, matched to RLS pp. 12–16. Coverage remains partial."
+    },
+    "R8": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Eleven distinct responses within the integrated falling-pressure chart",
+        "ADH V₂–cAMP–PKA aquaporin mechanism",
+        "Aldosterone SGK1–NEDD4–ENaC mechanism"
+      ],
+      "gaps": [
+        "Free-water clearance, detailed potassium handling, and diabetes-insipidus visuals were not manually supplied.",
+        "Repeated terminal boxes and ambiguous quantitative predictions in the integrated flowchart remain unscored."
+      ],
+      "next_capture": "Supply complete free-water-clearance or K⁺-handling figures for broader R8 visual coverage.",
+      "basis": "Three manual R8 captures; 13 scored questions, matched to RLS pp. 6, 9, and 20. Coverage remains partial."
+    },
+    "R9": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Plasma anion-gap band identification",
+        "Fixed-acid effect on anion-gap span",
+        "Proximal glutamine ammoniagenesis and new bicarbonate destinations"
+      ],
+      "gaps": [
+        "The thin text-only metabolic-acidosis type chart remains a teaching reference, not a scored picture task.",
+        "Other R9 mechanisms lack manually supplied visual captures."
+      ],
+      "next_capture": "Supply clear complete visual R9 diagrams if broader visual coverage is wanted.",
+      "basis": "Four manual R9 captures visually matched to R9 Acid-Base Regulation (Physiology) RLS pp. 22, 30, 32–33; three scored image captures, four questions, one reference-only card. Coverage remains partial."
+    }
+  }
+}
