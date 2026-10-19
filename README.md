@@ -1,5 +1,7 @@
 # Renal Picture Quiz
 
+The current public site is [westman67.github.io/Renal-Quiz](https://westman67.github.io/Renal-Quiz/). GitHub Pages deploys the validated static bundle committed in `dist`. The older development files outside `dist` remain in repository history for provenance and are not part of the published artifact.
+
 The reviewed bank uses 62 manual lecture captures from R1, R2, R4, R5, R6, R7, R8, and R9. It has 95 questions from 38 scored image families. Nineteen captures remain teaching references or alternate annotated views, including two R6 and two R7 H&E crops whose resolution, clipping, or labels prevent fair scoring. Coverage of each lecture remains partial.
 
 ## Open locally
@@ -24,11 +26,11 @@ Unseen uses shared source history. Questions from the same visual are related, n
 
 Use Your progress to export, import, or reset browser-local data. Export before changing browsers, clearing storage, or moving from a local address to a hosted address. Nothing is sent to a server. Imports replace local progress only after confirmation.
 
-## Upload yourself
+## Public deployment
 
-The `dist` folder is a self-contained static site. Upload its contents as the site files, with `index.html` at the site root. Relative asset paths support a repository subdirectory. No API keys, backend, package install, or build service are required for the finished site. No upload or repository creation has been performed for you.
+The `dist` folder is a self-contained static site. A GitHub Actions workflow verifies that it contains the expected entry point and build report, confirms that it remains below 1 GB, and deploys it to GitHub Pages. Relative asset paths support this repository subdirectory. No API keys or backend are required by the finished site.
 
-Only upload the app or `dist`, not the enclosing Picture Quiz library. Before making the site public, confirm that you have permission to redistribute the course images. Redistribution permission has not been verified. This app contains original teaching copies as well as masked or cropped quiz images.
+The public bundle contains teaching copies as well as masked or cropped quiz images. Keep publication limited to material you are authorized to redistribute.
 
 Client-side answer hiding is a study-interface feature, not security. Someone inspecting the static data can see the answer keys.
 

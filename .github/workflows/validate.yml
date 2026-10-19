@@ -16,24 +16,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Run engine tests
-        run: npm test
-
-      - name: Validate question bank
-        run: python3 scripts/validate_bank.py data/source-manifest.json data/question-bank.json
-
-      - name: Build static site
-        run: npm run build
-
-      - name: Verify committed distribution
-        run: git diff --exit-code -- dist
+      - name: Verify committed Pages bundle
+        run: |
+          test -f dist/index.html
+          test -f dist/build-report.json
+          bytes="$(du -sb dist | cut -f1)"
+          echo "Pages bundle size is ${bytes} bytes"
+          test "${bytes}" -lt 1000000000

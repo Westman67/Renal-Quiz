@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "lectures": {
+    "R14": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Jones silver glomerular outlines",
+        "Renal cortical region",
+        "RBC casts in nephritic urine",
+        "Glomeruli in renal cortex",
+        "Renal artery on PAS",
+        "Glomerulus in toluidine-blue section"
+      ],
+      "gaps": [
+        "Some user captures remain reference-only pending a distinct safe visual target."
+      ],
+      "next_capture": "No additional capture is required for the current scored set.",
+      "basis": "9 manual captures reviewed; 6 scored questions added after RLS alignment."
+    },
+    "R15": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Acyclovir needle crystals",
+        "Struvite coffin-lid crystal",
+        "Calcium oxalate dihydrate envelope",
+        "Calcium oxalate monohydrate form",
+        "Calcium phosphate rosette",
+        "Coarsely granular cast",
+        "Cystine hexagonal crystals",
+        "Polarized lipid in fatty casts",
+        "Dysmorphic RBCs in glomerular hematuria",
+        "RBC cast in glomerular sediment",
+        "Indinavir sunburst crystals",
+        "Eumorphic RBC morphology",
+        "Sulfadiazine shocks of wheat",
+        "Uric acid rhomboid crystals",
+        "Waxy broad cast"
+      ],
+      "gaps": [
+        "Some user captures remain reference-only pending a distinct safe visual target."
+      ],
+      "next_capture": "No additional capture is required for the current scored set.",
+      "basis": "27 manual captures reviewed; 15 scored questions added after RLS alignment."
+    },
+    "R16": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Proximal apical Na⁺/H⁺ exchange",
+        "TAL lumen-positive Ca²⁺/Mg²⁺ pathway"
+      ],
+      "gaps": [
+        "Fully labeled or repetitive captures remain Source review, not scored."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "6 manual captures reviewed and aligned to the RLS; 2 scored."
+    },
+    "R17": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "ADH-triggered AQP2 apical insertion",
+        "ENaC-linked K⁺ secretion",
+        "DCT thiazide-associated calcium retention",
+        "Thiazide urinary calcium pattern"
+      ],
+      "gaps": [
+        "Fully labeled or repetitive captures remain Source review, not scored."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "7 manual captures reviewed and aligned to the RLS; 4 scored."
+    },
+    "R19": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Amyloid mesangial expansion",
+        "Diabetic nodular mesangial sclerosis",
+        "Membranous granular capillary IF",
+        "Minimal change near-normal LM",
+        "FSGS segmental sclerosis"
+      ],
+      "gaps": [
+        "Other captures are retained as reference-only until a distinct, leak-free, source-defensible visual task is established."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "25 manual captures visually screened; 5 source-grounded scored visual questions; remaining captures reference-only."
+    },
+    "R20": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Pyelonephritis neutrophilic tubules",
+        "ATI intratubular epithelial debris",
+        "Mild ATI epithelial flattening",
+        "Emphysematous pyelonephritis gas on CT",
+        "Granulomatous interstitial inflammation"
+      ],
+      "gaps": [
+        "Other captures are retained as reference-only until a distinct, leak-free, source-defensible visual task is established."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "41 manual captures visually screened; 5 source-grounded scored visual questions; remaining captures reference-only."
+    },
+    "R21": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Acute arteriolar fibrinoid necrosis",
+        "Glomerular capillary fibrin thrombus",
+        "Atheroembolic cholesterol clefts",
+        "Chronic TMA double contour",
+        "Diffuse cortical necrosis gross pattern"
+      ],
+      "gaps": [
+        "Other captures are retained as reference-only until a distinct, leak-free, source-defensible visual task is established."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "43 manual captures visually screened; 5 source-grounded scored visual questions; remaining captures reference-only."
+    },
+    "R22": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "ADPKD gross enlarged multicystic kidney",
+        "Duplex collecting system",
+        "Horseshoe kidney CT isthmus",
+        "Horseshoe kidney lower-pole fusion"
+      ],
+      "gaps": [
+        "Other captures are retained as reference-only until a distinct, leak-free, source-defensible visual task is established."
+      ],
+      "next_capture": "No additional capture required for the current scored set.",
+      "basis": "15 manual captures visually screened; 4 source-grounded scored visual questions; remaining captures reference-only."
+    },
+    "R34": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Amyloid Congo-red birefringence",
+        "Glomerular fibrinoid necrosis",
+        "Eosinophil-rich interstitial infiltrate",
+        "Linear capillary-wall IgG",
+        "Nodular mesangial expansion",
+        "Segmental glomerular tuft sclerosis",
+        "Granular mesangial IgA distribution",
+        "Purpuric eruption",
+        "Granular glomerular IgG distribution",
+        "Membranous thickened capillary loops",
+        "Normal smooth glomerular capillary loops",
+        "Glomerular capillary fibrin thrombi"
+      ],
+      "gaps": [
+        "Other captures retained as reference-only or alternate views; complete renal-wide bank expansion remains in progress."
+      ],
+      "next_capture": "No additional R34 capture required for this scored batch.",
+      "basis": "89 eligible R34 manual PNGs visually triaged; 12 distinct source-grounded images selected for scored questions. The 22 _Not for quiz PNGs were excluded."
+    },
+    "R35": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Case 1 serum anion gap",
+        "Case 2 primary metabolic alkalosis",
+        "Case 3 day-4 post-hypercapnic alkalosis",
+        "Case 4 osmolal gap"
+      ],
+      "gaps": [
+        "Eight other captures retained as reference-only pending a separate scored-task decision."
+      ],
+      "next_capture": "No additional R35 capture needed for this batch.",
+      "basis": "12 eligible R35 manual PNGs visually triaged; four case-lab graphics selected for scored questions."
+    },
+    "R18": {
+      "status": "Reference-only",
+      "tested_summary": [],
+      "gaps": [
+        "No leak-free, distinct scored task selected from this folder."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "64 eligible manual PNGs contact-sheet triaged; 0 selected for scored questions. _Not for quiz excluded."
+    },
+    "R22.2": {
+      "status": "Reference-only",
+      "tested_summary": [],
+      "gaps": [
+        "No leak-free, distinct scored task selected from this folder."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "33 eligible manual PNGs contact-sheet triaged; 0 selected for scored questions. _Not for quiz excluded."
+    },
+    "R25": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Bilateral macrocystic renal contour",
+        "Bilateral smooth enlarged renal contours",
+        "Connected central collecting-system dilation",
+        "Crossed renal ectopia",
+        "Fused lower-pole renal isthmus",
+        "Multiple noncommunicating renal cysts",
+        "Perinephric fluid collection"
+      ],
+      "gaps": [
+        "Other manual captures retained as reference-only after visual triage; no forced question for answer-labeled, repeated, or ambiguous visuals."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "113 eligible manual PNGs contact-sheet triaged; 7 selected for scored questions. _Not for quiz excluded."
+    },
+    "R28": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Left pneumothorax",
+        "Chromophobe cell halos",
+        "Multifocal renal masses"
+      ],
+      "gaps": [
+        "Other manual captures retained as reference-only after visual triage; no forced question for answer-labeled, repeated, or ambiguous visuals."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "71 eligible manual PNGs contact-sheet triaged; 3 selected for scored questions. _Not for quiz excluded."
+    },
+    "R29": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Intraluminal bladder mass",
+        "Simple-fluid T1/T2 signal reversal",
+        "Simple renal cyst sonographic pattern",
+        "Branching staghorn calculus"
+      ],
+      "gaps": [
+        "Other manual captures retained as reference-only after visual triage; no forced question for answer-labeled, repeated, or ambiguous visuals."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "109 eligible manual PNGs contact-sheet triaged; 4 selected for scored questions. _Not for quiz excluded."
+    }
+  }
+}

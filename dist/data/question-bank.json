@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "bank_version": "renal-2026-10-06-r2",
+  "bank_version": "renal-physiology-2026-10-18-full-manual",
   "title": "Renal Picture Quiz",
   "lecture": "mixed",
   "questions": [
@@ -1071,31 +1071,31 @@
       "source_group_id": "group-99f6f5d182cddf88",
       "source_id": "src-99f6f5d182cddf88",
       "variant_id": "var-7f671deb59697369ad6c0c86",
-      "question_type": "Comparison",
-      "tested_concept": "R2 compartment-volume direction 99f6f5d1",
-      "stem": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
-      "visual_target": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
+      "question_type": "Physiologic Interpretation",
+      "tested_concept": "Hypertonic volume expansion from compartment diagram",
+      "stem": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
+      "visual_target": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
       "joint_composite": false,
       "options": [
-        "ICF decreases; ECF increases",
-        "ICF increases; ECF increases",
-        "ICF unchanged; ECF increases",
-        "ICF decreases; ECF decreases"
+        "Hypertonic volume expansion",
+        "Hypotonic volume expansion",
+        "Isotonic volume expansion",
+        "Hypertonic volume contraction"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The dashed pink left boundary moves inward, while the dashed yellow right boundary moves outward. This matches icf decreases; ecf increases.",
-        "The dashed pink left boundary moves inward, while the dashed yellow right boundary moves outward. That visible width pattern conflicts with icf increases; ecf increases.",
-        "The dashed pink left boundary moves inward, while the dashed yellow right boundary moves outward. That visible width pattern conflicts with icf unchanged; ecf increases.",
-        "The dashed pink left boundary moves inward, while the dashed yellow right boundary moves outward. That visible width pattern conflicts with icf decreases; ecf decreases."
+        "The dashed top rises above baseline while ICF narrows and ECF expands, the lecture pattern for hypertonic volume expansion.",
+        "Hypotonic expansion would lower the dashed top and expand ICF as water enters cells, opposite to this pattern.",
+        "Isotonic expansion would keep the top height and ICF width unchanged while only ECF expands.",
+        "Hypertonic contraction would reduce ECF volume rather than extend the final right boundary outward."
       ],
-      "explanation": "The dashed pink left boundary moves inward, while the dashed yellow right boundary moves outward. This matches icf decreases; ecf increases.",
+      "explanation": "This is hypertonic volume expansion. The added effective solute raises ECF tonicity, so water leaves cells until both compartments reach the same higher final osmolality.",
       "visual_clues": [
-        "Solid lines are the baseline",
-        "Dashed side boundaries show final compartment widths"
+        "Final dashed height is above baseline",
+        "Pink ICF narrows while yellow ECF expands"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -1125,31 +1125,31 @@
       "source_group_id": "group-99f6f5d182cddf88",
       "source_id": "src-99f6f5d182cddf88",
       "variant_id": "var-7f671deb59697369ad6c0c86",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R2 final-osmolality direction 99f6f5d1",
-      "stem": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
-      "visual_target": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
+      "question_type": "Mechanism",
+      "tested_concept": "Hypertonic solution effect on cell volume",
+      "stem": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
+      "visual_target": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
       "joint_composite": false,
       "options": [
-        "Higher in both compartments",
-        "Lower in both compartments",
-        "Unchanged in both compartments",
-        "Higher in ECF but lower in ICF"
+        "Higher ECF tonicity pulls water out of cells, so cells shrink and final osmolality rises",
+        "Lower ECF tonicity drives water into cells, so cells swell and final osmolality falls",
+        "Unchanged ECF tonicity causes no net transcellular water shift, so cell volume and osmolality stay unchanged",
+        "Higher ECF tonicity drives water into cells, so cells swell while final osmolality rises"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The dashed top border is above the solid top border, indicating higher final osmolality. Osmotic equilibration gives the same final direction in both compartments.",
-        "Lower in both compartments conflicts with the dashed top-border height. The dashed top border is above the solid top border, indicating higher final osmolality.",
-        "Unchanged in both compartments conflicts with the dashed top-border height. The dashed top border is above the solid top border, indicating higher final osmolality.",
-        "Higher in ECF but lower in ICF conflicts with the dashed top-border height. The dashed top border is above the solid top border, indicating higher final osmolality."
+        "Higher extracellular effective osmolality draws water from ICF to ECF. The narrower pink compartment and higher dashed top indicate cell shrinkage and higher final osmolality.",
+        "Lower ECF tonicity would move water into cells, widen the pink compartment, and lower the final top border rather than raise it.",
+        "Unchanged tonicity would leave ICF width and graph height unchanged; both change in this diagram.",
+        "Water moves toward the higher effective osmolality, so hypertonicity cannot drive water into cells; the observed ICF instead narrows."
       ],
-      "explanation": "The dashed top border is above the solid top border, indicating higher final osmolality. Osmotic equilibration gives the same final direction in both compartments.",
+      "explanation": "A hypertonic infusion raises ECF tonicity. Water shifts from the cell interior to the exterior, causing cells to shrink and increasing final osmolality in both compartments.",
       "visual_clues": [
-        "Compare the heights of solid and dashed top borders",
-        "Both compartment tops settle at the same final height"
+        "Higher final dashed height indicates greater osmolality",
+        "Narrower ICF indicates water loss from cells"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -1179,31 +1179,31 @@
       "source_group_id": "group-ae068d04e18e93c1",
       "source_id": "src-ae068d04e18e93c1",
       "variant_id": "var-c285caa58d7bc0dbb4226aea",
-      "question_type": "Comparison",
-      "tested_concept": "R2 compartment-volume direction ae068d04",
-      "stem": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
-      "visual_target": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
+      "question_type": "Physiologic Interpretation",
+      "tested_concept": "Hypotonic volume expansion from compartment diagram",
+      "stem": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
+      "visual_target": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
       "joint_composite": false,
       "options": [
-        "ICF decreases; ECF increases",
-        "ICF increases; ECF increases",
-        "ICF unchanged; ECF increases",
-        "ICF decreases; ECF decreases"
+        "Hypertonic volume expansion",
+        "Hypotonic volume expansion",
+        "Isotonic volume expansion",
+        "Hypertonic volume contraction"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The dashed outline expands to the left of pink ICF and to the right of yellow ECF. That visible width pattern conflicts with icf decreases; ecf increases.",
-        "The dashed outline expands to the left of pink ICF and to the right of yellow ECF. This matches icf increases; ecf increases.",
-        "The dashed outline expands to the left of pink ICF and to the right of yellow ECF. That visible width pattern conflicts with icf unchanged; ecf increases.",
-        "The dashed outline expands to the left of pink ICF and to the right of yellow ECF. That visible width pattern conflicts with icf decreases; ecf decreases."
+        "Hypertonic expansion would raise the dashed top and shrink ICF as water leaves cells, opposite to this pattern.",
+        "The dashed top falls below baseline while both ICF and ECF expand, the lecture pattern for hypotonic volume expansion.",
+        "Isotonic expansion would keep the top height and ICF width unchanged while only ECF expands.",
+        "Hypertonic contraction would raise osmolality and reduce extracellular volume rather than lower the top while both compartments expand."
       ],
-      "explanation": "The dashed outline expands to the left of pink ICF and to the right of yellow ECF. This matches icf increases; ecf increases.",
+      "explanation": "This is hypotonic volume expansion. The added fluid lowers ECF tonicity, so water enters cells until both compartments reach the same lower final osmolality.",
       "visual_clues": [
-        "Solid lines are the baseline",
-        "Dashed side boundaries show final compartment widths"
+        "Final dashed height is below baseline",
+        "Both ICF and ECF widths expand"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -1233,31 +1233,31 @@
       "source_group_id": "group-ae068d04e18e93c1",
       "source_id": "src-ae068d04e18e93c1",
       "variant_id": "var-c285caa58d7bc0dbb4226aea",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R2 final-osmolality direction ae068d04",
-      "stem": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
-      "visual_target": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
+      "question_type": "Mechanism",
+      "tested_concept": "Hypotonic solution effect on cell volume",
+      "stem": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
+      "visual_target": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
       "joint_composite": false,
       "options": [
-        "Higher in both compartments",
-        "Lower in both compartments",
-        "Unchanged in both compartments",
-        "Higher in ECF but lower in ICF"
+        "Higher ECF tonicity pulls water out of cells, so cells shrink and final osmolality rises",
+        "Lower ECF tonicity drives water into cells, so cells swell and final osmolality falls",
+        "Unchanged ECF tonicity causes no net transcellular water shift, so cell volume and osmolality stay unchanged",
+        "Higher ECF tonicity drives water into cells, so cells swell while final osmolality rises"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Higher in both compartments conflicts with the dashed top-border height. The dashed top border sits below the solid top border, indicating lower final osmolality.",
-        "The dashed top border sits below the solid top border, indicating lower final osmolality. Osmotic equilibration gives the same final direction in both compartments.",
-        "Unchanged in both compartments conflicts with the dashed top-border height. The dashed top border sits below the solid top border, indicating lower final osmolality.",
-        "Higher in ECF but lower in ICF conflicts with the dashed top-border height. The dashed top border sits below the solid top border, indicating lower final osmolality."
+        "Higher ECF tonicity would pull water out of cells, narrow ICF, and raise the final top border rather than lower it.",
+        "Lower extracellular effective osmolality drives water from ECF into ICF. The wider pink compartment and lower dashed top indicate cell swelling and lower final osmolality.",
+        "Unchanged tonicity would leave ICF width and graph height unchanged; both change in this diagram.",
+        "The dashed top falls rather than rises, and the ICF expansion reflects water entering cells because ECF is hypotonic, not hypertonic."
       ],
-      "explanation": "The dashed top border sits below the solid top border, indicating lower final osmolality. Osmotic equilibration gives the same final direction in both compartments.",
+      "explanation": "A hypotonic infusion lowers ECF tonicity. Water shifts from the cell exterior to the interior, causing cells to swell and decreasing final osmolality in both compartments.",
       "visual_clues": [
-        "Compare the heights of solid and dashed top borders",
-        "Both compartment tops settle at the same final height"
+        "Lower final dashed height indicates reduced osmolality",
+        "Wider ICF indicates water entry into cells"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -1287,31 +1287,31 @@
       "source_group_id": "group-4da8db5dd7477328",
       "source_id": "src-4da8db5dd7477328",
       "variant_id": "var-c73a23362b5aebd030d5b57c",
-      "question_type": "Comparison",
-      "tested_concept": "R2 compartment-volume direction 4da8db5d",
-      "stem": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
-      "visual_target": "Compare solid baseline with dashed final outline. What happens to pink left ICF and yellow right ECF volume after the illustrated infusion?",
+      "question_type": "Physiologic Interpretation",
+      "tested_concept": "Isotonic volume expansion from compartment diagram",
+      "stem": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
+      "visual_target": "The dashed outline is the post-infusion state. Which tonicity and volume disturbance best explains the complete pattern?",
       "joint_composite": false,
       "options": [
-        "ICF decreases; ECF increases",
-        "ICF increases; ECF increases",
-        "ICF unchanged; ECF increases",
-        "ICF decreases; ECF decreases"
+        "Hypertonic volume expansion",
+        "Hypotonic volume expansion",
+        "Isotonic volume expansion",
+        "Hypertonic volume contraction"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The pink ICF boundaries overlap; only the yellow ECF extends rightward in the dashed final outline. That visible width pattern conflicts with icf decreases; ecf increases.",
-        "The pink ICF boundaries overlap; only the yellow ECF extends rightward in the dashed final outline. That visible width pattern conflicts with icf increases; ecf increases.",
-        "The pink ICF boundaries overlap; only the yellow ECF extends rightward in the dashed final outline. This matches icf unchanged; ecf increases.",
-        "The pink ICF boundaries overlap; only the yellow ECF extends rightward in the dashed final outline. That visible width pattern conflicts with icf decreases; ecf decreases."
+        "Hypertonic expansion would raise the dashed top and narrow ICF as water leaves cells; neither occurs here.",
+        "Hypotonic expansion would lower the dashed top and widen ICF as water enters cells; neither occurs here.",
+        "The dashed top and ICF width stay at baseline while only ECF expands, the lecture pattern for isotonic volume expansion.",
+        "Hypertonic contraction would raise osmolality and reduce ECF volume rather than preserve height while ECF expands."
       ],
-      "explanation": "The pink ICF boundaries overlap; only the yellow ECF extends rightward in the dashed final outline. This matches icf unchanged; ecf increases.",
+      "explanation": "This is isotonic volume expansion. The infused fluid has approximately the same effective solute concentration as plasma, so it expands ECF without changing osmolality or cell volume.",
       "visual_clues": [
-        "Solid lines are the baseline",
-        "Dashed side boundaries show final compartment widths"
+        "Final dashed height remains at baseline",
+        "ICF width is unchanged while ECF expands"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -1341,31 +1341,31 @@
       "source_group_id": "group-4da8db5dd7477328",
       "source_id": "src-4da8db5dd7477328",
       "variant_id": "var-c73a23362b5aebd030d5b57c",
-      "question_type": "Physiologic Interpretation",
-      "tested_concept": "R2 final-osmolality direction 4da8db5d",
-      "stem": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
-      "visual_target": "The graph height represents osmolality. Relative to the solid baseline, what does the dashed final top border show?",
+      "question_type": "Mechanism",
+      "tested_concept": "Isotonic solution effect on cell volume",
+      "stem": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
+      "visual_target": "Which cause-and-effect chain best explains the cellular response represented by the dashed final outline?",
       "joint_composite": false,
       "options": [
-        "Higher in both compartments",
-        "Lower in both compartments",
-        "Unchanged in both compartments",
-        "Higher in ECF but lower in ICF"
+        "Higher ECF tonicity pulls water out of cells, so cells shrink and final osmolality rises",
+        "Lower ECF tonicity drives water into cells, so cells swell and final osmolality falls",
+        "Unchanged ECF tonicity causes no net transcellular water shift, so cell volume and osmolality stay unchanged",
+        "Higher ECF tonicity drives water into cells, so cells swell while final osmolality rises"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "Higher in both compartments conflicts with the dashed top-border height. The dashed and solid top borders remain at the same height, indicating no osmolality change.",
-        "Lower in both compartments conflicts with the dashed top-border height. The dashed and solid top borders remain at the same height, indicating no osmolality change.",
-        "The dashed and solid top borders remain at the same height, indicating no osmolality change. Osmotic equilibration gives the same final direction in both compartments.",
-        "Higher in ECF but lower in ICF conflicts with the dashed top-border height. The dashed and solid top borders remain at the same height, indicating no osmolality change."
+        "Higher ECF tonicity would raise the final top border and narrow ICF; the diagram shows neither change.",
+        "Lower ECF tonicity would lower the final top border and widen ICF; the diagram shows neither change.",
+        "Because effective osmolality is unchanged, there is no sustained transcellular water shift. The overlapping ICF boundaries therefore indicate unchanged cell volume.",
+        "ECF is not hypertonic because the dashed top does not rise, and water entry would widen ICF rather than leave it unchanged."
       ],
-      "explanation": "The dashed and solid top borders remain at the same height, indicating no osmolality change. Osmotic equilibration gives the same final direction in both compartments.",
+      "explanation": "An isotonic infusion does not create a sustained osmotic gradient across cell membranes. ECF expands, but there is no net transcellular water shift, so cell volume and final osmolality remain unchanged.",
       "visual_clues": [
-        "Compare the heights of solid and dashed top borders",
-        "Both compartment tops settle at the same final height"
+        "Solid and dashed top borders overlap",
+        "Solid and dashed ICF boundaries overlap"
       ],
       "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible RLS labels/diagram and matching authoritative RLS page",
+      "ground_truth_basis": "Visible compartment pattern and authoritative R2 lecture definitions and body-fluid-shift explanation",
       "citations": [
         {
           "document": "R2 Fluid Regulation & Fluid Compartments (Physiology) RLS.pdf",
@@ -5289,6 +5289,478 @@
       "original_filename": "R9/Where NH3 Comes from.png",
       "category": "Diagram",
       "collection": "R9",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-a39cf3bf7feed2f220c8",
+      "asset_id": "asset-a2934d33ac6e7524",
+      "source_group_id": "group-a2934d33ac6e7524",
+      "source_id": "src-a2934d33ac6e7524",
+      "variant_id": "var-af4f317cf918333dc1312c95",
+      "question_type": "Visual Identification",
+      "tested_concept": "Osmotic ADH threshold",
+      "stem": "At approximately which plotted plasma tonicity does the red ADH curve begin its sustained rise?",
+      "visual_target": "The red ADH curve, its x-axis threshold, and the shaded thirst zone",
+      "joint_composite": false,
+      "options": [
+        "The curve does not rise",
+        "About 280 mOsm/kg",
+        "About 260 mOsm/kg",
+        "About 300 mOsm/kg"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The red curve clearly rises as tonicity increases beyond the threshold.",
+        "The red curve is flat through about 280 and then rises steeply.",
+        "At 260 the red curve is still at its nearly flat baseline.",
+        "At 300 the red curve is already well above its threshold."
+      ],
+      "explanation": "The red curve is flat through about 280 and then rises steeply.",
+      "visual_clues": [
+        "Flat baseline to about 280",
+        "Steep rise after the breakpoint"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R23 - Fluid Regulation Disorders (Pathophysiology)/R23 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R23 Fluid Regulation Disorders (Pathophysiology) RLS.pdf",
+          "page": null,
+          "sha256": "5fbc73a2e3005cdf9def3b32410f4bd4eb194e02f32b704486dfeded13c50e1d"
+        },
+        {
+          "document": "Renal/Lecture/R23 - Fluid Regulation Disorders (Pathophysiology)/R23 - Detailed Notes.md",
+          "page": null,
+          "sha256": "64b98bf8de66c40d4a985753162d19a73093b778d21106f36374be6faa0ebdd7"
+        },
+        {
+          "document": "R23/Plasma ADH vs Plasma Tonicity Thirst Graph - Diagram.png",
+          "page": null,
+          "sha256": "a2934d33ac6e75247348668e54c3e4652faea7231d40dded9b6cfcbf2b3e5956"
+        }
+      ],
+      "image": "assets/af4f317cf918333dc1312c95.webp",
+      "zoom_image": "assets/af4f317cf918333dc1312c95.png",
+      "original_image": "assets/a2934d33ac6e75247348668e.png",
+      "original_filename": "R23/Plasma ADH vs Plasma Tonicity Thirst Graph - Diagram.png",
+      "category": "Graph",
+      "collection": "R23",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-7d62284417c20b1ff7f3",
+      "asset_id": "asset-39e4755caac187b8",
+      "source_group_id": "group-39e4755caac187b8",
+      "source_id": "src-39e4755caac187b8",
+      "variant_id": "var-03aeaf5afbe803a31230c13e",
+      "question_type": "Visual Identification",
+      "tested_concept": "Pitting peripheral edema",
+      "stem": "What visible physical finding is demonstrated by the depressed marks on the right lower leg?",
+      "visual_target": "The persistent skin indentations and swollen lower legs",
+      "joint_composite": false,
+      "options": [
+        "Pitting edema",
+        "Purpuric eruption",
+        "Digital clubbing",
+        "An ulcerated plaque"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Several pressure-shaped indentations remain in the visibly swollen lower leg.",
+        "No red-purple nonblanching skin lesions form the target.",
+        "The finding is on the lower leg, not the distal fingers.",
+        "No open ulcerated surface is visible at the depressed marks."
+      ],
+      "explanation": "Several pressure-shaped indentations remain in the visibly swollen lower leg.",
+      "visual_clues": [
+        "Persistent leg indentations",
+        "Diffuse lower-leg swelling"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R24 - Electrolyte Disorders (Pathophysiology)/R24 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R24 Electrolyte Disorders (Pathophysiology) RLS.pdf",
+          "page": null,
+          "sha256": "96abfe15cff08ec81826d4eaf758a6af272c9c6aad906c60d8a3db3bb0fcc2a4"
+        },
+        {
+          "document": "Renal/Lecture/R24 - Electrolyte Disorders (Pathophysiology)/R24 - Detailed Notes.md",
+          "page": null,
+          "sha256": "f2a5ccca7978fac1bd1c02d20ce829df406ca6a39ec9ab2c99db7a845bf9f313"
+        },
+        {
+          "document": "R24/Pitting Edema - Clinical Photo.png",
+          "page": null,
+          "sha256": "39e4755caac187b8e8d752a28329b8a4acf1e5f0fa5066df8ab3da2b841e4ea1"
+        }
+      ],
+      "image": "assets/03aeaf5afbe803a31230c13e.webp",
+      "zoom_image": "assets/03aeaf5afbe803a31230c13e.png",
+      "original_image": "assets/39e4755caac187b8e8d752a2.png",
+      "original_filename": "R24/Pitting Edema - Clinical Photo.png",
+      "category": "Clinical photograph",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-0d555a4ccc759df76976",
+      "asset_id": "asset-304086caff0d44ad",
+      "source_group_id": "group-304086caff0d44ad",
+      "source_id": "src-304086caff0d44ad",
+      "variant_id": "var-2c5b084bc9598d004a7b4aaf",
+      "question_type": "Visual Identification",
+      "tested_concept": "Bilateral pulmonary air-space opacity",
+      "stem": "Which radiographic pattern is most evident across the lung fields?",
+      "visual_target": "Both full lung fields and their central to lower-zone opacities",
+      "joint_composite": false,
+      "options": [
+        "A single small apical pneumothorax",
+        "One discrete peripheral pulmonary nodule",
+        "Clear lungs without air-space opacity",
+        "Bilateral diffuse air-space opacities"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "No sharply separated pleural air space occupies a single apex.",
+        "The abnormality is widespread rather than one rounded peripheral nodule.",
+        "Both lung fields contain substantial abnormal opacity.",
+        "Broad hazy-to-confluent opacities involve both lungs, especially central and lower zones."
+      ],
+      "explanation": "Broad hazy-to-confluent opacities involve both lungs, especially central and lower zones.",
+      "visual_clues": [
+        "Bilateral hazy and confluent density",
+        "No isolated focal nodule"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R24 - Electrolyte Disorders (Pathophysiology)/R24 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R24 Electrolyte Disorders (Pathophysiology) RLS.pdf",
+          "page": null,
+          "sha256": "96abfe15cff08ec81826d4eaf758a6af272c9c6aad906c60d8a3db3bb0fcc2a4"
+        },
+        {
+          "document": "Renal/Lecture/R24 - Electrolyte Disorders (Pathophysiology)/R24 - Detailed Notes.md",
+          "page": null,
+          "sha256": "f2a5ccca7978fac1bd1c02d20ce829df406ca6a39ec9ab2c99db7a845bf9f313"
+        },
+        {
+          "document": "R24/Pulmonary Edema Chest - Radiograph.png",
+          "page": null,
+          "sha256": "304086caff0d44ad3e8256821e7c616e717e80585de3292706027c53246831d2"
+        }
+      ],
+      "image": "assets/2c5b084bc9598d004a7b4aaf.webp",
+      "zoom_image": "assets/2c5b084bc9598d004a7b4aaf.png",
+      "original_image": "assets/304086caff0d44ad3e825682.png",
+      "original_filename": "R24/Pulmonary Edema Chest - Radiograph.png",
+      "category": "Chest radiograph",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-128c465df059f88c355a",
+      "asset_id": "asset-0b6d9905c9285206",
+      "source_group_id": "group-0b6d9905c9285206",
+      "source_id": "src-0b6d9905c9285206",
+      "variant_id": "var-1934c00eeb69e055fb6ceb9e",
+      "question_type": "Visual Identification",
+      "tested_concept": "Carpopedal spasm in hypocalcemia",
+      "stem": "What hand posture is illustrated in the right panel?",
+      "visual_target": "The full right-hand panel, retaining the fingers and thumb",
+      "joint_composite": false,
+      "options": [
+        "Carpopedal spasm",
+        "Facial twitch after cheek tapping",
+        "Flaccid open hand",
+        "Digital clubbing"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The hand shows flexed wrist and fingers with the thumb drawn toward the palm.",
+        "Facial tapping and the face are depicted in the other panel, not this hand posture.",
+        "The illustrated hand is contracted rather than relaxed and fully open.",
+        "Clubbing changes fingertip shape; it does not cause this acute contracted posture."
+      ],
+      "explanation": "The hand shows flexed wrist and fingers with the thumb drawn toward the palm.",
+      "visual_clues": [
+        "Flexed wrist and fingers",
+        "Thumb drawn toward palm"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R26 - Serum Calcium & Magnesium Regulation (Pathophysiology)/R26 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R26 Serum Calcium & Magnesium Regulation Pathophysiology) RLS.pdf",
+          "page": null,
+          "sha256": "85ca68835a904a79d45d54daff3316fe907d2f087c10192eb10e217a0f786c47"
+        },
+        {
+          "document": "Renal/Lecture/R26 - Serum Calcium & Magnesium Regulation (Pathophysiology)/R26 - Detailed Notes.md",
+          "page": null,
+          "sha256": "c46c63cf325c83cfe9fe60a4bab71d517a6ddfdd60a7bf4423801c33d2183dd4"
+        },
+        {
+          "document": "R26/Chvostek and Trousseau Signs - Diagram.png",
+          "page": null,
+          "sha256": "0b6d9905c9285206bb0396f5b8af29514a0e5ea2e2f5b180c9032171c30118d7"
+        }
+      ],
+      "image": "assets/1934c00eeb69e055fb6ceb9e.webp",
+      "zoom_image": "assets/1934c00eeb69e055fb6ceb9e.png",
+      "original_image": "assets/0b6d9905c9285206bb0396f5.png",
+      "original_filename": "R26/Chvostek and Trousseau Signs - Diagram.png",
+      "category": "Clinical diagram",
+      "collection": "R26",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-1fef41f50349faa42368",
+      "asset_id": "asset-2ab88295ada8f92a",
+      "source_group_id": "group-2ab88295ada8f92a",
+      "source_id": "src-2ab88295ada8f92a",
+      "variant_id": "var-ec8affe36be15403b6c54e94",
+      "question_type": "Visual Identification",
+      "tested_concept": "Alpha-intercalated-cell acid-base direction",
+      "stem": "Which paired direction of transport is shown for H⁺ and HCO₃⁻?",
+      "visual_target": "The complete cell with tubular lumen at left and blood at right",
+      "joint_composite": false,
+      "options": [
+        "H⁺ to lumen and HCO₃⁻ to blood",
+        "H⁺ to blood and HCO₃⁻ to lumen",
+        "Both H⁺ and HCO₃⁻ to lumen",
+        "Both H⁺ and HCO₃⁻ to blood"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Apical H⁺ pump arrows point left into the lumen, while HCO₃⁻ exits right into blood.",
+        "The arrows in the diagram point opposite to this reversed pairing.",
+        "Bicarbonate is shown leaving across the blood-facing membrane, not to urine.",
+        "Hydrogen ions are shown secreted into the lumen, not solely to blood."
+      ],
+      "explanation": "Apical H⁺ pump arrows point left into the lumen, while HCO₃⁻ exits right into blood.",
+      "visual_clues": [
+        "Leftward apical H⁺ arrows",
+        "Rightward basolateral HCO₃⁻ arrow"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R30 - Acid-Base Balance/R30 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R30 Acid-Base Balance RLS.pdf",
+          "page": null,
+          "sha256": "7040d968c0ad40a40a6c52f7141f47763c328dba4eb26a8acdd4c57d3323eec6"
+        },
+        {
+          "document": "Renal/Lecture/R30 - Acid-Base Balance/R30 - Detailed Notes.md",
+          "page": null,
+          "sha256": "3228c630127f6cc7ddbab016f827697926e1b8184a18d33d269a13a32962816f"
+        },
+        {
+          "document": "R30/Proton Secretion Naked Alpha Intercalated Cell - Diagram.png",
+          "page": null,
+          "sha256": "2ab88295ada8f92a1dd4fa052538184c072dd81210087431cca8c3498cc80346"
+        }
+      ],
+      "image": "assets/ec8affe36be15403b6c54e94.webp",
+      "zoom_image": "assets/ec8affe36be15403b6c54e94.png",
+      "original_image": "assets/2ab88295ada8f92a1dd4fa05.png",
+      "original_filename": "R30/Proton Secretion Naked Alpha Intercalated Cell - Diagram.png",
+      "category": "Cell transport diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-c7dad792051d8afa32aa",
+      "asset_id": "asset-c9f7743011d25544",
+      "source_group_id": "group-c9f7743011d25544",
+      "source_id": "src-c9f7743011d25544",
+      "variant_id": "var-7c798be868d10a348702e748",
+      "question_type": "Visual Identification",
+      "tested_concept": "Combined GFR and albuminuria category",
+      "stem": "At the intersection of G4 and A3, what action and frequency are printed in the risk map?",
+      "visual_target": "G4 row crossed with A3 column, retaining the complete row and column headings",
+      "joint_composite": false,
+      "options": [
+        "Monitor; 1",
+        "Monitor; 2",
+        "Refer; 2",
+        "Refer; 4+"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Monitor 1 appears in lower-risk cells, not G4–A3.",
+        "Monitor 2 is printed in other categories, not this dark-red intersection.",
+        "Refer 2 appears higher in the A3 column, not at G4.",
+        "The G4–A3 cell reads Refer with 4+ below it."
+      ],
+      "explanation": "The G4–A3 cell reads Refer with 4+ below it.",
+      "visual_clues": [
+        "G4 row",
+        "A3 column"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+          "page": null,
+          "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
+        }
+      ],
+      "image": "assets/7c798be868d10a348702e748.webp",
+      "zoom_image": "assets/7c798be868d10a348702e748.png",
+      "original_image": "assets/c9f7743011d25544f315614e.png",
+      "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+      "category": "Risk table",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-29173580e3bf505e1952",
+      "asset_id": "asset-90ee2a438e7f2916",
+      "source_group_id": "group-90ee2a438e7f2916",
+      "source_id": "src-90ee2a438e7f2916",
+      "variant_id": "var-fd4acc031760e87143a51bb2",
+      "question_type": "Visual Identification",
+      "tested_concept": "Automated peritoneal dialysis apparatus",
+      "stem": "Which treatment setup is pictured beside the patient?",
+      "visual_target": "The bedside cycler, tubing, and fluid bags jointly",
+      "joint_composite": true,
+      "options": [
+        "A renal biopsy procedure",
+        "A urinary catheter drainage bag only",
+        "Automated peritoneal dialysis exchange",
+        "In-center hemodialysis through an AV fistula"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "No biopsy needle, probe, or procedural imaging is present.",
+        "The multiple exchange lines and cycler are more than a single urine-drainage bag.",
+        "A bedside cycler connects via multiple tubing lines to fluid bags for exchange.",
+        "No extracorporeal blood dialyzer or fistula needles are shown."
+      ],
+      "explanation": "A bedside cycler connects via multiple tubing lines to fluid bags for exchange.",
+      "visual_clues": [
+        "Bedside cycler with controls",
+        "Multiple dialysate lines and bags"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/Peritoneal Dialysis Exchange Photo - Clinical Photo.png",
+          "page": null,
+          "sha256": "90ee2a438e7f2916f9bdbbd82a7200c3d81d2e217227f833746350e4412971d8"
+        }
+      ],
+      "image": "assets/fd4acc031760e87143a51bb2.webp",
+      "zoom_image": "assets/fd4acc031760e87143a51bb2.png",
+      "original_image": "assets/90ee2a438e7f2916f9bdbbd8.png",
+      "original_filename": "R31/Peritoneal Dialysis Exchange Photo - Clinical Photo.png",
+      "category": "Clinical photograph",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-ac375d02b0c42da50faf",
+      "asset_id": "asset-3e44a5ba956378fb",
+      "source_group_id": "group-3e44a5ba956378fb",
+      "source_id": "src-3e44a5ba956378fb",
+      "variant_id": "var-2c3d4a5656d37d2f3f8481a1",
+      "question_type": "Visual Identification",
+      "tested_concept": "Finerenone UACR dose response",
+      "stem": "As finerenone dose rises across the plotted groups, how do the day-90 UACR ratios generally change?",
+      "visual_target": "The complete plotted point series, dose x-axis, and UACR-ratio y-axis",
+      "joint_composite": false,
+      "options": [
+        "They alternate without an overall trend",
+        "They generally decrease",
+        "They remain exactly constant",
+        "They rise steadily above 1.0"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Although adjacent groups vary slightly, the overall trajectory is downward.",
+        "The plotted means trend downward from about 0.9 on placebo to about 0.6 at 20 mg/d.",
+        "The point estimates are visibly lower at higher doses, not constant.",
+        "The plotted values are mostly below 1.0 and do not rise with dose."
+      ],
+      "explanation": "The plotted means trend downward from about 0.9 on placebo to about 0.6 at 20 mg/d.",
+      "visual_clues": [
+        "Dose increases left to right",
+        "Mean ratio falls overall"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/Proteinuria Reduction Finerenone Dosage Response - Diagram.png",
+          "page": null,
+          "sha256": "3e44a5ba956378fb6eeea6e21e373e99b9750c5bc61fe38b63d89d456fe0f1b1"
+        }
+      ],
+      "image": "assets/2c3d4a5656d37d2f3f8481a1.webp",
+      "zoom_image": "assets/2c3d4a5656d37d2f3f8481a1.png",
+      "original_image": "assets/3e44a5ba956378fb6eeea6e2.png",
+      "original_filename": "R31/Proteinuria Reduction Finerenone Dosage Response - Diagram.png",
+      "category": "Dose-response graph",
+      "collection": "R31",
       "source_origin": "lecture",
       "status": "USABLE",
       "case_context": "",

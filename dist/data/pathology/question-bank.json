@@ -1,0 +1,4188 @@
+{
+  "schema_version": 2,
+  "bank_version": "renal-pathology-2026-10-18-full-manual",
+  "title": "Renal Pathology and Related Topics Picture Quiz",
+  "lecture": "mixed",
+  "questions": [
+    {
+      "question_id": "q-e6508b3de6b2c810f271",
+      "asset_id": "asset-978139fbd519efab",
+      "source_group_id": "group-978139fbd519efab",
+      "source_id": "src-978139fbd519efab",
+      "variant_id": "var-965892edd2c4c49336f33dde",
+      "question_type": "Identification",
+      "tested_concept": "Jones silver glomerular outlines",
+      "stem": "What do the dark silver-positive lines tracing the glomerular capillary loops best outline?",
+      "visual_target": "Full field and magnified inset jointly show the glomerular capillary-loop outlines.",
+      "joint_composite": true,
+      "options": [
+        "Glomerular basement membranes",
+        "Erythrocyte nuclei",
+        "Tubular lumina",
+        "Interstitium"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The black lines follow the curved borders of capillary loops within the tuft.",
+        "Erythrocytes have no nuclei, and the lines are continuous loop borders rather than isolated cells.",
+        "Tubular lumina lie outside the tuft and are not the traced intraglomerular loops.",
+        "The interstitium is between tubules rather than the capillary-loop outlines inside the tuft."
+      ],
+      "explanation": "The black lines follow the curved borders of capillary loops within the tuft.",
+      "visual_clues": [
+        "Smooth dark loop borders",
+        "Central glomerular tuft"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 16.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 16,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/Jones Stain.png",
+          "page": null,
+          "sha256": "978139fbd519efab6f509814729fe02a7c4aefa5daff6506de4d56c530adf99f"
+        }
+      ],
+      "image": "assets/965892edd2c4c49336f33dde.webp",
+      "zoom_image": "assets/965892edd2c4c49336f33dde.png",
+      "original_image": "assets/978139fbd519efab6f509814.png",
+      "original_filename": "R14/Jones Stain.png",
+      "category": "Histology",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-782f64afdebc3e7de4b5",
+      "asset_id": "asset-f7639835a07d667f",
+      "source_group_id": "group-f7639835a07d667f",
+      "source_id": "src-f7639835a07d667f",
+      "variant_id": "var-6a3887ba6e751b96c44057e0",
+      "question_type": "Localization",
+      "tested_concept": "Renal cortical region",
+      "stem": "In this kidney section, which region is the continuous outer brown band marked C?",
+      "visual_target": "In this kidney section, which region is the continuous outer brown band marked C?",
+      "joint_composite": false,
+      "options": [
+        "Cortex",
+        "Medulla",
+        "Renal pelvis",
+        "Renal sinus"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The marked band follows the kidney surface and surrounds the deeper pyramidal tissue.",
+        "The medulla forms the inner pyramidal zones, not the peripheral band marked C.",
+        "The renal pelvis is the central collecting space, not the outer brown tissue.",
+        "The sinus is the central compartment around the collecting structures, not the outer band."
+      ],
+      "explanation": "The marked band follows the kidney surface and surrounds the deeper pyramidal tissue.",
+      "visual_clues": [
+        "Outer continuous rim",
+        "Inner pyramidal structures lie beneath it"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 5.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 5,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/Kidney Gross.png",
+          "page": null,
+          "sha256": "f7639835a07d667f977e82a51415bd631b5b046a83175cb98fac99d34e7fb4c6"
+        }
+      ],
+      "image": "assets/6a3887ba6e751b96c44057e0.webp",
+      "zoom_image": "assets/6a3887ba6e751b96c44057e0.png",
+      "original_image": "assets/f7639835a07d667f977e82a5.png",
+      "original_filename": "R14/Kidney Gross.png",
+      "category": "Gross Anatomy",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-e864a03270bd14bd2c2c",
+      "asset_id": "asset-de4a3a5a3d350476",
+      "source_group_id": "group-de4a3a5a3d350476",
+      "source_id": "src-de4a3a5a3d350476",
+      "variant_id": "var-d431b0c52aeb108975497363",
+      "question_type": "Pattern Recognition",
+      "tested_concept": "RBC casts in nephritic urine",
+      "stem": "Across these two urine micrographs, which cellular sediment finding best matches the elongated red-cell aggregates?",
+      "visual_target": "Both complete views jointly show the same visual target.",
+      "joint_composite": true,
+      "options": [
+        "Red blood cell casts",
+        "Hyaline casts",
+        "Fatty casts",
+        "Calcium oxalate crystals"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The elongated cylindrical aggregates contain densely packed red cells.",
+        "Hyaline casts are pale and largely acellular, unlike these cell-packed structures.",
+        "Fatty casts show lipid droplets rather than densely packed erythrocytes.",
+        "Calcium oxalate forms geometric crystals, not cellular cylinders."
+      ],
+      "explanation": "The elongated cylindrical aggregates contain densely packed red cells.",
+      "visual_clues": [
+        "Cylindrical outline",
+        "Dense red-cell contents"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 23.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 23,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/Nephritic Syndrome.png",
+          "page": null,
+          "sha256": "de4a3a5a3d3504766b9f4af03ec53b143f3856d768aa38b7992cae9462ebac75"
+        }
+      ],
+      "image": "assets/d431b0c52aeb108975497363.webp",
+      "zoom_image": "assets/d431b0c52aeb108975497363.png",
+      "original_image": "assets/de4a3a5a3d3504766b9f4af0.png",
+      "original_filename": "R14/Nephritic Syndrome.png",
+      "category": "Urine Microscopy",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-6beb0ced171fc99a941e",
+      "asset_id": "asset-2ac450da107bdf37",
+      "source_group_id": "group-2ac450da107bdf37",
+      "source_id": "src-2ac450da107bdf37",
+      "variant_id": "var-0609013082ca6bb5ceb778b5",
+      "question_type": "Cell/Tissue",
+      "tested_concept": "Glomeruli in renal cortex",
+      "stem": "Which structures form the rounded capillary tufts scattered among the closely packed tubules?",
+      "visual_target": "Which structures form the rounded capillary tufts scattered among the closely packed tubules?",
+      "joint_composite": false,
+      "options": [
+        "Glomeruli",
+        "Collecting ducts",
+        "Interlobular arteries",
+        "Tubular lumina"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Several larger rounded tufts contain many capillary loops and stand apart from the surrounding tubules.",
+        "Collecting ducts are tubular profiles rather than rounded capillary tufts.",
+        "An artery has a defined muscular wall and lumen, unlike these repeated tuft profiles.",
+        "Tubular lumina are small central spaces within the surrounding epithelial tubules."
+      ],
+      "explanation": "Several larger rounded tufts contain many capillary loops and stand apart from the surrounding tubules.",
+      "visual_clues": [
+        "Multiple rounded tufts",
+        "Numerous back-to-back tubules"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 13.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 13,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/PAS Kidney.png",
+          "page": null,
+          "sha256": "2ac450da107bdf37335d98d7f696da7ed186a1e43bb9560339f1f5da31ce52e9"
+        }
+      ],
+      "image": "assets/0609013082ca6bb5ceb778b5.webp",
+      "zoom_image": "assets/0609013082ca6bb5ceb778b5.png",
+      "original_image": "assets/2ac450da107bdf37335d98d7.png",
+      "original_filename": "R14/PAS Kidney.png",
+      "category": "Histology",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-39be4bb0ea66097fef44",
+      "asset_id": "asset-023b54785ea9c188",
+      "source_group_id": "group-023b54785ea9c188",
+      "source_id": "src-023b54785ea9c188",
+      "variant_id": "var-bf68ce585dee2c9138dd7f73",
+      "question_type": "Structure",
+      "tested_concept": "Renal artery on PAS",
+      "stem": "What is the large thick-walled round structure near the center-left of this PAS field?",
+      "visual_target": "What is the large thick-walled round structure near the center-left of this PAS field?",
+      "joint_composite": false,
+      "options": [
+        "Artery",
+        "Glomerulus",
+        "Proximal tubule",
+        "Bowman space"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "It has a broad central lumen bounded by a conspicuous vascular wall.",
+        "The glomerulus is a capillary tuft, visible separately toward the lower right.",
+        "A proximal tubule has an epithelial wall and much smaller lumen than this vessel.",
+        "Bowman space is the narrow space around a glomerular tuft, not this large thick-walled profile."
+      ],
+      "explanation": "It has a broad central lumen bounded by a conspicuous vascular wall.",
+      "visual_clues": [
+        "Broad open lumen",
+        "Distinct vessel wall"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 14.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 14,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/Pas Kidney Zoomed.png",
+          "page": null,
+          "sha256": "023b54785ea9c1880f63375b4692197858baad1cd38dc6c628752863ed230a18"
+        }
+      ],
+      "image": "assets/bf68ce585dee2c9138dd7f73.webp",
+      "zoom_image": "assets/bf68ce585dee2c9138dd7f73.png",
+      "original_image": "assets/023b54785ea9c1880f63375b.png",
+      "original_filename": "R14/Pas Kidney Zoomed.png",
+      "category": "Histology",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-edfc735d61162fb664e1",
+      "asset_id": "asset-63fd0b8b1e7e820c",
+      "source_group_id": "group-63fd0b8b1e7e820c",
+      "source_id": "src-63fd0b8b1e7e820c",
+      "variant_id": "var-9798157adf8e3137ef252b35",
+      "question_type": "Structure",
+      "tested_concept": "Glomerulus in toluidine-blue section",
+      "stem": "Which structure is the rounded capillary tuft at lower right, distinct from adjacent tubular profiles?",
+      "visual_target": "Which structure is the rounded capillary tuft at lower right, distinct from adjacent tubular profiles?",
+      "joint_composite": false,
+      "options": [
+        "Glomerulus",
+        "Collecting duct",
+        "Artery",
+        "Medullary papilla"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The rounded profile contains a compact tuft of multiple capillary loops.",
+        "Collecting ducts form epithelial tubular profiles rather than a capillary tuft.",
+        "An artery would have a muscular wall around one lumen, not many tuft loops.",
+        "A medullary papilla is a gross region, not one rounded cortical microscopic profile."
+      ],
+      "explanation": "The rounded profile contains a compact tuft of multiple capillary loops.",
+      "visual_clues": [
+        "Rounded tuft",
+        "Surrounding darker tubular cross-sections"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R14 Intro to Renal Pathology RLS.pdf p. 15.",
+      "citations": [
+        {
+          "document": "R14 Intro to Renal Pathology RLS.pdf",
+          "page": 15,
+          "sha256": "ef729f284dbf374f9bfba11566bc97d3dea94764544f2db585247e517d625602"
+        },
+        {
+          "document": "R14/Toluidine blue.png",
+          "page": null,
+          "sha256": "63fd0b8b1e7e820cb075ac24e3f8bb242331dabb404a81656a81cbf1d592bc8c"
+        }
+      ],
+      "image": "assets/9798157adf8e3137ef252b35.webp",
+      "zoom_image": "assets/9798157adf8e3137ef252b35.png",
+      "original_image": "assets/63fd0b8b1e7e820cb075ac24.png",
+      "original_filename": "R14/Toluidine blue.png",
+      "category": "Histology",
+      "collection": "R14",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-82c1141df8042112c8e6",
+      "asset_id": "asset-af7ea27e0e06552a",
+      "source_group_id": "group-af7ea27e0e06552a",
+      "source_id": "src-af7ea27e0e06552a",
+      "variant_id": "var-6aa62fb7fd96a0b45e2f18ed",
+      "question_type": "Clinical Association",
+      "tested_concept": "Acyclovir needle crystals",
+      "stem": "Which medication’s crystals are represented by these long, separate crossing needles?",
+      "visual_target": "Which medication’s crystals are represented by these long, separate crossing needles?",
+      "joint_composite": false,
+      "options": [
+        "Acyclovir",
+        "Indinavir",
+        "Sulfadiazine",
+        "Phenazopyridine"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Multiple long thin needles cross without forming a dense central sunburst, matching the lecture’s acyclovir image.",
+        "Indinavir in the lecture forms a radial sunburst/plate-like cluster, unlike these crossing individual needles.",
+        "Sulfadiazine has a wider shocks-of-wheat or shell-shaped bundle rather than these sparse needles.",
+        "Phenazopyridine is a urine-color/dipstick example, not the source of this crystal image."
+      ],
+      "explanation": "Multiple long thin needles cross without forming a dense central sunburst, matching the lecture’s acyclovir image.",
+      "visual_clues": [
+        "Long thin needles",
+        "No dense radial center"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 33.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 33,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Acyclovir crystals.png",
+          "page": null,
+          "sha256": "af7ea27e0e06552ad6fdedcbf49817243fa4aee401f0abdd6a320abd9e7296d9"
+        }
+      ],
+      "image": "assets/6aa62fb7fd96a0b45e2f18ed.webp",
+      "zoom_image": "assets/6aa62fb7fd96a0b45e2f18ed.png",
+      "original_image": "assets/af7ea27e0e06552ad6fdedcb.png",
+      "original_filename": "R15/Acyclovir crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-beb8c5feab73a9f12062",
+      "asset_id": "asset-976623467ec4f716",
+      "source_group_id": "group-976623467ec4f716",
+      "source_id": "src-976623467ec4f716",
+      "variant_id": "var-3425b3abbe5a4530f90f38f1",
+      "question_type": "Identification",
+      "tested_concept": "Struvite coffin-lid crystal",
+      "stem": "Which crystal type is represented by the repeated rectangular coffin-lid forms?",
+      "visual_target": "Which crystal type is represented by the repeated rectangular coffin-lid forms?",
+      "joint_composite": false,
+      "options": [
+        "Struvite",
+        "Cystine",
+        "Calcium oxalate dihydrate",
+        "Uric acid"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The repeated elongated rectangular prisms have the beveled coffin-lid appearance taught for struvite.",
+        "Cystine forms flat hexagonal plates rather than these elongated rectangular prisms.",
+        "Calcium oxalate dihydrate forms square envelopes with crossing diagonals.",
+        "Uric acid in this lecture is rhomboid or needle shaped, not a field of coffin-lid prisms."
+      ],
+      "explanation": "The repeated elongated rectangular prisms have the beveled coffin-lid appearance taught for struvite.",
+      "visual_clues": [
+        "Rectangular prisms",
+        "Beveled coffin-lid ends"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 31.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 31,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Ammonium phosphate:struvite crystals.png",
+          "page": null,
+          "sha256": "976623467ec4f71641adb0ee6f38f5b10bebf5f24d77e252ff031925641d5e00"
+        }
+      ],
+      "image": "assets/3425b3abbe5a4530f90f38f1.webp",
+      "zoom_image": "assets/3425b3abbe5a4530f90f38f1.png",
+      "original_image": "assets/976623467ec4f71641adb0ee.png",
+      "original_filename": "R15/Ammonium phosphate:struvite crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-08e15981953f7114fb30",
+      "asset_id": "asset-10ecabeaba082849",
+      "source_group_id": "group-10ecabeaba082849",
+      "source_id": "src-10ecabeaba082849",
+      "variant_id": "var-3a7dc046be30a8fa978f9f40",
+      "question_type": "Identification",
+      "tested_concept": "Calcium oxalate dihydrate envelope",
+      "stem": "Which calcium oxalate crystal form is shown by these square envelopes with diagonal crosses?",
+      "visual_target": "Which calcium oxalate crystal form is shown by these square envelopes with diagonal crosses?",
+      "joint_composite": false,
+      "options": [
+        "Dihydrate",
+        "Monohydrate",
+        "Calcium phosphate",
+        "Struvite"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Each square crystal contains the crossed diagonal envelope pattern taught for calcium oxalate dihydrate.",
+        "Monohydrate is shown as elongated dumbbell-like forms in the lecture, not square envelopes.",
+        "Calcium phosphate appears as rosettes or elongated prisms, not repeated envelopes.",
+        "Struvite has coffin-lid rectangular prisms rather than crossed square outlines."
+      ],
+      "explanation": "Each square crystal contains the crossed diagonal envelope pattern taught for calcium oxalate dihydrate.",
+      "visual_clues": [
+        "Square envelope outlines",
+        "Diagonal cross through each crystal"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 30.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 30,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Calcium Oxalate Dihydrate crystals.png",
+          "page": null,
+          "sha256": "10ecabeaba0828491ae4002441863307f778f65fe2720b264a79c9845f2f9208"
+        }
+      ],
+      "image": "assets/3a7dc046be30a8fa978f9f40.webp",
+      "zoom_image": "assets/3a7dc046be30a8fa978f9f40.png",
+      "original_image": "assets/10ecabeaba0828491ae40024.png",
+      "original_filename": "R15/Calcium Oxalate Dihydrate crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-7ffd1a6b0a75a031b370",
+      "asset_id": "asset-93346894cf51d2b4",
+      "source_group_id": "group-93346894cf51d2b4",
+      "source_id": "src-93346894cf51d2b4",
+      "variant_id": "var-b51719264f6bc7777a5bc24b",
+      "question_type": "Identification",
+      "tested_concept": "Calcium oxalate monohydrate form",
+      "stem": "Which calcium oxalate form is represented by the elongated dumbbell-like crystals?",
+      "visual_target": "Which calcium oxalate form is represented by the elongated dumbbell-like crystals?",
+      "joint_composite": false,
+      "options": [
+        "Monohydrate",
+        "Dihydrate",
+        "Cystine",
+        "Uric acid"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The elongated rounded/dumbbell-like outlines match the monohydrate image in the lecture.",
+        "Dihydrate is the square crossed-envelope form, not these elongated bodies.",
+        "Cystine appears as flat hexagonal plates rather than dumbbells.",
+        "Uric acid appears as rhomboids or needles in the lecture, not this repeated form."
+      ],
+      "explanation": "The elongated rounded/dumbbell-like outlines match the monohydrate image in the lecture.",
+      "visual_clues": [
+        "Elongated rounded crystals",
+        "Dumbbell-like ends"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 30.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 30,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Calcium Oxalate Monohydrate crystals.png",
+          "page": null,
+          "sha256": "93346894cf51d2b4f1ee69798b0e9da087df561c0fea78be66ff6a3668096e40"
+        }
+      ],
+      "image": "assets/b51719264f6bc7777a5bc24b.webp",
+      "zoom_image": "assets/b51719264f6bc7777a5bc24b.png",
+      "original_image": "assets/93346894cf51d2b4f1ee6979.png",
+      "original_filename": "R15/Calcium Oxalate Monohydrate crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-f782a278dd8834e013ef",
+      "asset_id": "asset-718c2c10124d880d",
+      "source_group_id": "group-718c2c10124d880d",
+      "source_id": "src-718c2c10124d880d",
+      "variant_id": "var-f04f383e18d64194ae5b4a00",
+      "question_type": "Pattern Recognition",
+      "tested_concept": "Calcium phosphate rosette",
+      "stem": "Which crystal pattern is shown by the radiating rosette of elongated prisms?",
+      "visual_target": "Which crystal pattern is shown by the radiating rosette of elongated prisms?",
+      "joint_composite": false,
+      "options": [
+        "Calcium phosphate",
+        "Cystine",
+        "Calcium oxalate dihydrate",
+        "Struvite"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Several long prisms radiate from a center in the calcium-phosphate image.",
+        "Cystine is a set of flat hexagonal plates rather than a rosette.",
+        "Calcium oxalate dihydrate shows separate square envelopes with crossing diagonals.",
+        "Struvite is composed of coffin-lid prisms rather than this radiating cluster."
+      ],
+      "explanation": "Several long prisms radiate from a center in the calcium-phosphate image.",
+      "visual_clues": [
+        "Radiating cluster",
+        "Elongated prisms"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 31.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 31,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Calcium phosphate crystals.png",
+          "page": null,
+          "sha256": "718c2c10124d880d58a1d7444c7f4aded098ff88395b16c136a49323cc38f2f6"
+        }
+      ],
+      "image": "assets/f04f383e18d64194ae5b4a00.webp",
+      "zoom_image": "assets/f04f383e18d64194ae5b4a00.png",
+      "original_image": "assets/718c2c10124d880d58a1d744.png",
+      "original_filename": "R15/Calcium phosphate crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-f17377a720996291edb9",
+      "asset_id": "asset-111f4cbf2ea86d64",
+      "source_group_id": "group-111f4cbf2ea86d64",
+      "source_id": "src-111f4cbf2ea86d64",
+      "variant_id": "var-953a82f832f4cd593ec49a93",
+      "question_type": "Classification",
+      "tested_concept": "Coarsely granular cast",
+      "stem": "How should the prominent cylindrical cast with large visible granules be classified?",
+      "visual_target": "How should the prominent cylindrical cast with large visible granules be classified?",
+      "joint_composite": false,
+      "options": [
+        "Coarsely granular cast",
+        "Hyaline cast",
+        "Waxy cast",
+        "Fatty cast"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The cast is densely filled with readily resolved coarse granules.",
+        "A hyaline cast would be pale and nearly transparent, without this dense granularity.",
+        "A waxy cast is more homogeneous with blunt margins and cracks, not densely granular.",
+        "A fatty cast contains lipid droplets or oval fat bodies rather than these coarse granules."
+      ],
+      "explanation": "The cast is densely filled with readily resolved coarse granules.",
+      "visual_clues": [
+        "Cylindrical cast outline",
+        "Large conspicuous granules"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 28.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 28,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Coarsely granular urinary casts.png",
+          "page": null,
+          "sha256": "111f4cbf2ea86d6406a6df23a04883f97a39ee5c3ed965da590039ac5474c638"
+        }
+      ],
+      "image": "assets/953a82f832f4cd593ec49a93.webp",
+      "zoom_image": "assets/953a82f832f4cd593ec49a93.png",
+      "original_image": "assets/111f4cbf2ea86d6406a6df23.png",
+      "original_filename": "R15/Coarsely granular urinary casts.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-df2f2a5ea93dd02b6590",
+      "asset_id": "asset-e0fb6afb9c8041b0",
+      "source_group_id": "group-e0fb6afb9c8041b0",
+      "source_id": "src-e0fb6afb9c8041b0",
+      "variant_id": "var-041dbbc8c4bdb9775ebada27",
+      "question_type": "Identification",
+      "tested_concept": "Cystine hexagonal crystals",
+      "stem": "Which crystal is supported by the flat hexagonal plates visible here?",
+      "visual_target": "Which crystal is supported by the flat hexagonal plates visible here?",
+      "joint_composite": false,
+      "options": [
+        "Cystine",
+        "Struvite",
+        "Uric acid",
+        "Calcium oxalate dihydrate"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The flat six-sided plates match the lecture’s cystine crystal morphology; the capture filename says “Cysteine,” which is not the slide term.",
+        "Struvite forms coffin-lid rectangular prisms, not flat six-sided plates.",
+        "Uric acid is taught as rhomboid or needle shaped, not regular hexagons.",
+        "Calcium oxalate dihydrate forms crossed square envelopes, not hexagons."
+      ],
+      "explanation": "The flat six-sided plates match the lecture’s cystine crystal morphology; the capture filename says “Cysteine,” which is not the slide term.",
+      "visual_clues": [
+        "Flat plate-like crystals",
+        "Repeated six-sided outlines"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 32.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 32,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Cysteine crystals.png",
+          "page": null,
+          "sha256": "e0fb6afb9c8041b05f84a198846c40184c5c87e5a574f836f047878dabc47929"
+        }
+      ],
+      "image": "assets/041dbbc8c4bdb9775ebada27.webp",
+      "zoom_image": "assets/041dbbc8c4bdb9775ebada27.png",
+      "original_image": "assets/e0fb6afb9c8041b05f84a198.png",
+      "original_filename": "R15/Cysteine crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-76a02051e35db75733b0",
+      "asset_id": "asset-6ea7917f6cea1416",
+      "source_group_id": "group-6ea7917f6cea1416",
+      "source_id": "src-6ea7917f6cea1416",
+      "variant_id": "var-ca267de73cad37ddd44870ef",
+      "question_type": "Pattern Recognition",
+      "tested_concept": "Polarized lipid in fatty casts",
+      "stem": "Which optical pattern in the rounded lipid bodies supports fatty casts?",
+      "visual_target": "Which optical pattern in the rounded lipid bodies supports fatty casts?",
+      "joint_composite": false,
+      "options": [
+        "Maltese-cross birefringence",
+        "Coffin-lid prisms",
+        "Hexagonal plates",
+        "Crossed envelope crystals"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The bright rounded lipid bodies display cross-shaped light under polarization.",
+        "Coffin-lid prisms are elongated struvite crystals, absent from this dark polarized field.",
+        "Hexagonal plates describe cystine crystals, not these rounded bright bodies.",
+        "Crossed envelopes describe calcium oxalate dihydrate crystals, not rounded birefringent lipid."
+      ],
+      "explanation": "The bright rounded lipid bodies display cross-shaped light under polarization.",
+      "visual_clues": [
+        "Bright cross-shaped centers",
+        "Rounded lipid bodies on dark background"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 28.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 28,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Fatty Urinary Casts.png",
+          "page": null,
+          "sha256": "6ea7917f6cea141699d2d91dcafeab2a0022dac1e5256321351731f0b21b9416"
+        }
+      ],
+      "image": "assets/ca267de73cad37ddd44870ef.webp",
+      "zoom_image": "assets/ca267de73cad37ddd44870ef.png",
+      "original_image": "assets/6ea7917f6cea141699d2d91d.png",
+      "original_filename": "R15/Fatty Urinary Casts.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-1f5040e6411a39ae5d42",
+      "asset_id": "asset-0a37ea5094b1d632",
+      "source_group_id": "group-0a37ea5094b1d632",
+      "source_id": "src-0a37ea5094b1d632",
+      "variant_id": "var-4bcb946dd59050440faa7370",
+      "question_type": "Pattern Recognition",
+      "tested_concept": "Dysmorphic RBCs in glomerular hematuria",
+      "stem": "What urinary red-cell pattern is indicated by the arrows in this field?",
+      "visual_target": "What urinary red-cell pattern is indicated by the arrows in this field?",
+      "joint_composite": false,
+      "options": [
+        "Dysmorphic erythrocytes",
+        "Uniform eumorphic erythrocytes",
+        "Waxy casts",
+        "Struvite crystals"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The arrowed erythrocytes vary in contour and show irregular blebs rather than uniform disks.",
+        "Uniform eumorphic RBCs would retain similar smooth round outlines across the field.",
+        "Waxy casts are long homogeneous cylinders, not individual irregular cells.",
+        "Struvite crystals are angular coffin-lid prisms rather than cells."
+      ],
+      "explanation": "The arrowed erythrocytes vary in contour and show irregular blebs rather than uniform disks.",
+      "visual_clues": [
+        "Irregular red-cell contours",
+        "Blebs on arrowed cells"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 23.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 23,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Glomerular Hematuria 2.png",
+          "page": null,
+          "sha256": "0a37ea5094b1d6327e1e0f4ef3dd4c12118f3578050301e9bb675212e66489be"
+        }
+      ],
+      "image": "assets/4bcb946dd59050440faa7370.webp",
+      "zoom_image": "assets/4bcb946dd59050440faa7370.png",
+      "original_image": "assets/0a37ea5094b1d6327e1e0f4e.png",
+      "original_filename": "R15/Glomerular Hematuria 2.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-3a7da60a71fa22a6e656",
+      "asset_id": "asset-5debd9a90443fd96",
+      "source_group_id": "group-5debd9a90443fd96",
+      "source_id": "src-5debd9a90443fd96",
+      "variant_id": "var-275a3032e4c84d407ddc3699",
+      "question_type": "Identification",
+      "tested_concept": "RBC cast in glomerular sediment",
+      "stem": "What is the long cell-packed urinary structure identified by the large arrow?",
+      "visual_target": "What is the long cell-packed urinary structure identified by the large arrow?",
+      "joint_composite": false,
+      "options": [
+        "Red blood cell cast",
+        "White blood cell cast",
+        "Hyaline cast",
+        "Uric acid crystal"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Numerous erythrocyte-like cells are packed within a long cylindrical cast.",
+        "A WBC cast would show leukocytes with different granular/nuclear detail, not this packed red-cell pattern.",
+        "A hyaline cast is pale and nearly acellular rather than tightly cell-filled.",
+        "Uric acid forms discrete rhomboids or needles, not a cellular cylinder."
+      ],
+      "explanation": "Numerous erythrocyte-like cells are packed within a long cylindrical cast.",
+      "visual_clues": [
+        "Long cast outline",
+        "Packed red-cell contents"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 23.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 23,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Glomerular Hematuria RBCs casts.png",
+          "page": null,
+          "sha256": "5debd9a90443fd964910a4931919b464975fcc83ef904465dfa123838bc6adcf"
+        }
+      ],
+      "image": "assets/275a3032e4c84d407ddc3699.webp",
+      "zoom_image": "assets/275a3032e4c84d407ddc3699.png",
+      "original_image": "assets/5debd9a90443fd964910a493.png",
+      "original_filename": "R15/Glomerular Hematuria RBCs casts.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-88887ad51cf5d36c5c91",
+      "asset_id": "asset-31c41b86163b275e",
+      "source_group_id": "group-31c41b86163b275e",
+      "source_id": "src-31c41b86163b275e",
+      "variant_id": "var-05f827cea129e5ebe9f0d07a",
+      "question_type": "Clinical Association",
+      "tested_concept": "Indinavir sunburst crystals",
+      "stem": "Which medication is associated in the lecture with the radial sunburst or plate-like needles shown?",
+      "visual_target": "Which medication is associated in the lecture with the radial sunburst or plate-like needles shown?",
+      "joint_composite": false,
+      "options": [
+        "Indinavir",
+        "Acyclovir",
+        "Sulfadiazine",
+        "Phenazopyridine"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The sharp needles radiate from a common center, matching the source’s indinavir sunburst image.",
+        "Acyclovir is illustrated as separate birefringent needles rather than this radial starburst cluster.",
+        "Sulfadiazine forms a broad shocks-of-wheat or shell pattern, not this pointed sunburst.",
+        "Phenazopyridine is mentioned for dipstick interference, not this drug-crystal image."
+      ],
+      "explanation": "The sharp needles radiate from a common center, matching the source’s indinavir sunburst image.",
+      "visual_clues": [
+        "Radial needles",
+        "Common central point"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 33.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 33,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Indinavir crystals.png",
+          "page": null,
+          "sha256": "31c41b86163b275e6c6b78ab523889648e91c006c3c6b477345885137b76fc8b"
+        }
+      ],
+      "image": "assets/05f827cea129e5ebe9f0d07a.webp",
+      "zoom_image": "assets/05f827cea129e5ebe9f0d07a.png",
+      "original_image": "assets/31c41b86163b275e6c6b78ab.png",
+      "original_filename": "R15/Indinavir crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-baae154e4a8d7a5accfa",
+      "asset_id": "asset-5d88aa261598e857",
+      "source_group_id": "group-5d88aa261598e857",
+      "source_id": "src-5d88aa261598e857",
+      "variant_id": "var-5a10520b442c29301a203566",
+      "question_type": "Classification",
+      "tested_concept": "Eumorphic RBC morphology",
+      "stem": "How should the many similarly shaped round urinary RBCs in this field be described?",
+      "visual_target": "How should the many similarly shaped round urinary RBCs in this field be described?",
+      "joint_composite": false,
+      "options": [
+        "Eumorphic or isomorphic",
+        "Dysmorphic or acanthocytic",
+        "Fatty oval bodies",
+        "WBC casts"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Most cells retain similar round outlines rather than variable blebs and distorted contours.",
+        "Dysmorphic/acanthocytic RBCs would vary in shape and often show irregular projections.",
+        "Fatty oval bodies are lipid-laden cells, not this field of uniform RBC outlines.",
+        "WBC casts are cylindrical aggregates containing leukocytes, not isolated uniform cells."
+      ],
+      "explanation": "Most cells retain similar round outlines rather than variable blebs and distorted contours.",
+      "visual_clues": [
+        "Similar round cell outlines",
+        "Cells remain separate rather than forming casts"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 21.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 21,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Non-Glomerular Hematuria.png",
+          "page": null,
+          "sha256": "5d88aa261598e857864105d752d8f41a9024d72250506ac7cc397ac77be11428"
+        }
+      ],
+      "image": "assets/5a10520b442c29301a203566.webp",
+      "zoom_image": "assets/5a10520b442c29301a203566.png",
+      "original_image": "assets/5d88aa261598e857864105d7.png",
+      "original_filename": "R15/Non-Glomerular Hematuria.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-7b49801deb314fa94358",
+      "asset_id": "asset-dad0660eb46ad8aa",
+      "source_group_id": "group-dad0660eb46ad8aa",
+      "source_id": "src-dad0660eb46ad8aa",
+      "variant_id": "var-3f86c530fe0fe683831f62a1",
+      "question_type": "Clinical Association",
+      "tested_concept": "Sulfadiazine shocks of wheat",
+      "stem": "Which drug-crystal pattern resembles two shocks of wheat or shells in this image?",
+      "visual_target": "Which drug-crystal pattern resembles two shocks of wheat or shells in this image?",
+      "joint_composite": false,
+      "options": [
+        "Sulfadiazine",
+        "Acyclovir",
+        "Indinavir",
+        "Phenazopyridine"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Broad fan-like sheaves extend from the center, matching the source’s sulfadiazine example.",
+        "Acyclovir shows long narrow birefringent needles rather than broad paired sheaves.",
+        "Indinavir has pointed radial sunburst needles rather than these fan-shaped bundles.",
+        "Phenazopyridine is a color/dipstick interference example, not a taught crystal image."
+      ],
+      "explanation": "Broad fan-like sheaves extend from the center, matching the source’s sulfadiazine example.",
+      "visual_clues": [
+        "Two broad fan-shaped bundles",
+        "Fine radiating strands within each bundle"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 33.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 33,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Sulfa crystals.png",
+          "page": null,
+          "sha256": "dad0660eb46ad8aa6e32c86a58c5d5d2943bdcf0484ec904aed408ba64f969ba"
+        }
+      ],
+      "image": "assets/3f86c530fe0fe683831f62a1.webp",
+      "zoom_image": "assets/3f86c530fe0fe683831f62a1.png",
+      "original_image": "assets/dad0660eb46ad8aa6e32c86a.png",
+      "original_filename": "R15/Sulfa crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-323435c6cddcffa78e75",
+      "asset_id": "asset-e71121cdab3150d8",
+      "source_group_id": "group-e71121cdab3150d8",
+      "source_id": "src-e71121cdab3150d8",
+      "variant_id": "var-d5f1326992172fbff870a510",
+      "question_type": "Identification",
+      "tested_concept": "Uric acid rhomboid crystals",
+      "stem": "Which crystal class fits the elongated needle-like and angular forms in this field?",
+      "visual_target": "Which crystal class fits the elongated needle-like and angular forms in this field?",
+      "joint_composite": false,
+      "options": [
+        "Uric acid",
+        "Cystine",
+        "Calcium oxalate dihydrate",
+        "Struvite"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The field shows elongated needle-like and angular forms consistent with the lecture’s uric-acid example.",
+        "Cystine crystals are regular flat hexagonal plates, absent here.",
+        "Calcium oxalate dihydrate shows square envelopes with a central X, absent here.",
+        "Struvite has repeated rectangular coffin-lid prisms rather than these angular shapes."
+      ],
+      "explanation": "The field shows elongated needle-like and angular forms consistent with the lecture’s uric-acid example.",
+      "visual_clues": [
+        "Elongated needle-like outlines",
+        "Angular forms rather than square envelopes or hexagons"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 32.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 32,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Uric Acid crystals.png",
+          "page": null,
+          "sha256": "e71121cdab3150d89dc1231d80fc2377e22a63e00baf1ee4426cb2216a66d038"
+        }
+      ],
+      "image": "assets/d5f1326992172fbff870a510.webp",
+      "zoom_image": "assets/d5f1326992172fbff870a510.png",
+      "original_image": "assets/e71121cdab3150d89dc1231d.png",
+      "original_filename": "R15/Uric Acid crystals.png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-3137261806d668cee683",
+      "asset_id": "asset-e556cacc1cac104e",
+      "source_group_id": "group-e556cacc1cac104e",
+      "source_id": "src-e556cacc1cac104e",
+      "variant_id": "var-53a9a806793b9df1d507bfcc",
+      "question_type": "Classification",
+      "tested_concept": "Waxy broad cast",
+      "stem": "Which urinary cast is broad, homogeneous, and blunt-ended in this image?",
+      "visual_target": "Which urinary cast is broad, homogeneous, and blunt-ended in this image?",
+      "joint_composite": false,
+      "options": [
+        "Waxy/broad cast",
+        "Muddy-brown granular cast",
+        "Red blood cell cast",
+        "Fatty cast"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The long pale cylinder is broad and relatively homogeneous with a blunt end.",
+        "Muddy-brown casts are visibly granular and pigmented, unlike this pale smooth cylinder.",
+        "RBC casts are packed with red cells, not homogeneous like this structure.",
+        "Fatty casts contain conspicuous lipid globules rather than this smooth matrix."
+      ],
+      "explanation": "The long pale cylinder is broad and relatively homogeneous with a blunt end.",
+      "visual_clues": [
+        "Broad cylindrical outline",
+        "Homogeneous interior and blunt end"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R15 Urinalysis RLS.pdf p. 28.",
+      "citations": [
+        {
+          "document": "R15 Urinalysis RLS.pdf",
+          "page": 28,
+          "sha256": "687fcc5d238c9d2800f27a1fda3eb9e3b42e4e89c7b077906f97e274c70d2c9f"
+        },
+        {
+          "document": "R15/Waxy:broad urinary casts .png",
+          "page": null,
+          "sha256": "e556cacc1cac104e8ff49afd13381aafcc96c213ab523f3f6eb465f382f64cfd"
+        }
+      ],
+      "image": "assets/53a9a806793b9df1d507bfcc.webp",
+      "zoom_image": "assets/53a9a806793b9df1d507bfcc.png",
+      "original_image": "assets/e556cacc1cac104e8ff49afd.png",
+      "original_filename": "R15/Waxy:broad urinary casts .png",
+      "category": "Urine Microscopy",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-f4edb6a88dfb7adf4594",
+      "asset_id": "asset-e95622597debffd4",
+      "source_group_id": "group-e95622597debffd4",
+      "source_id": "src-e95622597debffd4",
+      "variant_id": "var-887bf73dcd4dddb747b3d5e4",
+      "question_type": "Transporter Localization",
+      "tested_concept": "Proximal apical Na⁺/H⁺ exchange",
+      "stem": "If the apical NHE3 pathway pictured in this proximal cell is inhibited, which urinary-side flux decreases most directly?",
+      "visual_target": "The luminal NHE3 carrier with opposed Na⁺ and H⁺ arrows, contrasted with the other apical and basolateral paths.",
+      "joint_composite": false,
+      "options": [
+        "H⁺ secretion into the lumen",
+        "Glucose uptake from the lumen",
+        "K⁺ uptake from interstitium",
+        "Ca²⁺ entry from the lumen"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "At NHE3, the H⁺ arrow points outward into urine; blocking this exchanger reduces that flux.",
+        "The glucose arrow enters through a distinct lower SGLT2 carrier.",
+        "The K⁺ arrow on the blood-facing pump is separate from apical NHE3.",
+        "No Ca²⁺ influx pathway is depicted in this proximal-cell panel."
+      ],
+      "explanation": "At NHE3, the H⁺ arrow points outward into urine; blocking this exchanger reduces that flux.",
+      "visual_clues": [
+        "NHE3 at urine-facing border",
+        "H⁺ arrow points toward lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R16 RLS p. 9.",
+      "citations": [
+        {
+          "document": "R16 Diuretics I (Pharmacology) RLS.pdf",
+          "page": 9,
+          "sha256": "aba6a263c24f8e9e1426f909e890b2385c429b4efbcfa31aa0e1454d415eb452"
+        },
+        {
+          "document": "R16/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Proximal tubule.png",
+          "page": null,
+          "sha256": "e95622597debffd4f6deb7ba45289c4d1d1f2d41324b8b49e38b93aa19a372a9"
+        }
+      ],
+      "image": "assets/887bf73dcd4dddb747b3d5e4.webp",
+      "zoom_image": "assets/887bf73dcd4dddb747b3d5e4.png",
+      "original_image": "assets/e95622597debffd4f6deb7ba.png",
+      "original_filename": "R16/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Proximal tubule.png",
+      "category": "Diagram",
+      "collection": "R16",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-722b7858e5a92ddc1e7f",
+      "asset_id": "asset-21b463b90c48f717",
+      "source_group_id": "group-21b463b90c48f717",
+      "source_id": "src-21b463b90c48f717",
+      "variant_id": "var-c7b9ffae134c8ddbf31d677c",
+      "question_type": "Mechanism",
+      "tested_concept": "TAL lumen-positive Ca²⁺/Mg²⁺ pathway",
+      "stem": "If a loop drug blocks the apical NKCC2 shown, which pictured flux loses its lumen-positive electrical drive?",
+      "visual_target": "The TAL lumen-positive voltage and paracellular ion arrows beside the cell.",
+      "joint_composite": false,
+      "options": [
+        "Paracellular Ca²⁺ and Mg²⁺ reabsorption",
+        "Apical Na⁺/glucose cotransport",
+        "Collecting-duct water entry through AQP2",
+        "Distal NCC-mediated NaCl entry"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The diagram links K⁺ recycling to a positive lumen and arrows for Ca²⁺ and Mg²⁺ across the junction.",
+        "No glucose cotransporter is shown in this TAL cell.",
+        "AQP2 and collecting-duct water transport are absent from this TAL panel.",
+        "NCC belongs to the distal tubule, whereas this panel labels NKCC2."
+      ],
+      "explanation": "The diagram links K⁺ recycling to a positive lumen and arrows for Ca²⁺ and Mg²⁺ across the junction.",
+      "visual_clues": [
+        "NKCC2 at apical surface",
+        "Lumen-positive mark",
+        "Ca²⁺/Mg²⁺ paracellular arrows"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R16 RLS p. 22.",
+      "citations": [
+        {
+          "document": "R16 Diuretics I (Pharmacology) RLS.pdf",
+          "page": 22,
+          "sha256": "aba6a263c24f8e9e1426f909e890b2385c429b4efbcfa31aa0e1454d415eb452"
+        },
+        {
+          "document": "R16/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Thick Ascending Limb Cell.png",
+          "page": null,
+          "sha256": "21b463b90c48f7171ff7384a18085222bd8bf04707ce89dec7a7afc3f9d6a36f"
+        }
+      ],
+      "image": "assets/c7b9ffae134c8ddbf31d677c.webp",
+      "zoom_image": "assets/c7b9ffae134c8ddbf31d677c.png",
+      "original_image": "assets/21b463b90c48f7171ff7384a.png",
+      "original_filename": "R16/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Thick Ascending Limb Cell.png",
+      "category": "Diagram",
+      "collection": "R16",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-32f1fc21d8369a1ed2a5",
+      "asset_id": "asset-7905293f4b72a165",
+      "source_group_id": "group-7905293f4b72a165",
+      "source_id": "src-7905293f4b72a165",
+      "variant_id": "var-dd28a5cdecdb43e3cd5c8d52",
+      "question_type": "Transporter Localization",
+      "tested_concept": "ADH-triggered AQP2 apical insertion",
+      "stem": "If the pictured basolateral V2 receptor is antagonized, which transport change follows most directly?",
+      "visual_target": "The V2-to-cAMP-to-apical-AQP2 sequence and water-entry arrows in the collecting-duct cell.",
+      "joint_composite": false,
+      "options": [
+        "Less water entry from the tubular lumen",
+        "More water exit through the basolateral membrane",
+        "More Na⁺ entry through apical NCC",
+        "More K⁺ secretion through apical ENaC"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The V2 signal leads to apical AQP2 insertion where the pictured water arrows enter; blockade reduces that entry.",
+        "AQP3/4 is shown as the blood-facing exit route, not the direct insertion step driven by V2.",
+        "NCC and Na⁺ entry are not depicted in this ADH water-transport image.",
+        "ENaC and K⁺ secretion are not depicted in this ADH water-transport image."
+      ],
+      "explanation": "The V2 signal leads to apical AQP2 insertion where the pictured water arrows enter; blockade reduces that entry.",
+      "visual_clues": [
+        "V2 receptor on blood-facing side",
+        "cAMP drives AQP2 delivery to urine-facing border",
+        "Water arrows enter from lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 22.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 22,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/ADH Collecting Duct.png",
+          "page": null,
+          "sha256": "7905293f4b72a165582323f7c7255a7607c433f874aed10650d4c2869c2dd1c8"
+        }
+      ],
+      "image": "assets/dd28a5cdecdb43e3cd5c8d52.webp",
+      "zoom_image": "assets/dd28a5cdecdb43e3cd5c8d52.png",
+      "original_image": "assets/7905293f4b72a165582323f7.png",
+      "original_filename": "R17/ADH Collecting Duct.png",
+      "category": "Diagram",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b162e3a354041916d035",
+      "asset_id": "asset-3b0c6ce91762d719",
+      "source_group_id": "group-r17-diuretic-table",
+      "source_id": "src-3b0c6ce91762d719",
+      "variant_id": "var-5fdd538cd7eed1aba5585313",
+      "question_type": "Table Interpretation",
+      "tested_concept": "Thiazide urinary calcium pattern",
+      "stem": "Reading the urinary-excretion columns in this table, which listed diuretic class increases urinary Na⁺ yet decreases urinary Ca²⁺?",
+      "visual_target": "Na⁺ and Ca²⁺ arrows across the class rows in the cropped comparison table.",
+      "joint_composite": false,
+      "options": [
+        "Thiazides",
+        "Loop diuretics",
+        "Osmotic diuretics",
+        "Carbonic-anhydrase inhibitors"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The thiazide row combines upward urinary Na⁺ arrows with a downward urinary Ca²⁺ arrow.",
+        "The loop row has urinary Ca²⁺ arrows upward, not downward.",
+        "The osmotic row shows no Ca²⁺ decrease in its column.",
+        "The CA-inhibitor row has no downward Ca²⁺ arrow."
+      ],
+      "explanation": "The thiazide row combines upward urinary Na⁺ arrows with a downward urinary Ca²⁺ arrow.",
+      "visual_clues": [
+        "Na⁺ column rises in thiazide row",
+        "Ca²⁺ column falls in that row"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 24,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Diuretic table full cropped.png",
+          "page": null,
+          "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
+        }
+      ],
+      "image": "assets/5fdd538cd7eed1aba5585313.webp",
+      "zoom_image": "assets/5fdd538cd7eed1aba5585313.png",
+      "original_image": "assets/3b0c6ce91762d719381655a1.png",
+      "original_filename": "R17/Diuretic table full cropped.png",
+      "category": "Table",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-4f2ae287d3a63a332950",
+      "asset_id": "asset-17ecfcadcca7926c",
+      "source_group_id": "group-17ecfcadcca7926c",
+      "source_id": "src-17ecfcadcca7926c",
+      "variant_id": "var-945a5a34e3de24ad4e3c5824",
+      "question_type": "Mechanism",
+      "tested_concept": "ENaC-linked K⁺ secretion",
+      "stem": "When the pictured apical ENaC is inhibited, which immediately linked urinary ion flux should decrease?",
+      "visual_target": "Principal-cell apical Na⁺ entry and the adjacent K⁺ arrow into urine.",
+      "joint_composite": false,
+      "options": [
+        "K⁺ secretion into urine",
+        "Na⁺ entry through ENaC",
+        "Cl⁻ exit toward interstitium",
+        "HCO₃⁻ exit from the intercalated cell"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The principal cell shows Na⁺ entry through ENaC coupled to a K⁺ arrow toward the lumen; blocking ENaC reduces that driving pathway.",
+        "Na⁺ entry is the directly blocked flux itself, but the stem asks for the linked urinary ion flux.",
+        "The upper Cl⁻ arrow runs toward interstitium and is not the adjacent urinary K⁺ flux.",
+        "The HCO₃⁻ arrow belongs to the separate intercalated cell and is not the principal-cell K⁺ consequence."
+      ],
+      "explanation": "The principal cell shows Na⁺ entry through ENaC coupled to a K⁺ arrow toward the lumen; blocking ENaC reduces that driving pathway.",
+      "visual_clues": [
+        "ENaC and Na⁺ arrow at luminal border",
+        "K⁺ arrow points into lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 13.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 13,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Collecting Duct.png",
+          "page": null,
+          "sha256": "17ecfcadcca7926c39c80c9c70a265c76c44ecc4d22b1fdecae9a71c2c28eb9e"
+        }
+      ],
+      "image": "assets/945a5a34e3de24ad4e3c5824.webp",
+      "zoom_image": "assets/945a5a34e3de24ad4e3c5824.png",
+      "original_image": "assets/17ecfcadcca7926c39c80c9c.png",
+      "original_filename": "R17/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Collecting Duct.png",
+      "category": "Diagram",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-586d5fe978dd670dc730",
+      "asset_id": "asset-5ceaaf6120059f61",
+      "source_group_id": "group-5ceaaf6120059f61",
+      "source_id": "src-5ceaaf6120059f61",
+      "variant_id": "var-be86d26b80ab41c48c13aaac",
+      "question_type": "Mechanism",
+      "tested_concept": "DCT thiazide-associated calcium retention",
+      "stem": "In the depicted distal cell, reducing apical NCC entry lowers intracellular Na⁺. Which pictured basolateral exchange then favors Ca²⁺ removal from the cell?",
+      "visual_target": "NCC on the luminal side and Na⁺/Ca²⁺ exchange on the blood-facing side.",
+      "joint_composite": false,
+      "options": [
+        "Na⁺/Ca²⁺ exchange",
+        "Na⁺/K⁺-ATPase",
+        "Apical H⁺-ATPase",
+        "Apical NKCC2"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The blood-facing carrier shows Na⁺ entering as Ca²⁺ leaves toward interstitium.",
+        "The Na⁺/K⁺ pump moves Na⁺ and K⁺, not the pictured Ca²⁺ export step.",
+        "H⁺-ATPase moves H⁺ in the panel rather than exporting Ca²⁺.",
+        "NKCC2 is not the labeled apical transporter in this DCT image; NCC is."
+      ],
+      "explanation": "The blood-facing carrier shows Na⁺ entering as Ca²⁺ leaves toward interstitium.",
+      "visual_clues": [
+        "NCC at urine-facing border",
+        "Ca²⁺ arrow toward interstitium at Na⁺/Ca²⁺ carrier"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 9.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 9,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Distal Convoluted Tubule.png",
+          "page": null,
+          "sha256": "5ceaaf6120059f61f054bae5940e82d03e61eeafc6272938b2dc2c92d3bfd52a"
+        }
+      ],
+      "image": "assets/be86d26b80ab41c48c13aaac.webp",
+      "zoom_image": "assets/be86d26b80ab41c48c13aaac.png",
+      "original_image": "assets/5ceaaf6120059f61f054bae5.png",
+      "original_filename": "R17/Ion Transport Pathways Across the Luminal and Basolateral Membranes of the Distal Convoluted Tubule.png",
+      "category": "Diagram",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-fed3f5e42c5b6323b340",
+      "asset_id": "asset-ac0f1a61710542fc",
+      "source_group_id": "group-ac0f1a61710542fc",
+      "source_id": "src-ac0f1a61710542fc",
+      "variant_id": "var-3ef6071d08fd2b0765289b2f",
+      "question_type": "Visual Identification",
+      "tested_concept": "Amyloid mesangial expansion",
+      "stem": "Which abnormality distinguishes the main glomerulus from the normal inset?",
+      "visual_target": "Amyloid mesangial expansion",
+      "joint_composite": true,
+      "options": [
+        "Amorphous mesangial deposits expanding the tuft",
+        "Segmental capillary tuft sclerosis",
+        "Diffuse endocapillary neutrophils",
+        "A cellular crescent outside the tuft"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The main tuft has bulky pale mesangial material compared with the normal inset.",
+        "Segmental scarring would replace part of the tuft rather than produce this diffuse pale expansion.",
+        "There is no dense neutrophilic crowding of capillary loops.",
+        "No extracapillary cellular crescent fills Bowman space."
+      ],
+      "explanation": "The main tuft has bulky pale mesangial material compared with the normal inset.",
+      "visual_clues": [
+        "Expanded pale mesangium",
+        "Normal glomerulus inset"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R19 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R19 Renal Pathology - Glomerular Diseases (Part 2) (Nephrotic Diseases) (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "b55d2ecbe38aecaa8c1dc90bef7d90c82fe3af1ab5e922bde29ab01d3ca7062e"
+        },
+        {
+          "document": "R19/Amyloidosis Glomerulus PAS with Normal Comparison - Histology.png",
+          "page": null,
+          "sha256": "ac0f1a61710542fc01ffd4d1161f7607a0fcdad397a3c7eb321468154a7a11f3"
+        }
+      ],
+      "image": "assets/3ef6071d08fd2b0765289b2f.webp",
+      "zoom_image": "assets/3ef6071d08fd2b0765289b2f.png",
+      "original_image": "assets/ac0f1a61710542fc01ffd4d1.png",
+      "original_filename": "R19/Amyloidosis Glomerulus PAS with Normal Comparison - Histology.png",
+      "category": "Histology",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-0ea849d6c84f201c441a",
+      "asset_id": "asset-970d42c226922654",
+      "source_group_id": "group-970d42c226922654",
+      "source_id": "src-970d42c226922654",
+      "variant_id": "var-6cbce002b23339089c0d2847",
+      "question_type": "Visual Identification",
+      "tested_concept": "Diabetic nodular mesangial sclerosis",
+      "stem": "What is the prominent glomerular alteration in this PAS-stained image?",
+      "visual_target": "Diabetic nodular mesangial sclerosis",
+      "joint_composite": false,
+      "options": [
+        "Nodular mesangial expansion",
+        "A cellular crescent",
+        "Diffuse capillary neutrophilia",
+        "Subepithelial humps"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Rounded PAS-positive mesangial nodules expand the tuft.",
+        "No cellular proliferation occupies Bowman space.",
+        "The capillary loops are not densely packed with neutrophils.",
+        "Humps require ultrastructural deposit localization, not this PAS pattern."
+      ],
+      "explanation": "Rounded PAS-positive mesangial nodules expand the tuft.",
+      "visual_clues": [
+        "PAS-positive rounded nodules",
+        "Expanded mesangium"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R19 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R19 Renal Pathology - Glomerular Diseases (Part 2) (Nephrotic Diseases) (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "b55d2ecbe38aecaa8c1dc90bef7d90c82fe3af1ab5e922bde29ab01d3ca7062e"
+        },
+        {
+          "document": "R19/Diabetic Nephropathy PAS Nodular Mesangial Expansion - Histology.png",
+          "page": null,
+          "sha256": "970d42c22692265443cb42fe21f10cdd86f4fe68fc5320ae1de171fcffdd2d5d"
+        }
+      ],
+      "image": "assets/6cbce002b23339089c0d2847.webp",
+      "zoom_image": "assets/6cbce002b23339089c0d2847.png",
+      "original_image": "assets/970d42c22692265443cb42fe.png",
+      "original_filename": "R19/Diabetic Nephropathy PAS Nodular Mesangial Expansion - Histology.png",
+      "category": "Histology",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-afbcb3c404ff7b9f5ae7",
+      "asset_id": "asset-9db0427bafe59f08",
+      "source_group_id": "group-9db0427bafe59f08",
+      "source_id": "src-9db0427bafe59f08",
+      "variant_id": "var-2f5ac1f02fbbec2066cddce6",
+      "question_type": "Visual Identification",
+      "tested_concept": "Membranous granular capillary IF",
+      "stem": "What is the distribution of the bright immunofluorescence signal?",
+      "visual_target": "Membranous granular capillary IF",
+      "joint_composite": false,
+      "options": [
+        "Granular staining along capillary loops",
+        "Smooth linear GBM staining",
+        "Mesangial-only staining",
+        "No glomerular immune signal"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The bright deposits trace capillary loops in a discontinuous granular pattern.",
+        "Anti-GBM-type linear staining would form a smooth continuous outline.",
+        "Signal is not restricted to the central mesangium.",
+        "The tuft clearly has strong fluorescence."
+      ],
+      "explanation": "The bright deposits trace capillary loops in a discontinuous granular pattern.",
+      "visual_clues": [
+        "Bright loop outlines",
+        "Granular rather than smooth signal"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R19 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R19 Renal Pathology - Glomerular Diseases (Part 2) (Nephrotic Diseases) (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "b55d2ecbe38aecaa8c1dc90bef7d90c82fe3af1ab5e922bde29ab01d3ca7062e"
+        },
+        {
+          "document": "R19/Membranous Nephropathy IgG Granular Staining - Immunofluorescence.png",
+          "page": null,
+          "sha256": "9db0427bafe59f08ae4d7bafdf47cc4e879673b823de79c13088178f3688a3bf"
+        }
+      ],
+      "image": "assets/2f5ac1f02fbbec2066cddce6.webp",
+      "zoom_image": "assets/2f5ac1f02fbbec2066cddce6.png",
+      "original_image": "assets/9db0427bafe59f08ae4d7baf.png",
+      "original_filename": "R19/Membranous Nephropathy IgG Granular Staining - Immunofluorescence.png",
+      "category": "Immunofluorescence",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-40824eb531d15d72e1ed",
+      "asset_id": "asset-5d45c62cae182bff",
+      "source_group_id": "group-5d45c62cae182bff",
+      "source_id": "src-5d45c62cae182bff",
+      "variant_id": "var-6168f9a31f5f5e376d4e40ea",
+      "question_type": "Visual Identification",
+      "tested_concept": "Minimal change near-normal LM",
+      "stem": "At this light-microscopy level, what best describes the glomerular tuft?",
+      "visual_target": "Minimal change near-normal LM",
+      "joint_composite": false,
+      "options": [
+        "Relatively preserved architecture without a major visible lesion",
+        "Global nodular mesangial sclerosis",
+        "A large cellular crescent",
+        "Diffuse neutrophilic endocapillary proliferation"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Capillary loops and tuft structure remain largely intact, matching the lecture’s minimal-change LM example.",
+        "There are no rounded sclerotic mesangial nodules.",
+        "Bowman space is not occupied by a cellular crescent.",
+        "The loops are not packed with neutrophils."
+      ],
+      "explanation": "Capillary loops and tuft structure remain largely intact, matching the lecture’s minimal-change LM example.",
+      "visual_clues": [
+        "Open capillary loops",
+        "No overt sclerosis or crescent"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R19 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R19 Renal Pathology - Glomerular Diseases (Part 2) (Nephrotic Diseases) (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "b55d2ecbe38aecaa8c1dc90bef7d90c82fe3af1ab5e922bde29ab01d3ca7062e"
+        },
+        {
+          "document": "R19/Minimal Change Disease - Histology.png",
+          "page": null,
+          "sha256": "5d45c62cae182bffad34f20e8ca1cef59925624c6ad65dcca7e30ae6b540eb4c"
+        }
+      ],
+      "image": "assets/6168f9a31f5f5e376d4e40ea.webp",
+      "zoom_image": "assets/6168f9a31f5f5e376d4e40ea.png",
+      "original_image": "assets/5d45c62cae182bffad34f20e.png",
+      "original_filename": "R19/Minimal Change Disease - Histology.png",
+      "category": "Histology",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b782d9af38d761d15550",
+      "asset_id": "asset-34c96816aeb79110",
+      "source_group_id": "group-34c96816aeb79110",
+      "source_id": "src-34c96816aeb79110",
+      "variant_id": "var-e05d0c06ecdb879b66cda65a",
+      "question_type": "Visual Identification",
+      "tested_concept": "FSGS segmental sclerosis",
+      "stem": "Which portion of the tuft is most abnormal?",
+      "visual_target": "FSGS segmental sclerosis",
+      "joint_composite": false,
+      "options": [
+        "A segment with dense sclerosis",
+        "Every capillary loop equally",
+        "The entire tubulointerstitium",
+        "Only Bowman capsule"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "A discrete wedge of the glomerular tuft is replaced by dense pink sclerosis.",
+        "The remaining tuft is relatively patent, so the lesion is segmental.",
+        "Tubulointerstitial tissue is outside this glomerular field.",
+        "The key lesion lies within the tuft rather than only in the capsule."
+      ],
+      "explanation": "A discrete wedge of the glomerular tuft is replaced by dense pink sclerosis.",
+      "visual_clues": [
+        "Localized dense tuft segment",
+        "Remaining loops still visible"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R19 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R19 Renal Pathology - Glomerular Diseases (Part 2) (Nephrotic Diseases) (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "b55d2ecbe38aecaa8c1dc90bef7d90c82fe3af1ab5e922bde29ab01d3ca7062e"
+        },
+        {
+          "document": "R19/Primary FSGS Segmental Sclerosis - Histology.png",
+          "page": null,
+          "sha256": "34c96816aeb79110d282d2a71568561c06fa2e8dc4756571677a2e8f97abdb4c"
+        }
+      ],
+      "image": "assets/e05d0c06ecdb879b66cda65a.webp",
+      "zoom_image": "assets/e05d0c06ecdb879b66cda65a.png",
+      "original_image": "assets/34c96816aeb79110d282d2a7.png",
+      "original_filename": "R19/Primary FSGS Segmental Sclerosis - Histology.png",
+      "category": "Histology",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-e786a1d730fa85e8230f",
+      "asset_id": "asset-9a5ba9608c33d9e2",
+      "source_group_id": "group-9a5ba9608c33d9e2",
+      "source_id": "src-9a5ba9608c33d9e2",
+      "variant_id": "var-f3ebeb50e3458a027ac6baa2",
+      "question_type": "Visual Identification",
+      "tested_concept": "Pyelonephritis neutrophilic tubules",
+      "stem": "Which cellular pattern is most evident within the pictured tubules?",
+      "visual_target": "Pyelonephritis neutrophilic tubules",
+      "joint_composite": false,
+      "options": [
+        "Neutrophilic pus casts",
+        "Acellular hyaline casts",
+        "Lipid droplets with Maltese crosses",
+        "Red-cell casts"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Multiple tubular lumina contain dense inflammatory cells, consistent with pus casts.",
+        "Hyaline casts would be smooth and nearly cell-free.",
+        "No polarized lipid droplets or Maltese crosses are shown.",
+        "The luminal material is cellular inflammation rather than packed erythrocytes."
+      ],
+      "explanation": "Multiple tubular lumina contain dense inflammatory cells, consistent with pus casts.",
+      "visual_clues": [
+        "Inflammatory cells in tubule lumina",
+        "Multiple involved tubules"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R20 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R20 Renal Pathology - Interstitial Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "e86389f155153488bc0dcfc6c753fd20b80c8ea647f96570cfa8b12359fdc205"
+        },
+        {
+          "document": "R20/Acute Pyelonephritis Pus Casts - Histology.png",
+          "page": null,
+          "sha256": "9a5ba9608c33d9e2792d825a4dcc3daa389d0f8f5602aca506b6646cc0e6a04f"
+        }
+      ],
+      "image": "assets/f3ebeb50e3458a027ac6baa2.webp",
+      "zoom_image": "assets/f3ebeb50e3458a027ac6baa2.png",
+      "original_image": "assets/9a5ba9608c33d9e2792d825a.png",
+      "original_filename": "R20/Acute Pyelonephritis Pus Casts - Histology.png",
+      "category": "Histology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-6ca1540a3561acdaf327",
+      "asset_id": "asset-162c3fc493e9e9d8",
+      "source_group_id": "group-162c3fc493e9e9d8",
+      "source_id": "src-162c3fc493e9e9d8",
+      "variant_id": "var-202911c2d3a8623a6eafa046",
+      "question_type": "Visual Identification",
+      "tested_concept": "ATI intratubular epithelial debris",
+      "stem": "Which tubular injury feature is visible in this electron micrograph?",
+      "visual_target": "ATI intratubular epithelial debris",
+      "joint_composite": false,
+      "options": [
+        "Sloughed cellular debris obstructing the lumen",
+        "A glomerular subepithelial immune deposit",
+        "A renal arterial cholesterol cleft",
+        "A medullary collecting-duct cyst"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Degenerating epithelial material fills the tubule lumen.",
+        "The pictured field is tubular, not a glomerular capillary wall.",
+        "There is no arterial lumen or needle-shaped cleft.",
+        "No large fluid-filled cyst is present."
+      ],
+      "explanation": "Degenerating epithelial material fills the tubule lumen.",
+      "visual_clues": [
+        "Cellular material in tubular lumen",
+        "Injured epithelial lining"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R20 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R20 Renal Pathology - Interstitial Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "e86389f155153488bc0dcfc6c753fd20b80c8ea647f96570cfa8b12359fdc205"
+        },
+        {
+          "document": "R20/Acute Tubular Injury Intratubular Cellular Debris - EM.png",
+          "page": null,
+          "sha256": "162c3fc493e9e9d8a88a963ec21498992921b9e0e66505f6e56c36c757981b57"
+        }
+      ],
+      "image": "assets/202911c2d3a8623a6eafa046.webp",
+      "zoom_image": "assets/202911c2d3a8623a6eafa046.png",
+      "original_image": "assets/162c3fc493e9e9d8a88a963e.png",
+      "original_filename": "R20/Acute Tubular Injury Intratubular Cellular Debris - EM.png",
+      "category": "Electron microscopy",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-c83e45753fddca8e6351",
+      "asset_id": "asset-b576aef8fe362997",
+      "source_group_id": "group-b576aef8fe362997",
+      "source_id": "src-b576aef8fe362997",
+      "variant_id": "var-5a6c6dd5fd3d91731ef899cd",
+      "question_type": "Visual Identification",
+      "tested_concept": "Mild ATI epithelial flattening",
+      "stem": "Which change in the pictured tubules is most consistent with mild acute tubular injury?",
+      "visual_target": "Mild ATI epithelial flattening",
+      "joint_composite": false,
+      "options": [
+        "Flattened epithelium with widened lumina",
+        "Dense intraglomerular immune deposits",
+        "A fibrous crescent in Bowman space",
+        "A vascular onion-skin lesion"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Several tubules have thin flattened lining cells and open lumina.",
+        "No glomerular immune-deposit image is shown.",
+        "The field does not show an extracapillary crescent.",
+        "There is no concentrically thickened arteriole."
+      ],
+      "explanation": "Several tubules have thin flattened lining cells and open lumina.",
+      "visual_clues": [
+        "Open tubular lumina",
+        "Low flattened lining epithelium"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R20 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R20 Renal Pathology - Interstitial Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "e86389f155153488bc0dcfc6c753fd20b80c8ea647f96570cfa8b12359fdc205"
+        },
+        {
+          "document": "R20/Acute Tubular Injury Mild - Histology.png",
+          "page": null,
+          "sha256": "b576aef8fe36299762bb67ff0498b36fe10a816a107378e69d12cb8d2bc641f4"
+        }
+      ],
+      "image": "assets/5a6c6dd5fd3d91731ef899cd.webp",
+      "zoom_image": "assets/5a6c6dd5fd3d91731ef899cd.png",
+      "original_image": "assets/b576aef8fe36299762bb67ff.png",
+      "original_filename": "R20/Acute Tubular Injury Mild - Histology.png",
+      "category": "Histology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-fba884bde72ff8570019",
+      "asset_id": "asset-e507516187f25a0a",
+      "source_group_id": "group-e507516187f25a0a",
+      "source_id": "src-e507516187f25a0a",
+      "variant_id": "var-c5e914159c513a2f514dc05f",
+      "question_type": "Visual Identification",
+      "tested_concept": "Emphysematous pyelonephritis gas on CT",
+      "stem": "What is the decisive abnormality in the affected kidney on this CT?",
+      "visual_target": "Emphysematous pyelonephritis gas on CT",
+      "joint_composite": false,
+      "options": [
+        "Gas-density pockets within the renal region",
+        "Bilateral innumerable fluid cysts",
+        "A renal arterial filling defect",
+        "A lower-pole renal fusion isthmus"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Very dark gas-density foci occupy the affected renal region.",
+        "The dark pockets are not the round bilateral fluid cyst pattern.",
+        "This is not arterial contrast angiography showing an intraluminal defect.",
+        "No fused lower-pole isthmus spans the midline."
+      ],
+      "explanation": "Very dark gas-density foci occupy the affected renal region.",
+      "visual_clues": [
+        "Intrarenal very low-density pockets",
+        "Markedly abnormal unilateral renal region"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R20 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R20 Renal Pathology - Interstitial Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "e86389f155153488bc0dcfc6c753fd20b80c8ea647f96570cfa8b12359fdc205"
+        },
+        {
+          "document": "R20/Emphysematous Pyelonephritis - CT.png",
+          "page": null,
+          "sha256": "e507516187f25a0a3f19ca074f010d7ec113c3ba872152452c8b396f9c7e1af4"
+        }
+      ],
+      "image": "assets/c5e914159c513a2f514dc05f.webp",
+      "zoom_image": "assets/c5e914159c513a2f514dc05f.png",
+      "original_image": "assets/e507516187f25a0a3f19ca07.png",
+      "original_filename": "R20/Emphysematous Pyelonephritis - CT.png",
+      "category": "CT",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-35dd50edebc12c3bbd4e",
+      "asset_id": "asset-7630d7a3809af582",
+      "source_group_id": "group-7630d7a3809af582",
+      "source_id": "src-7630d7a3809af582",
+      "variant_id": "var-acaa97f29507c4e905187f9d",
+      "question_type": "Visual Identification",
+      "tested_concept": "Granulomatous interstitial inflammation",
+      "stem": "Which inflammatory architecture is most conspicuous in this biopsy panel?",
+      "visual_target": "Granulomatous interstitial inflammation",
+      "joint_composite": false,
+      "options": [
+        "A compact granulomatous histiocyte aggregate",
+        "Neutrophils filling numerous tubules",
+        "A glomerular cellular crescent",
+        "Diffuse acellular amyloid deposition"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The panels center on a rounded collection of epithelioid inflammatory cells.",
+        "The focus is interstitial and organized, not tubular pus.",
+        "It is not an extracapillary lesion within a glomerulus.",
+        "The lesion is cellular rather than amorphous acellular material."
+      ],
+      "explanation": "The panels center on a rounded collection of epithelioid inflammatory cells.",
+      "visual_clues": [
+        "Rounded cellular aggregate",
+        "Interstitial location"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R20 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R20 Renal Pathology - Interstitial Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "e86389f155153488bc0dcfc6c753fd20b80c8ea647f96570cfa8b12359fdc205"
+        },
+        {
+          "document": "R20/Granulomatous Interstitial Nephritis - Histology.png",
+          "page": null,
+          "sha256": "7630d7a3809af5825065bd16bfc52d8d452f34e77346819142a3b0cd3dda8c17"
+        }
+      ],
+      "image": "assets/acaa97f29507c4e905187f9d.webp",
+      "zoom_image": "assets/acaa97f29507c4e905187f9d.png",
+      "original_image": "assets/7630d7a3809af5825065bd16.png",
+      "original_filename": "R20/Granulomatous Interstitial Nephritis - Histology.png",
+      "category": "Histology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-cf5f5317e6da39a09b06",
+      "asset_id": "asset-2a5fdc7f5102dc10",
+      "source_group_id": "group-2a5fdc7f5102dc10",
+      "source_id": "src-2a5fdc7f5102dc10",
+      "variant_id": "var-0ae24ba218fce333502f2e03",
+      "question_type": "Visual Identification",
+      "tested_concept": "Acute arteriolar fibrinoid necrosis",
+      "stem": "What acute vascular lesion is visible in the arteriole wall?",
+      "visual_target": "Acute arteriolar fibrinoid necrosis",
+      "joint_composite": false,
+      "options": [
+        "Mural fibrinoid necrosis and remodeling",
+        "Simple uniform hyaline thickening",
+        "A cholesterol crystal cleft",
+        "A normal patent arteriole"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The wall has intensely pink damaged material and disrupted architecture.",
+        "Simple hyalinosis is more smooth and homogeneous.",
+        "No long empty needle-shaped cholesterol cleft is present.",
+        "The wall and lumen are clearly abnormal."
+      ],
+      "explanation": "The wall has intensely pink damaged material and disrupted architecture.",
+      "visual_clues": [
+        "Damaged intensely pink wall",
+        "Narrowed irregular lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R21 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R21 Renal Pathology - Vascular Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "d140f8b7a8b384948f93260f557a97d4507a47cdc31ccabb0b21ee9b2903b336"
+        },
+        {
+          "document": "R21/Acute Thrombotic Angiopathy Arteriole Mural Fibrinoid Necrosis - Histology.png",
+          "page": null,
+          "sha256": "2a5fdc7f5102dc10bd1539394b78dfdd51512b3a9e3936309f03e7bf9132e930"
+        }
+      ],
+      "image": "assets/0ae24ba218fce333502f2e03.webp",
+      "zoom_image": "assets/0ae24ba218fce333502f2e03.png",
+      "original_image": "assets/2a5fdc7f5102dc10bd153939.png",
+      "original_filename": "R21/Acute Thrombotic Angiopathy Arteriole Mural Fibrinoid Necrosis - Histology.png",
+      "category": "Histology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-d418b23b44efe6275025",
+      "asset_id": "asset-5ca511e20fa6239f",
+      "source_group_id": "group-5ca511e20fa6239f",
+      "source_id": "src-5ca511e20fa6239f",
+      "variant_id": "var-ae291f7574ec10cb8fbb0ce4",
+      "question_type": "Visual Identification",
+      "tested_concept": "Glomerular capillary fibrin thrombus",
+      "stem": "Which lesion is present in the glomerular capillary loop?",
+      "visual_target": "Glomerular capillary fibrin thrombus",
+      "joint_composite": false,
+      "options": [
+        "An intraluminal fibrin thrombus",
+        "A mesangial amyloid nodule",
+        "A cellular crescent",
+        "A subepithelial hump"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "A dense pink plug lies within a capillary loop of the tuft.",
+        "A mesangial nodule would lie in the central mesangium rather than occlude a loop.",
+        "Bowman space is not filled by crescentic cells.",
+        "Subepithelial humps are defined on EM, not this intraluminal LM plug."
+      ],
+      "explanation": "A dense pink plug lies within a capillary loop of the tuft.",
+      "visual_clues": [
+        "Pink intraluminal plug",
+        "Glomerular capillary loop location"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R21 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R21 Renal Pathology - Vascular Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "d140f8b7a8b384948f93260f557a97d4507a47cdc31ccabb0b21ee9b2903b336"
+        },
+        {
+          "document": "R21/Acute Thrombotic Angiopathy Fibrin Thrombus in Glomerular Capillary Loop - Histology.png",
+          "page": null,
+          "sha256": "5ca511e20fa6239f9dc6a617d519483745f8104b734c7f685a5e51fd42ee1b15"
+        }
+      ],
+      "image": "assets/ae291f7574ec10cb8fbb0ce4.webp",
+      "zoom_image": "assets/ae291f7574ec10cb8fbb0ce4.png",
+      "original_image": "assets/5ca511e20fa6239f9dc6a617.png",
+      "original_filename": "R21/Acute Thrombotic Angiopathy Fibrin Thrombus in Glomerular Capillary Loop - Histology.png",
+      "category": "Histology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-6a539d8c31911c368a04",
+      "asset_id": "asset-9250038552777af5",
+      "source_group_id": "group-9250038552777af5",
+      "source_id": "src-9250038552777af5",
+      "variant_id": "var-09865afc1c380a4d857d39ba",
+      "question_type": "Visual Identification",
+      "tested_concept": "Atheroembolic cholesterol clefts",
+      "stem": "What are the elongated empty spaces inside the vessel most consistent with?",
+      "visual_target": "Atheroembolic cholesterol clefts",
+      "joint_composite": false,
+      "options": [
+        "Cholesterol crystal clefts",
+        "Red-cell casts",
+        "Tubular basement membranes",
+        "Normal endothelial fenestrations"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Needle-shaped empty clefts occupy an arterial lumen, the hallmark of cholesterol emboli after processing.",
+        "Casts lie in tubules, not a vessel wall/lumen.",
+        "Tubular basement membranes outline tubules rather than form intraluminal needles.",
+        "Endothelial fenestrations are ultrastructural and far smaller."
+      ],
+      "explanation": "Needle-shaped empty clefts occupy an arterial lumen, the hallmark of cholesterol emboli after processing.",
+      "visual_clues": [
+        "Needle-shaped empty slits",
+        "Within artery lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R21 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R21 Renal Pathology - Vascular Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "d140f8b7a8b384948f93260f557a97d4507a47cdc31ccabb0b21ee9b2903b336"
+        },
+        {
+          "document": "R21/Atheroembolic Disease Cholesterol Clefts - Histology.png",
+          "page": null,
+          "sha256": "9250038552777af5114e3d201f302f9b434c1297807fbb46ce805595a5bd96f8"
+        }
+      ],
+      "image": "assets/09865afc1c380a4d857d39ba.webp",
+      "zoom_image": "assets/09865afc1c380a4d857d39ba.png",
+      "original_image": "assets/9250038552777af5114e3d20.png",
+      "original_filename": "R21/Atheroembolic Disease Cholesterol Clefts - Histology.png",
+      "category": "Histology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-1a165cae65a293a79801",
+      "asset_id": "asset-874717565371d3dd",
+      "source_group_id": "group-874717565371d3dd",
+      "source_id": "src-874717565371d3dd",
+      "variant_id": "var-1cf5a56dd8d6c2b8332d1761",
+      "question_type": "Visual Identification",
+      "tested_concept": "Chronic TMA double contour",
+      "stem": "What capillary-wall alteration is emphasized in this EM image?",
+      "visual_target": "Chronic TMA double contour",
+      "joint_composite": false,
+      "options": [
+        "Duplicated glomerular basement-membrane contour",
+        "Diffuse podocyte foot-process fusion only",
+        "Subepithelial hump deposits",
+        "A normal single smooth GBM"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Two parallel wall contours are visible, consistent with chronic endothelial remodeling.",
+        "The decisive finding is duplicated wall contour rather than isolated effacement.",
+        "No bulky outer-wall humps dominate the image.",
+        "The wall is not a single uninterrupted line."
+      ],
+      "explanation": "Two parallel wall contours are visible, consistent with chronic endothelial remodeling.",
+      "visual_clues": [
+        "Parallel capillary-wall lines",
+        "Interposed remodeling zone"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R21 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R21 Renal Pathology - Vascular Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "d140f8b7a8b384948f93260f557a97d4507a47cdc31ccabb0b21ee9b2903b336"
+        },
+        {
+          "document": "R21/Chronic Thrombotic Angiopathy Double Contours - EM.png",
+          "page": null,
+          "sha256": "874717565371d3dde60a89153d44bbf85180274aab205563502fe5aa36e613f9"
+        }
+      ],
+      "image": "assets/1cf5a56dd8d6c2b8332d1761.webp",
+      "zoom_image": "assets/1cf5a56dd8d6c2b8332d1761.png",
+      "original_image": "assets/874717565371d3dde60a8915.png",
+      "original_filename": "R21/Chronic Thrombotic Angiopathy Double Contours - EM.png",
+      "category": "Electron microscopy",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-ac94228214438ac8b61a",
+      "asset_id": "asset-e444fcedb7fa0a92",
+      "source_group_id": "group-e444fcedb7fa0a92",
+      "source_id": "src-e444fcedb7fa0a92",
+      "variant_id": "var-5b4a50141c50eb9943103a62",
+      "question_type": "Visual Identification",
+      "tested_concept": "Diffuse cortical necrosis gross pattern",
+      "stem": "Which region is pale and necrotic on the cut kidney?",
+      "visual_target": "Diffuse cortical necrosis gross pattern",
+      "joint_composite": false,
+      "options": [
+        "Most of the renal cortex",
+        "Only the papillary tips",
+        "Only the renal pelvis",
+        "Only a single wedge-shaped segment"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "A broad peripheral cortical band is pale, with relative deeper-medullary preservation.",
+        "The lesion is not confined to medullary papillae.",
+        "The pelvis is a collecting cavity, not the pale parenchymal rim.",
+        "The distribution is diffuse cortical rather than a single wedge."
+      ],
+      "explanation": "A broad peripheral cortical band is pale, with relative deeper-medullary preservation.",
+      "visual_clues": [
+        "Peripheral pale cortical band",
+        "Deep tissue relatively preserved"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R21 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R21 Renal Pathology - Vascular Diseases (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "d140f8b7a8b384948f93260f557a97d4507a47cdc31ccabb0b21ee9b2903b336"
+        },
+        {
+          "document": "R21/Diffuse Cortical Necrosis - Gross.png",
+          "page": null,
+          "sha256": "e444fcedb7fa0a92de5219f4f81c780afe8768d50e3a6bbebbfd92bd7e50b12f"
+        }
+      ],
+      "image": "assets/5b4a50141c50eb9943103a62.webp",
+      "zoom_image": "assets/5b4a50141c50eb9943103a62.png",
+      "original_image": "assets/e444fcedb7fa0a92de5219f4.png",
+      "original_filename": "R21/Diffuse Cortical Necrosis - Gross.png",
+      "category": "Gross pathology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-a27d1fc8468293e22e48",
+      "asset_id": "asset-c01f7255b71496a7",
+      "source_group_id": "group-c01f7255b71496a7",
+      "source_id": "src-c01f7255b71496a7",
+      "variant_id": "var-c2cf33fc3ddc9e7a10175b8a",
+      "question_type": "Visual Identification",
+      "tested_concept": "ADPKD gross enlarged multicystic kidney",
+      "stem": "Which gross pattern is shown by the kidney beside the football?",
+      "visual_target": "ADPKD gross enlarged multicystic kidney",
+      "joint_composite": false,
+      "options": [
+        "Greatly enlarged organ replaced by numerous variably sized cysts",
+        "Small smooth hypoplastic kidney",
+        "A single obstructed renal pelvis",
+        "A wedge-shaped renal infarct"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The kidney is very large and riddled with many separate round cavities.",
+        "A hypoplastic kidney would be small, not massively enlarged.",
+        "A single central dilated pelvis would not create many parenchymal cysts.",
+        "No isolated pale wedge dominates the organ."
+      ],
+      "explanation": "The kidney is very large and riddled with many separate round cavities.",
+      "visual_clues": [
+        "Football scale comparison",
+        "Numerous variable-sized cysts"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R22 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R22 Renal Pathology - Cystic Diseases & Congenital Anomalies (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "7575eabeec4115adae37a099a984714dda60f8774ed52caea1fb47e3418c1ded"
+        },
+        {
+          "document": "R22/Autosomal Dominant Polycystic Kidney Disease Enlarged Kidney Football Comparison - Gross.png",
+          "page": null,
+          "sha256": "c01f7255b71496a7efbd17931641397339bd2da7f4591091fc8cf7606f6aebb0"
+        }
+      ],
+      "image": "assets/c2cf33fc3ddc9e7a10175b8a.webp",
+      "zoom_image": "assets/c2cf33fc3ddc9e7a10175b8a.png",
+      "original_image": "assets/c01f7255b71496a7efbd1793.png",
+      "original_filename": "R22/Autosomal Dominant Polycystic Kidney Disease Enlarged Kidney Football Comparison - Gross.png",
+      "category": "Gross pathology",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-5c57c8f4a76e05157c43",
+      "asset_id": "asset-3d44ccda03202543",
+      "source_group_id": "group-3d44ccda03202543",
+      "source_id": "src-3d44ccda03202543",
+      "variant_id": "var-740f24b4fea25d85cf1aa272",
+      "question_type": "Visual Identification",
+      "tested_concept": "Duplex collecting system",
+      "stem": "What anatomic variation is illustrated by the drainage tracts?",
+      "visual_target": "Duplex collecting system",
+      "joint_composite": false,
+      "options": [
+        "Two collecting pathways from one kidney",
+        "Fused lower poles of two kidneys",
+        "Complete renal agenesis",
+        "A single obstructed UPJ"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The diagram shows duplicated ureteral drainage from one renal unit.",
+        "The kidneys are not joined across the midline.",
+        "Renal tissue is present, excluding agenesis.",
+        "A UPJ obstruction concerns one pelvis-ureter junction, not two drainage paths."
+      ],
+      "explanation": "The diagram shows duplicated ureteral drainage from one renal unit.",
+      "visual_clues": [
+        "Paired drainage tracts",
+        "Single renal unit with duplicate outflow"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R22 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R22 Renal Pathology - Cystic Diseases & Congenital Anomalies (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "7575eabeec4115adae37a099a984714dda60f8774ed52caea1fb47e3418c1ded"
+        },
+        {
+          "document": "R22/Duplicate Collecting System - Diagram.png",
+          "page": null,
+          "sha256": "3d44ccda03202543036d91ac1e9acc82c5fe1ae3843ddeff9308450af2da718e"
+        }
+      ],
+      "image": "assets/740f24b4fea25d85cf1aa272.webp",
+      "zoom_image": "assets/740f24b4fea25d85cf1aa272.png",
+      "original_image": "assets/3d44ccda03202543036d91ac.png",
+      "original_filename": "R22/Duplicate Collecting System - Diagram.png",
+      "category": "Diagram",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-a410a40ddd2f6de035fa",
+      "asset_id": "asset-9fadfd46e7683bfd",
+      "source_group_id": "group-9fadfd46e7683bfd",
+      "source_id": "src-9fadfd46e7683bfd",
+      "variant_id": "var-d26d5008d7e3a3c864c6b9bb",
+      "question_type": "Visual Identification",
+      "tested_concept": "Horseshoe kidney CT isthmus",
+      "stem": "Which structural feature identifies the renal anomaly on this CT?",
+      "visual_target": "Horseshoe kidney CT isthmus",
+      "joint_composite": false,
+      "options": [
+        "A parenchymal bridge across the midline",
+        "Multiple round bilateral cysts",
+        "A solitary enlarged renal pelvis",
+        "Absent kidney on one side"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The lower renal tissue connects across the midline in front of the spine.",
+        "There is no diffuse cystic replacement.",
+        "The finding is fusion, not a single dilated pelvis.",
+        "Both renal sides are present and joined."
+      ],
+      "explanation": "The lower renal tissue connects across the midline in front of the spine.",
+      "visual_clues": [
+        "Midline bridge",
+        "Two renal moieties connected"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R22 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R22 Renal Pathology - Cystic Diseases & Congenital Anomalies (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "7575eabeec4115adae37a099a984714dda60f8774ed52caea1fb47e3418c1ded"
+        },
+        {
+          "document": "R22/Horseshoe Kidney - CT.png",
+          "page": null,
+          "sha256": "9fadfd46e7683bfd5f5b9177aeb53f911ac555df7be2bbd2a35ff29b54afc00f"
+        }
+      ],
+      "image": "assets/d26d5008d7e3a3c864c6b9bb.webp",
+      "zoom_image": "assets/d26d5008d7e3a3c864c6b9bb.png",
+      "original_image": "assets/9fadfd46e7683bfd5f5b9177.png",
+      "original_filename": "R22/Horseshoe Kidney - CT.png",
+      "category": "CT",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b7fe4f1339ae6056c8f9",
+      "asset_id": "asset-44b1a0cb21a5e303",
+      "source_group_id": "group-44b1a0cb21a5e303",
+      "source_id": "src-44b1a0cb21a5e303",
+      "variant_id": "var-4056de5541b9a6c2bf0db010",
+      "question_type": "Visual Identification",
+      "tested_concept": "Horseshoe kidney lower-pole fusion",
+      "stem": "Which parts of the paired kidneys are joined in the illustration?",
+      "visual_target": "Horseshoe kidney lower-pole fusion",
+      "joint_composite": false,
+      "options": [
+        "Lower poles",
+        "Upper poles",
+        "Renal pelves only",
+        "Ureteral openings in the bladder"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The inferior ends of the kidneys merge into a central isthmus.",
+        "The upper ends remain separated.",
+        "The connection is parenchymal rather than merely collecting-system lumen.",
+        "Bladder ureteral openings are not the fused structure."
+      ],
+      "explanation": "The inferior ends of the kidneys merge into a central isthmus.",
+      "visual_clues": [
+        "Inferior renal ends meet",
+        "Central parenchymal isthmus"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "User manual R22 capture visually reviewed with scoped RLS and course notes; exact RLS page not independently verified.",
+      "citations": [
+        {
+          "document": "R22 Renal Pathology - Cystic Diseases & Congenital Anomalies (Pathology) RLS.pdf",
+          "page": null,
+          "sha256": "7575eabeec4115adae37a099a984714dda60f8774ed52caea1fb47e3418c1ded"
+        },
+        {
+          "document": "R22/Horseshoe Kidney - Diagram.png",
+          "page": null,
+          "sha256": "44b1a0cb21a5e3031daf9b46e47158744cb215f20759636b36dd291e9730343e"
+        }
+      ],
+      "image": "assets/4056de5541b9a6c2bf0db010.webp",
+      "zoom_image": "assets/4056de5541b9a6c2bf0db010.png",
+      "original_image": "assets/44b1a0cb21a5e3031daf9b46.png",
+      "original_filename": "R22/Horseshoe Kidney - Diagram.png",
+      "category": "Diagram",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-d07ebe2b055205325736",
+      "asset_id": "asset-7c216ea3a67e7ba1",
+      "source_group_id": "group-7c216ea3a67e7ba1",
+      "source_id": "src-7c216ea3a67e7ba1",
+      "variant_id": "var-32b74c347c982ea6cb9d125f",
+      "question_type": "Visual Identification",
+      "tested_concept": "Amyloid Congo-red birefringence",
+      "stem": "The R34 patient is a 72-year-old woman with multiple myeloma and a monoclonal free lambda protein. Under polarized light, what finding is visible in the glomerulus and vessel walls?",
+      "visual_target": "The birefringent deposits in the complete renal cortical field",
+      "joint_composite": false,
+      "options": [
+        "Granular mesangial immunofluorescence",
+        "No birefringent renal material",
+        "Apple-green birefringence of deposits",
+        "Linear capillary-wall immunofluorescence"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The green signal is birefringent deposited material, not an IgA IF panel.",
+        "The glomerulus and vessels visibly contain bright birefringent material.",
+        "Bright green birefringent material occupies the glomerulus and vascular walls in this polarized view.",
+        "This is a polarized Congo-red view, not a linear fluorescent antibody stain."
+      ],
+      "explanation": "Bright green birefringent material occupies the glomerulus and vascular walls in this polarized view.",
+      "visual_clues": [
+        "Bright green material in glomerulus",
+        "Additional vascular-wall signal"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 101 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 101,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/AL Amyloidosis Congo Red Polarized - Histology.png",
+          "page": null,
+          "sha256": "7c216ea3a67e7ba1af9e3ba215e7e865a739682d90c6efa57013259fe58ad6a1"
+        }
+      ],
+      "image": "assets/32b74c347c982ea6cb9d125f.webp",
+      "zoom_image": "assets/32b74c347c982ea6cb9d125f.png",
+      "original_image": "assets/7c216ea3a67e7ba1af9e3ba2.png",
+      "original_filename": "R34/AL Amyloidosis Congo Red Polarized - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The R34 patient is a 72-year-old woman with multiple myeloma and a monoclonal free lambda protein.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-0b27b50d3768e55deb80",
+      "asset_id": "asset-42711162bdc4106e",
+      "source_group_id": "group-42711162bdc4106e",
+      "source_id": "src-42711162bdc4106e",
+      "variant_id": "var-fe3d471283aa68e2a9031862",
+      "question_type": "Visual Identification",
+      "tested_concept": "Glomerular fibrinoid necrosis",
+      "stem": "R34 case 1 has acute renal dysfunction, hematuria and positive cANCA/anti-PR3. What lesion does the arrow indicate in this Jones-silver glomerulus?",
+      "visual_target": "Arrowed pink lesion within the glomerular tuft",
+      "joint_composite": false,
+      "options": [
+        "A cellular crescent outside the tuft",
+        "Fibrinoid necrosis of the tuft",
+        "Nodular mesangial matrix expansion",
+        "Diffuse thickening of every capillary loop"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "A crescent would occupy Bowman space outside the tuft, not this intratuft focus.",
+        "The arrow points to a smudgy pink necrotic focus replacing part of the capillary tuft.",
+        "A discrete rounded mesangial nodule is not the arrowed destructive focus.",
+        "The lesion is focal tuft destruction rather than uniform capillary-wall thickening."
+      ],
+      "explanation": "The arrow points to a smudgy pink necrotic focus replacing part of the capillary tuft.",
+      "visual_clues": [
+        "Arrowed smudgy pink tuft focus",
+        "Disrupted silver-positive loop outlines"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS and detailed note; exact page not independently verified.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": null,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/ANCA GN Glomerular Fibrinoid Necrosis Jones Silver - Histology.png",
+          "page": null,
+          "sha256": "42711162bdc4106e7a97c515156053a8184a41148700ea537993a2e35c64a067"
+        }
+      ],
+      "image": "assets/fe3d471283aa68e2a9031862.webp",
+      "zoom_image": "assets/fe3d471283aa68e2a9031862.png",
+      "original_image": "assets/42711162bdc4106e7a97c515.png",
+      "original_filename": "R34/ANCA GN Glomerular Fibrinoid Necrosis Jones Silver - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 1 has acute renal dysfunction, hematuria and positive cANCA/anti-PR3.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-a1fe52e89d8b98e9cb80",
+      "asset_id": "asset-6c56b958220fb7ba",
+      "source_group_id": "group-54dd80a44145e05a",
+      "source_id": "src-6c56b958220fb7ba",
+      "variant_id": "var-a5d9a2261af901dcf3c271a9",
+      "question_type": "Visual Identification",
+      "tested_concept": "Eosinophil-rich interstitial infiltrate",
+      "stem": "R34 case 9 developed AKI, rash and eosinophilia after a week of antibiotics. Which compartment contains the conspicuous inflammatory infiltrate in this renal biopsy?",
+      "visual_target": "Cells between the tubular profiles in the full high-power field",
+      "joint_composite": false,
+      "options": [
+        "Tubulointerstitium",
+        "Glomerular capillary lumina",
+        "Bowman space",
+        "An arterial intima"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Numerous inflammatory cells, including pink-granular eosinophils, occupy space between tubules.",
+        "The crowded cells are between tubular profiles rather than inside glomerular loops.",
+        "No glomerulus or crescent-filled Bowman space is the central target here.",
+        "No arterial wall or intima is shown as the site of this infiltrate."
+      ],
+      "explanation": "Numerous inflammatory cells, including pink-granular eosinophils, occupy space between tubules.",
+      "visual_clues": [
+        "Inflammatory cells separating tubules",
+        "Eosinophils with bright pink cytoplasmic granules"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 94 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 94,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Acute Interstitial Nephritis High Power Infiltrate - Histology.png",
+          "page": null,
+          "sha256": "6c56b958220fb7ba2f9fc16f4b1c2c2354e534dbf91566c8bdc672cc88bd1ebd"
+        }
+      ],
+      "image": "assets/a5d9a2261af901dcf3c271a9.webp",
+      "zoom_image": "assets/a5d9a2261af901dcf3c271a9.png",
+      "original_image": "assets/6c56b958220fb7ba2f9fc16f.png",
+      "original_filename": "R34/Acute Interstitial Nephritis High Power Infiltrate - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 9 developed AKI, rash and eosinophilia after a week of antibiotics.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-2e38d0d490d56f79ceba",
+      "asset_id": "asset-9b72e3ccffdbc761",
+      "source_group_id": "group-9b72e3ccffdbc761",
+      "source_id": "src-9b72e3ccffdbc761",
+      "variant_id": "var-2d78f2659cf5f91041d1f603",
+      "question_type": "Visual Identification",
+      "tested_concept": "Linear capillary-wall IgG",
+      "stem": "R34 case 2 is an anuric 66-year-old woman with severe crescentic GN and positive anti-GBM serology. How is IgG distributed along the glomerular capillary walls in this image?",
+      "visual_target": "IgG signal around the glomerular capillary loops",
+      "joint_composite": false,
+      "options": [
+        "Coarse granular capillary-wall staining",
+        "Granular deposits confined to the mesangium",
+        "Essentially absent glomerular staining",
+        "Smooth linear capillary-wall staining"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The signal follows loops rather than appearing as separate coarse deposits.",
+        "The predominant signal outlines capillary loops rather than staying in mesangial centers.",
+        "Substantial bright glomerular IgG signal is clearly present.",
+        "Bright IgG traces continuous smooth lines along individual capillary walls."
+      ],
+      "explanation": "Bright IgG traces continuous smooth lines along individual capillary walls.",
+      "visual_clues": [
+        "Continuous loop outlines",
+        "Strong glomerular IgG signal"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 24 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 24,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Anti-GBM IgG - Immunofluorescence.png",
+          "page": null,
+          "sha256": "9b72e3ccffdbc76123da8f8eddaab7164655d8dce0a208128a706a58ba2df90f"
+        }
+      ],
+      "image": "assets/2d78f2659cf5f91041d1f603.webp",
+      "zoom_image": "assets/2d78f2659cf5f91041d1f603.png",
+      "original_image": "assets/9b72e3ccffdbc76123da8f8e.png",
+      "original_filename": "R34/Anti-GBM IgG - Immunofluorescence.png",
+      "category": "Immunofluorescence",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 2 is an anuric 66-year-old woman with severe crescentic GN and positive anti-GBM serology.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-bfe5f4128f4b2a8c16bf",
+      "asset_id": "asset-0938ba9b80ccefef",
+      "source_group_id": "group-0938ba9b80ccefef",
+      "source_id": "src-0938ba9b80ccefef",
+      "variant_id": "var-8958369f1316407ff6b32b2a",
+      "question_type": "Visual Identification",
+      "tested_concept": "Nodular mesangial expansion",
+      "stem": "R34 case 6 has substantial proteinuria and chronic multicompartment renal injury. What is the dominant lesion within this glomerular tuft?",
+      "visual_target": "Rounded central mesangial lesion in the complete glomerulus",
+      "joint_composite": false,
+      "options": [
+        "Intraluminal capillary fibrin thrombi",
+        "Neutrophil-rich endocapillary exudate",
+        "Nodular mesangial matrix expansion",
+        "Cellular crescent in Bowman space"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The material expands mesangium rather than plugging multiple capillary lumina.",
+        "The nodule is matrix-rich and not crowded by neutrophils.",
+        "A large rounded PAS-positive mesangial nodule expands part of the tuft.",
+        "The rounded lesion is inside the tuft, not a cellular layer in Bowman space."
+      ],
+      "explanation": "A large rounded PAS-positive mesangial nodule expands part of the tuft.",
+      "visual_clues": [
+        "Rounded magenta mesangial nodule",
+        "Remaining capillary loops displaced around it"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 69 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 69,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Diabetic Nephropathy Nodular Glomerulosclerosis (2) - Histology.png",
+          "page": null,
+          "sha256": "0938ba9b80ccefef11c458fdd689cdc22b98dbf295e9f10a1082794d9849f035"
+        }
+      ],
+      "image": "assets/8958369f1316407ff6b32b2a.webp",
+      "zoom_image": "assets/8958369f1316407ff6b32b2a.png",
+      "original_image": "assets/0938ba9b80ccefef11c458fd.png",
+      "original_filename": "R34/Diabetic Nephropathy Nodular Glomerulosclerosis (2) - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 6 has substantial proteinuria and chronic multicompartment renal injury.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-170c158f2f1c57d9d8a8",
+      "asset_id": "asset-c4b163b1b3f67eaa",
+      "source_group_id": "group-c4b163b1b3f67eaa",
+      "source_id": "src-c4b163b1b3f67eaa",
+      "variant_id": "var-c0f0ce3c3b12b20481238245",
+      "question_type": "Visual Identification",
+      "tested_concept": "Segmental glomerular tuft sclerosis",
+      "stem": "R34 case 7 has sudden nephrotic syndrome and diffuse podocyte foot-process effacement on EM. Which distribution of glomerular scarring is visible here?",
+      "visual_target": "Scarred portion of the glomerular tuft",
+      "joint_composite": false,
+      "options": [
+        "No visible tuft scar",
+        "Segmental sclerosis of part of the tuft",
+        "Global sclerosis of the entire tuft",
+        "A cellular crescent occupying Bowman space"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "A focal dense sclerotic segment is visible, so the tuft is not entirely normal.",
+        "Dense matrix scars one part of the tuft while other capillary loops remain open.",
+        "Open loops persist, so the whole tuft is not globally sclerosed.",
+        "The scar lies within the tuft rather than as a cellular crescent outside it."
+      ],
+      "explanation": "Dense matrix scars one part of the tuft while other capillary loops remain open.",
+      "visual_clues": [
+        "Dense scar in one tuft sector",
+        "Other patent capillary loops"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 77 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 77,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/FSGS Glomerulus - Histology.png",
+          "page": null,
+          "sha256": "c4b163b1b3f67eaa80d8d50cbb231cb19cb999ccbd82db50f13dcef3d4d27c99"
+        }
+      ],
+      "image": "assets/c0f0ce3c3b12b20481238245.webp",
+      "zoom_image": "assets/c0f0ce3c3b12b20481238245.png",
+      "original_image": "assets/c4b163b1b3f67eaa80d8d50c.png",
+      "original_filename": "R34/FSGS Glomerulus - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 7 has sudden nephrotic syndrome and diffuse podocyte foot-process effacement on EM.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-8f2f17ee13acfee0ba82",
+      "asset_id": "asset-65b390447a5e88e2",
+      "source_group_id": "group-65b390447a5e88e2",
+      "source_id": "src-65b390447a5e88e2",
+      "variant_id": "var-a3e4b9e4bfcb83b5cc529394",
+      "question_type": "Visual Identification",
+      "tested_concept": "Granular mesangial IgA distribution",
+      "stem": "R34 case 3 has hematuria, mesangial proliferation and mesangial electron-dense deposits. Where is the dominant IgA signal concentrated in this glomerulus?",
+      "visual_target": "Distribution of green IgA within the complete tuft",
+      "joint_composite": false,
+      "options": [
+        "Mesangial regions in a granular pattern",
+        "A smooth continuous line on every capillary wall",
+        "Only tubular basement membranes outside the tuft",
+        "No detectable glomerular signal"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The brightest coarse IgA signal clusters in central mesangial portions of the tuft.",
+        "The signal is clumped centrally rather than a continuous line around every loop.",
+        "The strong signal lies within the glomerulus, not just around extraglomerular tubules.",
+        "Bright green intraglomerular IgA signal is plainly visible."
+      ],
+      "explanation": "The brightest coarse IgA signal clusters in central mesangial portions of the tuft.",
+      "visual_clues": [
+        "Bright central mesangial clusters",
+        "Nonlinear deposition"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 36 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 36,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/IgA Nephropathy IgA - Immunofluorescence.png",
+          "page": null,
+          "sha256": "65b390447a5e88e25d2f02fd1319ac8981cd8768461c91f8ec5a9d23867be0ce"
+        }
+      ],
+      "image": "assets/a3e4b9e4bfcb83b5cc529394.webp",
+      "zoom_image": "assets/a3e4b9e4bfcb83b5cc529394.png",
+      "original_image": "assets/65b390447a5e88e25d2f02fd.png",
+      "original_filename": "R34/IgA Nephropathy IgA - Immunofluorescence.png",
+      "category": "Immunofluorescence",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 3 has hematuria, mesangial proliferation and mesangial electron-dense deposits.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-ae7cf98fc2e6d5261a7d",
+      "asset_id": "asset-10af6183ce3b2837",
+      "source_group_id": "group-10af6183ce3b2837",
+      "source_id": "src-10af6183ce3b2837",
+      "variant_id": "var-d2aacee909e51e89856cdde5",
+      "question_type": "Visual Identification",
+      "tested_concept": "Purpuric eruption",
+      "stem": "R34 contrasts renal IgA nephropathy with systemic IgA vasculitis; the rash and skin biopsy provide the extra-renal context. Which cutaneous finding is most directly visible on the lower leg?",
+      "visual_target": "The full skin eruption on the photographed leg",
+      "joint_composite": false,
+      "options": [
+        "Grouped vesicles",
+        "Targetoid plaques",
+        "Discrete pustules",
+        "Purpuric eruption"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "No grouped clear fluid-filled vesicles are visible.",
+        "The lesions do not have concentric target-like rings.",
+        "No discrete pus-filled lesions dominate this photograph.",
+        "Numerous red-purple nonvesicular lesions create the diffuse purpuric eruption."
+      ],
+      "explanation": "Numerous red-purple nonvesicular lesions create the diffuse purpuric eruption.",
+      "visual_clues": [
+        "Extensive red-purple lesions",
+        "No vesicles or target rings"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS and detailed note; exact page not independently verified.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": null,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/IgA Vasculitis Purpuric Rash - Clinical Photo.png",
+          "page": null,
+          "sha256": "10af6183ce3b2837fbcfa532afb32c7093e2ee68be818238cfa235da09bb5017"
+        }
+      ],
+      "image": "assets/d2aacee909e51e89856cdde5.webp",
+      "zoom_image": "assets/d2aacee909e51e89856cdde5.png",
+      "original_image": "assets/10af6183ce3b2837fbcfa532.png",
+      "original_filename": "R34/IgA Vasculitis Purpuric Rash - Clinical Photo.png",
+      "category": "Clinical photograph",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 contrasts renal IgA nephropathy with systemic IgA vasculitis; the rash and skin biopsy provide the extra-renal context.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-ec9f98a4f22d55a2d666",
+      "asset_id": "asset-aebea92dcf149ef7",
+      "source_group_id": "group-aebea92dcf149ef7",
+      "source_id": "src-aebea92dcf149ef7",
+      "variant_id": "var-8c90cfc1d680b0b8b9ea3377",
+      "question_type": "Visual Identification",
+      "tested_concept": "Granular glomerular IgG distribution",
+      "stem": "R34 case 4 follows Streptococcus pyogenes pharyngitis and has low C3 and neutrophil-rich GN. Which IgG staining texture is visible along this glomerular tuft?",
+      "visual_target": "IgG signal along the capillary-loop region",
+      "joint_composite": false,
+      "options": [
+        "Complete absence of IgG signal",
+        "Fluorescence limited to vascular media outside the tuft",
+        "Granular capillary-loop staining",
+        "Perfectly smooth linear capillary-wall staining"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "There is strong green signal across the glomerular tuft.",
+        "The prominent signal is intraglomerular, not confined to an outside vessel.",
+        "The loop-region IgG signal appears irregular and granular rather than perfectly continuous.",
+        "Individual loops are not traced by the smooth uninterrupted lines of anti-GBM IF."
+      ],
+      "explanation": "The loop-region IgG signal appears irregular and granular rather than perfectly continuous.",
+      "visual_clues": [
+        "Irregular bright loop-region signal",
+        "Nonlinear granular texture"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS and detailed note; exact page not independently verified.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": null,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Infection-Associated GN IgG - Immunofluorescence.png",
+          "page": null,
+          "sha256": "aebea92dcf149ef74f824063d4e6802fdf97cc8095f59381bacd48cb2610a471"
+        }
+      ],
+      "image": "assets/8c90cfc1d680b0b8b9ea3377.webp",
+      "zoom_image": "assets/8c90cfc1d680b0b8b9ea3377.png",
+      "original_image": "assets/aebea92dcf149ef74f824063.png",
+      "original_filename": "R34/Infection-Associated GN IgG - Immunofluorescence.png",
+      "category": "Immunofluorescence",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 4 follows Streptococcus pyogenes pharyngitis and has low C3 and neutrophil-rich GN.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-598b696f645f4af99667",
+      "asset_id": "asset-75b9fd62d823cb79",
+      "source_group_id": "group-75b9fd62d823cb79",
+      "source_id": "src-75b9fd62d823cb79",
+      "variant_id": "var-781c5b67759908773783e1da",
+      "question_type": "Visual Identification",
+      "tested_concept": "Membranous thickened capillary loops",
+      "stem": "R34 case 5 has edema and predominant proteinuria with PLA2R-associated membranous glomerulopathy. How are the glomerular capillary loops altered in this biopsy image?",
+      "visual_target": "The capillary walls across the complete glomerular tuft",
+      "joint_composite": false,
+      "options": [
+        "Multiple luminal fibrin thrombi",
+        "Diffuse thickening and irregularity of loop walls",
+        "Rounded nodules expanding mesangial centers",
+        "Cellular crescents outside the tuft"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The lumina are not prominently occluded by fibrin plugs.",
+        "Many capillary walls appear thick and fuzzy or irregular while the tuft remains open.",
+        "No dominant rounded mesangial nodule occupies the tuft.",
+        "No cellular layer fills Bowman space around the tuft."
+      ],
+      "explanation": "Many capillary walls appear thick and fuzzy or irregular while the tuft remains open.",
+      "visual_clues": [
+        "Thick magenta capillary-loop borders",
+        "Irregular wall contours"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 57 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 57,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Membranous Nephropathy Glomerular Capillary Loops Question - Histology.png",
+          "page": null,
+          "sha256": "75b9fd62d823cb7946beff98178229622ad4985337690cf2e724c7e247f16b14"
+        }
+      ],
+      "image": "assets/781c5b67759908773783e1da.webp",
+      "zoom_image": "assets/781c5b67759908773783e1da.png",
+      "original_image": "assets/75b9fd62d823cb7946beff98.png",
+      "original_filename": "R34/Membranous Nephropathy Glomerular Capillary Loops Question - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 5 has edema and predominant proteinuria with PLA2R-associated membranous glomerulopathy.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-f290ddf8eb9db0b94006",
+      "asset_id": "asset-8796ce0056d701ec",
+      "source_group_id": "group-8796ce0056d701ec",
+      "source_id": "src-8796ce0056d701ec",
+      "variant_id": "var-27e7ac01fae4a25b3b2d1cbf",
+      "question_type": "Visual Identification",
+      "tested_concept": "Normal smooth glomerular capillary loops",
+      "stem": "The R34 workshop uses normal Jones-silver loops as the reference for diseased capillary walls. Which description best fits the silver-stained capillary loop outlines in this image?",
+      "visual_target": "Silver-positive loop borders in the complete zoomed panel",
+      "joint_composite": false,
+      "options": [
+        "Thin and relatively smooth loop outlines",
+        "Irregular spiked capillary walls",
+        "Globally solid scar replacing the tuft",
+        "Numerous fibrin thrombi plugging loops"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The dark silver-positive loop borders are thin, open and comparatively smooth.",
+        "The borders lack the irregular spike-like projections of membranous remodeling.",
+        "Multiple open capillary lumina remain rather than a globally solid scar.",
+        "The open lumina do not contain numerous occlusive fibrin plugs."
+      ],
+      "explanation": "The dark silver-positive loop borders are thin, open and comparatively smooth.",
+      "visual_clues": [
+        "Smooth dark loop borders",
+        "Open capillary lumina"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS and detailed note; exact page not independently verified.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": null,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Normal Glomerulus Jones Silver Zoom - Histology.png",
+          "page": null,
+          "sha256": "8796ce0056d701ecbab33d71756cd29faba5bbc4259c1b5f537f1d9b84a2d999"
+        }
+      ],
+      "image": "assets/27e7ac01fae4a25b3b2d1cbf.webp",
+      "zoom_image": "assets/27e7ac01fae4a25b3b2d1cbf.png",
+      "original_image": "assets/8796ce0056d701ecbab33d71.png",
+      "original_filename": "R34/Normal Glomerulus Jones Silver Zoom - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The R34 workshop uses normal Jones-silver loops as the reference for diseased capillary walls.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-92c2b64905147517cf11",
+      "asset_id": "asset-72aadff383a85cc1",
+      "source_group_id": "group-72aadff383a85cc1",
+      "source_id": "src-72aadff383a85cc1",
+      "variant_id": "var-9a8a47ba8cd0269c9ab97aea",
+      "question_type": "Visual Identification",
+      "tested_concept": "Glomerular capillary fibrin thrombi",
+      "stem": "R34 case 8 developed kidney dysfunction during bevacizumab treatment. What is occupying multiple glomerular capillary lumina?",
+      "visual_target": "Red-pink material within several silver-outlined capillary loops",
+      "joint_composite": false,
+      "options": [
+        "Mesangial nodules",
+        "Cellular crescents",
+        "Subepithelial immune deposits",
+        "Fibrin thrombi"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The material sits inside capillary lumina rather than expanding mesangial centers.",
+        "Crescents would accumulate outside the tuft in Bowman space.",
+        "Subepithelial deposits are below podocytes and are not these luminal plugs.",
+        "Multiple lumina contain red-pink occlusive material, the thrombi emphasized in this case."
+      ],
+      "explanation": "Multiple lumina contain red-pink occlusive material, the thrombi emphasized in this case.",
+      "visual_clues": [
+        "Several plugged capillary lumina",
+        "Red-pink intraluminal material"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R34 manual capture visually reviewed against course RLS p. 85 and detailed note.",
+      "citations": [
+        {
+          "document": "R34 Renal Pathology - Renal Diseases - Slide Review RLS.pdf",
+          "page": 85,
+          "sha256": "a0d905ef1d467e39a42e2df504a1fc084d84ec59d1cb4c43d3ba76151a88a138"
+        },
+        {
+          "document": "R34/Thrombotic Microangiopathy Glomerulus Jones Silver - Histology.png",
+          "page": null,
+          "sha256": "72aadff383a85cc1ef5e5a7c58ddf26bdeead70adf9d6ef4d861c46dd8fb5ef9"
+        }
+      ],
+      "image": "assets/9a8a47ba8cd0269c9ab97aea.webp",
+      "zoom_image": "assets/9a8a47ba8cd0269c9ab97aea.png",
+      "original_image": "assets/72aadff383a85cc1ef5e5a7c.png",
+      "original_filename": "R34/Thrombotic Microangiopathy Glomerulus Jones Silver - Histology.png",
+      "category": "Histology",
+      "collection": "R34",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R34 case 8 developed kidney dysfunction during bevacizumab treatment.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-abe4d54f7689d70f2a52",
+      "asset_id": "asset-24e2bfadc29a6e12",
+      "source_group_id": "group-24e2bfadc29a6e12",
+      "source_id": "src-24e2bfadc29a6e12",
+      "variant_id": "var-1590c04287f2104b99926146",
+      "question_type": "Visual Interpretation",
+      "tested_concept": "Case 1 serum anion gap",
+      "stem": "The R35 workshop describes a thirsty, volume-depleted patient with hyperglycemia and ketonuria. Using the sodium, chloride and bicarbonate shown, what is the serum anion gap in mEq/L?",
+      "visual_target": "Sodium, chloride and bicarbonate in the pictured admission fishbone",
+      "joint_composite": false,
+      "options": [
+        "35",
+        "5",
+        "23",
+        "12"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "35 does not result from subtracting both chloride and bicarbonate from sodium.",
+        "5 is the potassium concentration; potassium is omitted from this course equation.",
+        "150 − (115 + 12) = 23, a high anion gap.",
+        "12 is the pictured bicarbonate concentration, not the calculated gap."
+      ],
+      "explanation": "150 − (115 + 12) = 23, a high anion gap.",
+      "visual_clues": [
+        "Na 150",
+        "Cl 115",
+        "HCO3 12"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R35 manual capture and course detailed note (RLS p. 3); matching vault RLS page render inspected. Original PDF is currently missing at the historical manifest path.",
+      "citations": [
+        {
+          "document": "R35 Acid-Base Case Studies Advanced (Clinical) RLS.pdf",
+          "page": 3,
+          "sha256": "e85f689469d0ff9a9759e0b8e7172179034c149e642d0ca100b67d0c4b9236b0"
+        },
+        {
+          "document": "R35/Case 1 Admission Labs - Diagram.png",
+          "page": null,
+          "sha256": "24e2bfadc29a6e12fb041fe131e6c82270d5a16458a34061244903640bb4fdf0"
+        }
+      ],
+      "image": "assets/1590c04287f2104b99926146.webp",
+      "zoom_image": "assets/1590c04287f2104b99926146.png",
+      "original_image": "assets/24e2bfadc29a6e12fb041fe1.png",
+      "original_filename": "R35/Case 1 Admission Labs - Diagram.png",
+      "category": "Lab diagram",
+      "collection": "R35",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The R35 workshop describes a thirsty, volume-depleted patient with hyperglycemia and ketonuria.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-710f408c5b8b9fa833d8",
+      "asset_id": "asset-791cda0769e9a554",
+      "source_group_id": "group-791cda0769e9a554",
+      "source_id": "src-791cda0769e9a554",
+      "variant_id": "var-7518b140dd26708fc29834f9",
+      "question_type": "Visual Interpretation",
+      "tested_concept": "Case 2 primary metabolic alkalosis",
+      "stem": "The R35 wrestler had recent diuretic use, orthostasis and severe hypokalemia. What primary acid-base process best fits the displayed pH, bicarbonate and pCO₂?",
+      "visual_target": "Admission pH, bicarbonate and pCO₂ displayed beside the fishbone",
+      "joint_composite": false,
+      "options": [
+        "Primary respiratory acidosis",
+        "Metabolic alkalosis with appropriate respiratory compensation",
+        "Primary respiratory alkalosis",
+        "High-anion-gap metabolic acidosis"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "A high pCO₂ alone does not make this primary respiratory acidosis when pH and bicarbonate are elevated.",
+        "pH 7.48 and bicarbonate 36 show primary alkalosis, and pCO₂ 47 is close to the course-predicted ~48.",
+        "A primary respiratory alkalosis would have a reduced, not elevated, pCO₂.",
+        "The pH is alkalemic and the calculated anion gap is 12, not high-gap acidosis."
+      ],
+      "explanation": "pH 7.48 and bicarbonate 36 show primary alkalosis, and pCO₂ 47 is close to the course-predicted ~48.",
+      "visual_clues": [
+        "pH 7.48",
+        "HCO3 36",
+        "pCO2 47"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R35 manual capture and course detailed note (RLS p. 5); matching vault RLS page render inspected. Original PDF is currently missing at the historical manifest path.",
+      "citations": [
+        {
+          "document": "R35 Acid-Base Case Studies Advanced (Clinical) RLS.pdf",
+          "page": 5,
+          "sha256": "e85f689469d0ff9a9759e0b8e7172179034c149e642d0ca100b67d0c4b9236b0"
+        },
+        {
+          "document": "R35/Case 2 Admission Labs - Diagram.png",
+          "page": null,
+          "sha256": "791cda0769e9a554992f11e46ee1b61d9cdfb526b5bd80b99a5cde70594ac9ca"
+        }
+      ],
+      "image": "assets/7518b140dd26708fc29834f9.webp",
+      "zoom_image": "assets/7518b140dd26708fc29834f9.png",
+      "original_image": "assets/791cda0769e9a554992f11e4.png",
+      "original_filename": "R35/Case 2 Admission Labs - Diagram.png",
+      "category": "Lab diagram",
+      "collection": "R35",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The R35 wrestler had recent diuretic use, orthostasis and severe hypokalemia.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-8ff1018d10271a0c9da6",
+      "asset_id": "asset-91ff6334a5569e26",
+      "source_group_id": "group-91ff6334a5569e26",
+      "source_id": "src-91ff6334a5569e26",
+      "variant_id": "var-74270cd7a72b8f3b5f478c5b",
+      "question_type": "Visual Interpretation",
+      "tested_concept": "Case 3 day-4 post-hypercapnic alkalosis",
+      "stem": "R35 case 3 had chronic CO₂ retention before improved ventilation; furosemide and chloride depletion also contributed. Four days after treatment, which acid-base interpretation best fits the displayed blood gas and bicarbonate?",
+      "visual_target": "Day-4 pH, bicarbonate and pCO₂ after ventilation and furosemide",
+      "joint_composite": false,
+      "options": [
+        "Primary metabolic alkalosis with approximately appropriate respiratory compensation",
+        "Primary respiratory alkalosis with renal compensation",
+        "Primary metabolic acidosis with respiratory compensation",
+        "Uncompensated primary respiratory acidosis"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "pH 7.50 and bicarbonate 43 indicate metabolic alkalosis; pCO₂ 54 is near the predicted 53.3.",
+        "Primary respiratory alkalosis would have low pCO₂ rather than 54.",
+        "pH and bicarbonate are elevated, not an acidemic low-bicarbonate pattern.",
+        "The high pCO₂ is compensatory in the presence of alkalemia and markedly high bicarbonate."
+      ],
+      "explanation": "pH 7.50 and bicarbonate 43 indicate metabolic alkalosis; pCO₂ 54 is near the predicted 53.3.",
+      "visual_clues": [
+        "pH 7.50",
+        "HCO3 43",
+        "pCO2 54"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R35 manual capture and course detailed note (RLS p. 10); matching vault RLS page render inspected. Original PDF is currently missing at the historical manifest path.",
+      "citations": [
+        {
+          "document": "R35 Acid-Base Case Studies Advanced (Clinical) RLS.pdf",
+          "page": 10,
+          "sha256": "e85f689469d0ff9a9759e0b8e7172179034c149e642d0ca100b67d0c4b9236b0"
+        },
+        {
+          "document": "R35/Case 3 Day 4 Labs - Diagram.png",
+          "page": null,
+          "sha256": "91ff6334a5569e260e2e9330669e6a27c5acf615a12a04caa6dd5983ad59d3d4"
+        }
+      ],
+      "image": "assets/74270cd7a72b8f3b5f478c5b.webp",
+      "zoom_image": "assets/74270cd7a72b8f3b5f478c5b.png",
+      "original_image": "assets/91ff6334a5569e260e2e9330.png",
+      "original_filename": "R35/Case 3 Day 4 Labs - Diagram.png",
+      "category": "Lab diagram",
+      "collection": "R35",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R35 case 3 had chronic CO₂ retention before improved ventilation; furosemide and chloride depletion also contributed.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-21b8f4b53120003060f7",
+      "asset_id": "asset-c82e86549d1c8bfa",
+      "source_group_id": "group-c82e86549d1c8bfa",
+      "source_id": "src-c82e86549d1c8bfa",
+      "variant_id": "var-f5355309422e12b86c065c2b",
+      "question_type": "Visual Interpretation",
+      "tested_concept": "Case 4 osmolal gap",
+      "stem": "R35 case 4 presented with coma, severe metabolic acidosis and only trace ketones; the source uses the gap to investigate unmeasured osmoles. Using the course formula 2(Na) + glucose/18 + BUN/2.8, approximately how large is the displayed patient’s osmolal gap in mOsm/kg?",
+      "visual_target": "Measured serum osmolality plus sodium, glucose and BUN in the pictured laboratory panel",
+      "joint_composite": false,
+      "options": [
+        "5",
+        "17",
+        "95",
+        "45"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Five is much smaller than the difference between measured 340 and calculated ~295.",
+        "Seventeen is near Winter’s predicted pCO₂, not the measured-minus-calculated osmolal gap.",
+        "Ninety-five cannot follow from measured 340 minus calculated ~295.",
+        "Calculated osmolality is about 295; measured 340 minus calculated 295 is about 45."
+      ],
+      "explanation": "Calculated osmolality is about 295; measured 340 minus calculated 295 is about 45.",
+      "visual_clues": [
+        "Measured osmolality 340",
+        "Na 140",
+        "Glucose 90 and BUN 30"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "R35 manual capture and course detailed note (RLS p. 13); matching vault RLS page render inspected. Original PDF is currently missing at the historical manifest path.",
+      "citations": [
+        {
+          "document": "R35 Acid-Base Case Studies Advanced (Clinical) RLS.pdf",
+          "page": 13,
+          "sha256": "e85f689469d0ff9a9759e0b8e7172179034c149e642d0ca100b67d0c4b9236b0"
+        },
+        {
+          "document": "R35/Case 4 Part A Labs - Diagram.png",
+          "page": null,
+          "sha256": "c82e86549d1c8bfad9ae36767980df2837f6635893294a9f10dc163565784a7d"
+        }
+      ],
+      "image": "assets/f5355309422e12b86c065c2b.webp",
+      "zoom_image": "assets/f5355309422e12b86c065c2b.png",
+      "original_image": "assets/c82e86549d1c8bfad9ae3676.png",
+      "original_filename": "R35/Case 4 Part A Labs - Diagram.png",
+      "category": "Lab diagram",
+      "collection": "R35",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "R35 case 4 presented with coma, severe metabolic acidosis and only trace ketones; the source uses the gap to investigate unmeasured osmoles.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b04de15f76d64348066a",
+      "asset_id": "asset-4567d8d1031e7dc1",
+      "source_group_id": "group-4567d8d1031e7dc1",
+      "source_id": "src-4567d8d1031e7dc1",
+      "variant_id": "var-f147798df663d60cc58e473a",
+      "question_type": "Visual Identification",
+      "tested_concept": "Bilateral macrocystic renal contour",
+      "stem": "What accounts for the abnormal contours of both kidneys in this axial CT?",
+      "visual_target": "The bilateral kidneys and their multiple rounded low-density spaces",
+      "joint_composite": false,
+      "options": [
+        "A single unilateral cortical mass",
+        "Isolated collecting-system dilation",
+        "Numerous bilateral renal cysts",
+        "Uniform solid renal enlargement without cysts"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Abnormalities occur in both kidneys, not as one unilateral mass.",
+        "The dark spaces are numerous cortical/parenchymal cysts rather than one connected central pelvis.",
+        "Both enlarged renal outlines are distorted by many rounded low-attenuation cystic spaces.",
+        "The renal parenchyma is not uniformly solid; numerous dark cysts are visible."
+      ],
+      "explanation": "Both enlarged renal outlines are distorted by many rounded low-attenuation cystic spaces.",
+      "visual_clues": [
+        "Multiple bilateral rounded cysts",
+        "Irregular expanded renal contours"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Abnormal Renal Contour ADPCKD - CT.png",
+          "page": null,
+          "sha256": "4567d8d1031e7dc15e24157aeb63167c71a476e2c8facef0d59fac37d345bc83"
+        }
+      ],
+      "image": "assets/f147798df663d60cc58e473a.webp",
+      "zoom_image": "assets/f147798df663d60cc58e473a.png",
+      "original_image": "assets/4567d8d1031e7dc15e24157a.png",
+      "original_filename": "R25/Abnormal Renal Contour ADPCKD - CT.png",
+      "category": "CT",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-a5303edf937600e53608",
+      "asset_id": "asset-3966484c62d56392",
+      "source_group_id": "group-3966484c62d56392",
+      "source_id": "src-3966484c62d56392",
+      "variant_id": "var-d98139be7da5b63fb2eb62ed",
+      "question_type": "Visual Identification",
+      "tested_concept": "Bilateral smooth enlarged renal contours",
+      "stem": "Which renal contour pattern is visible in this axial CT?",
+      "visual_target": "The full outlines and texture of both enlarged kidneys",
+      "joint_composite": false,
+      "options": [
+        "Bilateral kidneys of normal size and texture",
+        "Smooth bilateral enlargement with fine internal heterogeneity",
+        "Bilateral lobulated outlines from large macrocysts",
+        "A single unilateral enhancing solid mass"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Both kidneys occupy much more of the abdomen than normal.",
+        "Both kidneys are markedly enlarged yet retain relatively smooth external borders and fine internal texture.",
+        "There are not multiple large rounded cysts scalloping both outer borders.",
+        "The abnormality is bilateral rather than a solitary solid lesion."
+      ],
+      "explanation": "Both kidneys are markedly enlarged yet retain relatively smooth external borders and fine internal texture.",
+      "visual_clues": [
+        "Smooth outer kidney margins",
+        "Diffuse bilateral enlargement"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Abnormal Renal Contour ARPCKD - CT.png",
+          "page": null,
+          "sha256": "3966484c62d56392c4db8fabeb53e3c1c6a46a4a4b51b8cefea5d9b917a82b53"
+        }
+      ],
+      "image": "assets/d98139be7da5b63fb2eb62ed.webp",
+      "zoom_image": "assets/d98139be7da5b63fb2eb62ed.png",
+      "original_image": "assets/3966484c62d56392c4db8fab.png",
+      "original_filename": "R25/Abnormal Renal Contour ARPCKD - CT.png",
+      "category": "CT",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-2981c71edaa998f749db",
+      "asset_id": "asset-eda71d991bfa5d52",
+      "source_group_id": "group-eda71d991bfa5d52",
+      "source_id": "src-eda71d991bfa5d52",
+      "variant_id": "var-15eb7b694064c533e4ccb890",
+      "question_type": "Visual Identification",
+      "tested_concept": "Connected central collecting-system dilation",
+      "stem": "What structure is dilated within the kidney on this ultrasound?",
+      "visual_target": "The connected central dark spaces extending toward the calyces",
+      "joint_composite": false,
+      "options": [
+        "Renal pelvis and calyces",
+        "Scattered disconnected cortical cysts",
+        "Renal artery and vein",
+        "A homogeneous solid cortical tumor"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Communicating anechoic spaces branch from the central renal pelvis into calyces.",
+        "The dark spaces connect centrally rather than forming separate cortical cysts.",
+        "Vessels are not shown as this broad branching fluid-filled collecting system.",
+        "The target is black fluid within collecting spaces, not a solid tissue mass."
+      ],
+      "explanation": "Communicating anechoic spaces branch from the central renal pelvis into calyces.",
+      "visual_clues": [
+        "Central branching anechoic spaces",
+        "Connected pelvis and calyces"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Compare These Two Images UPJ Obstruction - Echo.png",
+          "page": null,
+          "sha256": "eda71d991bfa5d5203037fd31882b8932aa860a48f47bbc32c491984c842ab32"
+        }
+      ],
+      "image": "assets/15eb7b694064c533e4ccb890.webp",
+      "zoom_image": "assets/15eb7b694064c533e4ccb890.png",
+      "original_image": "assets/eda71d991bfa5d5203037fd3.png",
+      "original_filename": "R25/Compare These Two Images UPJ Obstruction - Echo.png",
+      "category": "Ultrasound",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-1e377197c565ad32f7ff",
+      "asset_id": "asset-84847313ec52bad6",
+      "source_group_id": "group-84847313ec52bad6",
+      "source_id": "src-84847313ec52bad6",
+      "variant_id": "var-9ec545c9eb5adc72f5a2d2df",
+      "question_type": "Visual Identification",
+      "tested_concept": "Crossed renal ectopia",
+      "stem": "Which positional anomaly is depicted by both renal moieties lying on the same side of the spine?",
+      "visual_target": "Both renal moieties and the descending ureters in the full 3D reconstruction",
+      "joint_composite": false,
+      "options": [
+        "Horseshoe kidney spanning both sides",
+        "A single orthotopic kidney with an absent partner",
+        "Bilateral pelvic kidneys",
+        "Crossed renal ectopia"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "There is no transverse isthmus joining kidneys across the midline.",
+        "Two moieties and their collecting systems are visible, not one kidney alone.",
+        "The larger moiety remains high, so both kidneys are not pelvic.",
+        "Two renal moieties are grouped on one side rather than opposite sides of the spine."
+      ],
+      "explanation": "Two renal moieties are grouped on one side rather than opposite sides of the spine.",
+      "visual_clues": [
+        "Two renal moieties on one side",
+        "No midline horseshoe isthmus"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Crossed Renal Ectopia 3D Rendering - CT.png",
+          "page": null,
+          "sha256": "84847313ec52bad606515103ae9d94329148c8ea3cd4bd10c3a2fee0a8ee714c"
+        }
+      ],
+      "image": "assets/9ec545c9eb5adc72f5a2d2df.webp",
+      "zoom_image": "assets/9ec545c9eb5adc72f5a2d2df.png",
+      "original_image": "assets/84847313ec52bad606515103.png",
+      "original_filename": "R25/Crossed Renal Ectopia 3D Rendering - CT.png",
+      "category": "CT reconstruction",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-8eac6ca76341b8832ebb",
+      "asset_id": "asset-48fcc370263c0e64",
+      "source_group_id": "group-48fcc370263c0e64",
+      "source_id": "src-48fcc370263c0e64",
+      "variant_id": "var-7a0e25409109c5c7779e2354",
+      "question_type": "Visual Identification",
+      "tested_concept": "Fused lower-pole renal isthmus",
+      "stem": "What congenital configuration is visible in this reconstruction?",
+      "visual_target": "Both renal moieties and their connecting lower-pole tissue",
+      "joint_composite": false,
+      "options": [
+        "Crossed ectopia with both kidneys on one side",
+        "A solitary pelvic kidney",
+        "Horseshoe kidney with a midline isthmus",
+        "Two completely separate orthotopic kidneys"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Renal tissue extends on both sides of the spine, not one side only.",
+        "Two renal moieties and separate ureters are shown rather than one pelvic kidney.",
+        "Lower-pole tissue connects the right and left renal moieties across the midline.",
+        "The two kidneys are visibly fused by a transverse isthmus."
+      ],
+      "explanation": "Lower-pole tissue connects the right and left renal moieties across the midline.",
+      "visual_clues": [
+        "Midline lower-pole bridge",
+        "Renal tissue on both sides"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Horseshoe Kidney 3D Rendering - CT.png",
+          "page": null,
+          "sha256": "48fcc370263c0e643467278ae056fbbcc21ac853b1d3b06cf5311ed6126bd865"
+        }
+      ],
+      "image": "assets/7a0e25409109c5c7779e2354.webp",
+      "zoom_image": "assets/7a0e25409109c5c7779e2354.png",
+      "original_image": "assets/48fcc370263c0e643467278a.png",
+      "original_filename": "R25/Horseshoe Kidney 3D Rendering - CT.png",
+      "category": "CT reconstruction",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-f06a2e2cb6da54edcc0a",
+      "asset_id": "asset-eaf443dfa92b52d4",
+      "source_group_id": "group-eaf443dfa92b52d4",
+      "source_id": "src-eaf443dfa92b52d4",
+      "variant_id": "var-7b4a12ed315af64fc7be4285",
+      "question_type": "Visual Identification",
+      "tested_concept": "Multiple noncommunicating renal cysts",
+      "stem": "How are the prominent anechoic spaces arranged in this renal ultrasound?",
+      "visual_target": "All rounded dark spaces across the renal image",
+      "joint_composite": false,
+      "options": [
+        "A normal compact renal sinus",
+        "Multiple separate cystic spaces",
+        "One communicating central collecting system",
+        "A single uniformly solid renal mass"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The multiple large dark cavities replace the compact normal sinus appearance.",
+        "Several rounded dark cavities remain distinct rather than branching from one central pelvis.",
+        "The cavities do not form a single connected pelvis-and-calyx tree.",
+        "The spaces are anechoic fluid, not homogeneous solid tissue."
+      ],
+      "explanation": "Several rounded dark cavities remain distinct rather than branching from one central pelvis.",
+      "visual_clues": [
+        "Several discrete rounded cavities",
+        "No central branching connection"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Multicystic Dysplastic Kidney Ultrasound - Echo.png",
+          "page": null,
+          "sha256": "eaf443dfa92b52d40e3f227f0156977b610a791ad4980fbc3b1ea703ddea06cd"
+        }
+      ],
+      "image": "assets/7b4a12ed315af64fc7be4285.webp",
+      "zoom_image": "assets/7b4a12ed315af64fc7be4285.png",
+      "original_image": "assets/eaf443dfa92b52d40e3f227f.png",
+      "original_filename": "R25/Multicystic Dysplastic Kidney Ultrasound - Echo.png",
+      "category": "Ultrasound",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-d0262b8ea3665fe65275",
+      "asset_id": "asset-16a1d43c5485b51e",
+      "source_group_id": "group-16a1d43c5485b51e",
+      "source_id": "src-16a1d43c5485b51e",
+      "variant_id": "var-f6ad7768b87810e00e6db2a6",
+      "question_type": "Visual Identification",
+      "tested_concept": "Perinephric fluid collection",
+      "stem": "Where is the large abnormal collection located relative to the right kidney?",
+      "visual_target": "The crescent of material surrounding the right kidney in the full axial CT",
+      "joint_composite": false,
+      "options": [
+        "Around the kidney in the perinephric space",
+        "Inside the collecting-system pelvis",
+        "Within the contralateral renal cortex",
+        "Only inside the urinary bladder"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The collection wraps outside the right renal margin within the surrounding perinephric compartment.",
+        "The collecting pelvis is central inside the kidney, not this external crescent.",
+        "The left renal cortex remains separate from the large right-sided collection.",
+        "The urinary bladder is not shown in this upper-abdominal CT section."
+      ],
+      "explanation": "The collection wraps outside the right renal margin within the surrounding perinephric compartment.",
+      "visual_clues": [
+        "Large extracortical crescent",
+        "Displaced right renal outline"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R25 Renal Imaging - Part 1 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "2bd34ea415801c48cc2fc05f3d64f451ce990ab5b3f1ad86b5019cd9dc5b4291"
+        },
+        {
+          "document": "Renal/Lecture/R25 - Renal Imaging - Part 1 (Radiology)/R25 - Detailed Notes.md",
+          "page": null,
+          "sha256": "b7249f3ee9d6a62fad3a17149ccdf39fe9f5034eda8de362706c6971cb02822b"
+        },
+        {
+          "document": "R25/Perinephric Hematoma - CT.png",
+          "page": null,
+          "sha256": "16a1d43c5485b51e3326d742887378c825179b5bb7e20d8fbeea0c32d54c09c8"
+        }
+      ],
+      "image": "assets/f6ad7768b87810e00e6db2a6.webp",
+      "zoom_image": "assets/f6ad7768b87810e00e6db2a6.png",
+      "original_image": "assets/16a1d43c5485b51e3326d742.png",
+      "original_filename": "R25/Perinephric Hematoma - CT.png",
+      "category": "CT",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-3e5339319b5077e47675",
+      "asset_id": "asset-eb167cbd841b7a1b",
+      "source_group_id": "group-eb167cbd841b7a1b",
+      "source_id": "src-eb167cbd841b7a1b",
+      "variant_id": "var-38ee018f1ce9aa11861963f1",
+      "question_type": "Visual Identification",
+      "tested_concept": "Left pneumothorax",
+      "stem": "What pleural-space abnormality is visible on the image right side of this axial CT?",
+      "visual_target": "The dark space between the chest wall and collapsed lung on image right",
+      "joint_composite": false,
+      "options": [
+        "Pleural fluid layering dependently",
+        "Diffuse bilateral air-space consolidation",
+        "A solitary intrapulmonary nodule",
+        "Pneumothorax with lung collapse"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Pleural fluid would be dependent soft-tissue density rather than this black gas space.",
+        "The opposite lung remains aerated and there is no bilateral dense consolidation.",
+        "The finding is a large pleural air collection, not a small round lung lesion.",
+        "A broad black pleural space surrounds a smaller collapsed lung on image right."
+      ],
+      "explanation": "A broad black pleural space surrounds a smaller collapsed lung on image right.",
+      "visual_clues": [
+        "Pleural black air space",
+        "Collapsed lung edge medial to chest wall"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R28 Renal & Urinary Tract Malignancies (Urology - Part 1) RLS.pdf",
+          "page": null,
+          "sha256": "870c026e93d4db49f91662a5922e23e88288ae0a6f3b76a18d8758b180c0ed07"
+        },
+        {
+          "document": "Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md",
+          "page": null,
+          "sha256": "956e726a2ff46240e67784e2071b17b27b1f1aadce2989583c499f45894f1e0b"
+        },
+        {
+          "document": "R28/Birt Hogg Dube Syndrome Pneumothorax - CT.png",
+          "page": null,
+          "sha256": "eb167cbd841b7a1b2b0ff579429aa8e5135124c4b7059f539e0e859ce715b94a"
+        }
+      ],
+      "image": "assets/38ee018f1ce9aa11861963f1.webp",
+      "zoom_image": "assets/38ee018f1ce9aa11861963f1.png",
+      "original_image": "assets/eb167cbd841b7a1b2b0ff579.png",
+      "original_filename": "R28/Birt Hogg Dube Syndrome Pneumothorax - CT.png",
+      "category": "Chest CT",
+      "collection": "R28",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-221dcdfd576d116c6e80",
+      "asset_id": "asset-b74e0c2e4ff19efa",
+      "source_group_id": "group-b74e0c2e4ff19efa",
+      "source_id": "src-b74e0c2e4ff19efa",
+      "variant_id": "var-f22d5ec89cc6421b0e8bf694",
+      "question_type": "Visual Identification",
+      "tested_concept": "Chromophobe cell halos",
+      "stem": "Which cytologic feature is most conspicuous among the tumor cells?",
+      "visual_target": "Cell boundaries and cytoplasm throughout the full histology field",
+      "joint_composite": false,
+      "options": [
+        "Spindle cells arranged in intersecting fascicles",
+        "Small dark cells forming narrow papillae",
+        "Perinuclear halos with prominent cell borders",
+        "Uniformly empty lipid-rich clear cytoplasm"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The cells are polygonal epithelial cells, not long spindle fascicles.",
+        "The field lacks a dominant delicate papillary architecture of small basophilic cells.",
+        "Many polygonal cells have pale perinuclear clearing and distinct outlines.",
+        "The cytoplasm is pink and haloed rather than uniformly optically clear."
+      ],
+      "explanation": "Many polygonal cells have pale perinuclear clearing and distinct outlines.",
+      "visual_clues": [
+        "Pale perinuclear zones",
+        "Distinct polygonal borders"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R28 Renal & Urinary Tract Malignancies (Urology - Part 1) RLS.pdf",
+          "page": null,
+          "sha256": "870c026e93d4db49f91662a5922e23e88288ae0a6f3b76a18d8758b180c0ed07"
+        },
+        {
+          "document": "Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md",
+          "page": null,
+          "sha256": "956e726a2ff46240e67784e2071b17b27b1f1aadce2989583c499f45894f1e0b"
+        },
+        {
+          "document": "R28/Chromophobe Carcinoma - Histology.png",
+          "page": null,
+          "sha256": "b74e0c2e4ff19efac334e57481cedd67d510450fb999138fe6e15d58c123fa7d"
+        }
+      ],
+      "image": "assets/f22d5ec89cc6421b0e8bf694.webp",
+      "zoom_image": "assets/f22d5ec89cc6421b0e8bf694.png",
+      "original_image": "assets/b74e0c2e4ff19efac334e574.png",
+      "original_filename": "R28/Chromophobe Carcinoma - Histology.png",
+      "category": "Histology",
+      "collection": "R28",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-53cdd40c9b634a59ab06",
+      "asset_id": "asset-4603efe969a20599",
+      "source_group_id": "group-4603efe969a20599",
+      "source_id": "src-4603efe969a20599",
+      "variant_id": "var-f22be0f6c4c4037c8cbd18ab",
+      "question_type": "Visual Identification",
+      "tested_concept": "Multifocal renal masses",
+      "stem": "Which gross distribution of renal lesions is visible in this specimen?",
+      "visual_target": "The entire bisected kidney and spatially separate tumor nodules",
+      "joint_composite": false,
+      "options": [
+        "A single stone filling the collecting system",
+        "Multiple separate solid renal masses",
+        "One smooth simple renal cyst only",
+        "Diffuse uniform cortical thinning without masses"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The lesions are fleshy masses rather than a branching calcified stone.",
+        "Separate bulky tan-red nodules occupy more than one region of the cut kidney.",
+        "The lesions are solid and multiple rather than one fluid-filled cavity.",
+        "The parenchyma contains distinct expansile lesions, not just thin cortex."
+      ],
+      "explanation": "Separate bulky tan-red nodules occupy more than one region of the cut kidney.",
+      "visual_clues": [
+        "Distinct nodules in separate locations",
+        "Solid expansile cut surfaces"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R28 Renal & Urinary Tract Malignancies (Urology - Part 1) RLS.pdf",
+          "page": null,
+          "sha256": "870c026e93d4db49f91662a5922e23e88288ae0a6f3b76a18d8758b180c0ed07"
+        },
+        {
+          "document": "Renal/Lecture/R28 - Renal & Urinary Tract Malignancies (Urology - Part 1)/R28 - Detailed Notes.md",
+          "page": null,
+          "sha256": "956e726a2ff46240e67784e2071b17b27b1f1aadce2989583c499f45894f1e0b"
+        },
+        {
+          "document": "R28/Clear Cell Carcinoma Multifocal Kidney - Gross.png",
+          "page": null,
+          "sha256": "4603efe969a205995bf54d89e6fba68de463e71d5f0a8da657bbab37f162cab3"
+        }
+      ],
+      "image": "assets/f22be0f6c4c4037c8cbd18ab.webp",
+      "zoom_image": "assets/f22be0f6c4c4037c8cbd18ab.png",
+      "original_image": "assets/4603efe969a205995bf54d89.png",
+      "original_filename": "R28/Clear Cell Carcinoma Multifocal Kidney - Gross.png",
+      "category": "Gross pathology",
+      "collection": "R28",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-bc8ad2306e7923fc4090",
+      "asset_id": "asset-8637557dd5518de3",
+      "source_group_id": "group-8637557dd5518de3",
+      "source_id": "src-8637557dd5518de3",
+      "variant_id": "var-14b81cd09cfc41042764f77c",
+      "question_type": "Visual Identification",
+      "tested_concept": "Intraluminal bladder mass",
+      "stem": "What is the measured soft-tissue finding projecting into the bladder lumen?",
+      "visual_target": "The measured lesion along the lateral bladder wall",
+      "joint_composite": false,
+      "options": [
+        "An intraluminal bladder mass",
+        "A dependent simple fluid level",
+        "A pelvic bone lesion outside the bladder",
+        "A ureteral stone in the upper abdomen"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The crosshairs lie on a rounded soft-tissue projection from the bladder wall into the lumen.",
+        "The target is soft tissue with a defined contour, not a horizontal fluid level.",
+        "The measured target is inside the bladder silhouette, not in pelvic bone.",
+        "This pelvic slice shows a bladder lesion, not an upper abdominal ureteral focus."
+      ],
+      "explanation": "The crosshairs lie on a rounded soft-tissue projection from the bladder wall into the lumen.",
+      "visual_clues": [
+        "Rounded wall-based projection",
+        "Crosshairs within bladder lumen"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R29 Renal Imaging - Part 2 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "3e9e5a35d83ac4c96b4cad5b9a8eb6ea745762a397b8401e02767d7be6f29f06"
+        },
+        {
+          "document": "Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md",
+          "page": null,
+          "sha256": "ee9e0f338f7dc56c17a877eb32bfa1d6ad2681d18fe195054680d7e1539d783c"
+        },
+        {
+          "document": "R29/Bladder Mass Axial CT - CT.png",
+          "page": null,
+          "sha256": "8637557dd5518de3c87eeec0f8a09ee448c4901c18257e82faba8abf1d7d809c"
+        }
+      ],
+      "image": "assets/14b81cd09cfc41042764f77c.webp",
+      "zoom_image": "assets/14b81cd09cfc41042764f77c.png",
+      "original_image": "assets/8637557dd5518de3c87eeec0.png",
+      "original_filename": "R29/Bladder Mass Axial CT - CT.png",
+      "category": "CT",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-e87f5f4ce7ab83f990d5",
+      "asset_id": "asset-62e78f2bc1985ad2",
+      "source_group_id": "group-62e78f2bc1985ad2",
+      "source_id": "src-62e78f2bc1985ad2",
+      "variant_id": "var-7307e326a5d6b5c83a8e1241",
+      "question_type": "Visual Identification",
+      "tested_concept": "Simple-fluid T1/T2 signal reversal",
+      "stem": "How does the arrowed renal lesion change between panels A and B?",
+      "visual_target": "The same cyst in both complete axial MRI panels",
+      "joint_composite": false,
+      "options": [
+        "Bright in both A and B",
+        "Dark in both A and B",
+        "Bright in A and dark in B",
+        "Dark in A and bright in B"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Panel A is not bright; the lesion is markedly low signal there.",
+        "Panel B is not dark; its lesion is high signal.",
+        "The observed signal order is the reverse of this choice.",
+        "The circumscribed lesion is very dark in A and strikingly bright in B."
+      ],
+      "explanation": "The circumscribed lesion is very dark in A and strikingly bright in B.",
+      "visual_clues": [
+        "Low signal in A",
+        "High signal in B"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R29 Renal Imaging - Part 2 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "3e9e5a35d83ac4c96b4cad5b9a8eb6ea745762a397b8401e02767d7be6f29f06"
+        },
+        {
+          "document": "Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md",
+          "page": null,
+          "sha256": "ee9e0f338f7dc56c17a877eb32bfa1d6ad2681d18fe195054680d7e1539d783c"
+        },
+        {
+          "document": "R29/Renal Cyst T1 T2 MRI - Radiograph.png",
+          "page": null,
+          "sha256": "62e78f2bc1985ad2e07087f3aae314dee66da0f9a69cc79049c38fe6dc16ac20"
+        }
+      ],
+      "image": "assets/7307e326a5d6b5c83a8e1241.webp",
+      "zoom_image": "assets/7307e326a5d6b5c83a8e1241.png",
+      "original_image": "assets/62e78f2bc1985ad2e07087f3.png",
+      "original_filename": "R29/Renal Cyst T1 T2 MRI - Radiograph.png",
+      "category": "MRI",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-7856c1667cbcf149792c",
+      "asset_id": "asset-1d4db8b2fb019092",
+      "source_group_id": "group-1d4db8b2fb019092",
+      "source_id": "src-1d4db8b2fb019092",
+      "variant_id": "var-cb7af509aa84676f59119041",
+      "question_type": "Visual Identification",
+      "tested_concept": "Simple renal cyst sonographic pattern",
+      "stem": "Which sonographic description best fits the prominent rounded renal lesion?",
+      "visual_target": "The larger left-sided rounded lesion and its wall",
+      "joint_composite": false,
+      "options": [
+        "Complex cyst with thick mural nodules",
+        "Branching central hydronephrosis",
+        "Anechoic thin-walled cyst",
+        "Solid hyperechoic mass"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "No thick septa or projecting mural nodules are seen.",
+        "The finding is a separate rounded cavity, not connected branching calyces.",
+        "The round lesion is uniformly black with a thin smooth boundary.",
+        "It contains no bright solid internal tissue."
+      ],
+      "explanation": "The round lesion is uniformly black with a thin smooth boundary.",
+      "visual_clues": [
+        "Uniform black interior",
+        "Thin smooth round wall"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R29 Renal Imaging - Part 2 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "3e9e5a35d83ac4c96b4cad5b9a8eb6ea745762a397b8401e02767d7be6f29f06"
+        },
+        {
+          "document": "Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md",
+          "page": null,
+          "sha256": "ee9e0f338f7dc56c17a877eb32bfa1d6ad2681d18fe195054680d7e1539d783c"
+        },
+        {
+          "document": "R29/Renal Cyst Ultrasound - Radiograph.png",
+          "page": null,
+          "sha256": "1d4db8b2fb019092cdb49128b95d80459f60fd300b4b09cf7ed11549bc196e74"
+        }
+      ],
+      "image": "assets/cb7af509aa84676f59119041.webp",
+      "zoom_image": "assets/cb7af509aa84676f59119041.png",
+      "original_image": "assets/1d4db8b2fb019092cdb49128.png",
+      "original_filename": "R29/Renal Cyst Ultrasound - Radiograph.png",
+      "category": "Ultrasound",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b61934abcca83af5d8fe",
+      "asset_id": "asset-58370a9b056bd8a2",
+      "source_group_id": "group-58370a9b056bd8a2",
+      "source_id": "src-58370a9b056bd8a2",
+      "variant_id": "var-11e09956687822dbae19f256",
+      "question_type": "Visual Identification",
+      "tested_concept": "Branching staghorn calculus",
+      "stem": "What is the branching very high-density structure within the enlarged right kidney?",
+      "visual_target": "The bright structure extending through pelvis and calyces",
+      "joint_composite": false,
+      "options": [
+        "A perinephric hematoma",
+        "A staghorn calculus",
+        "A simple renal cortical cyst",
+        "An enhancing solid renal tumor"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "A hematoma would surround the kidney rather than branch within the calyces.",
+        "The calcified material branches through the renal pelvis and major calyces.",
+        "A cyst would be low attenuation and rounded, not a bright branching structure.",
+        "The target is sharply dense material in the collecting system, not a parenchymal mass."
+      ],
+      "explanation": "The calcified material branches through the renal pelvis and major calyces.",
+      "visual_clues": [
+        "Very high-density branching form",
+        "Collecting-system distribution"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R29 Renal Imaging - Part 2 (Radiology) RLS.pdf",
+          "page": null,
+          "sha256": "3e9e5a35d83ac4c96b4cad5b9a8eb6ea745762a397b8401e02767d7be6f29f06"
+        },
+        {
+          "document": "Renal/Lecture/R29 - Renal Imaging - Part 2 (Radiology)/R29 - Detailed Notes.md",
+          "page": null,
+          "sha256": "ee9e0f338f7dc56c17a877eb32bfa1d6ad2681d18fe195054680d7e1539d783c"
+        },
+        {
+          "document": "R29/Staghorn Calculus CT - CT.png",
+          "page": null,
+          "sha256": "58370a9b056bd8a2d026432c2b5f4437a392fa175c024a3bc4031f763641cb05"
+        }
+      ],
+      "image": "assets/11e09956687822dbae19f256.webp",
+      "zoom_image": "assets/11e09956687822dbae19f256.png",
+      "original_image": "assets/58370a9b056bd8a2d026432c.png",
+      "original_filename": "R29/Staghorn Calculus CT - CT.png",
+      "category": "CT",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    }
+  ]
+}
