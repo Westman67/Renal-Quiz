@@ -1,3 +1,8 @@
+export const BANK_OPTIONS=[
+ {id:'physiology',label:'Physiology & foundations',href:'./'},
+ {id:'pathology',label:'Pathology & imaging',href:'?bank=pathology'}
+];
+
 export function resolveBankConfig(search=''){
  const pathology=new URLSearchParams(search).get('bank')==='pathology';
  return pathology?{
