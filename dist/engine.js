@@ -1,4 +1,5 @@
 export const VERSION=1;
+export function sortLectureIds(ids){return [...new Set(ids)].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true,sensitivity:'base'}));}
 export function defaultSettings(){return {category:'all',collection:'all',filter:'all',mode:'learn',length:'all'};}
 export function normalizeSettings(raw,bank){const s=defaultSettings();if(!raw||typeof raw!=='object')return s;for(const [key,allowed] of Object.entries({mode:['learn','exam'],length:['10','20','40','all','endless'],filter:['all','unseen','incorrect','marked'],category:['all',...new Set(bank.map(q=>q.category))]}))if(allowed.includes(raw[key]))s[key]=raw[key];const lectures=new Set(bank.map(q=>q.collection));if(Array.isArray(raw.collection)){const valid=[...new Set(raw.collection.filter(x=>lectures.has(x)))];s.collection=raw.collection.length&&!valid.length?'all':valid;}else if(lectures.has(raw.collection))s.collection=[raw.collection];return s;}
 export function sessionSize(available,length){return ['all','endless'].includes(length)?available:Math.min(available,Number(length));}
