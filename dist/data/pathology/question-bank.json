@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "bank_version": "renal-pathology-2026-10-19-candidate-review",
+  "bank_version": "renal-2026-10-19-r23-thirst-zone",
   "title": "Renal Pathology and Related Topics Picture Quiz",
   "lecture": "mixed",
   "questions": [
@@ -7084,6 +7084,60 @@
       "original_filename": "R25/Collecting Systems Hydronephrosis MR Urogram - Radiograph.png",
       "category": "MRI",
       "collection": "R25",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-47527c6b863be8ce5803",
+      "asset_id": "asset-a2934d33ac6e7524",
+      "source_group_id": "group-a2934d33ac6e7524",
+      "source_id": "src-a2934d33ac6e7524",
+      "variant_id": "var-af4f317cf918333dc1312c95",
+      "question_type": "Graph Interpretation",
+      "tested_concept": "Onset of shaded thirst zone relative to ADH rise",
+      "stem": "On the plasma-tonicity graph, at approximately which x-axis value does the shaded thirst zone begin?",
+      "visual_target": "Left edge of the shaded thirst zone on the plasma-tonicity x-axis",
+      "joint_composite": false,
+      "options": [
+        "About 280 mOsm/kg",
+        "About 295 mOsm/kg",
+        "About 310 mOsm/kg",
+        "About 270 mOsm/kg"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "At 280, the red ADH curve begins rising, but the shaded thirst zone has not begun.",
+        "The shaded zone starts about halfway between the 290 and 300 x-axis marks.",
+        "At 310, the shaded thirst zone is already present; this is its right edge, not its onset.",
+        "At 270, the graph shows an unshaded region and a nearly flat ADH baseline."
+      ],
+      "explanation": "The shaded thirst zone begins near 295 mOsm/kg, after the red ADH curve starts to rise near 280 mOsm/kg.",
+      "visual_clues": [
+        "The gray zone begins between the 290 and 300 x-axis ticks",
+        "The red ADH curve turns upward earlier, near 280"
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Direct reading of the complete lecture graph on R23 RLS p. 27 and the preserved manual course capture.",
+      "citations": [
+        {
+          "document": "R23 Fluid Regulation Disorders (Pathophysiology) RLS.pdf",
+          "page": 27,
+          "sha256": "5fbc73a2e3005cdf9def3b32410f4bd4eb194e02f32b704486dfeded13c50e1d"
+        },
+        {
+          "document": "R23/Plasma ADH vs Plasma Tonicity Thirst Graph - Diagram.png",
+          "page": null,
+          "sha256": "a2934d33ac6e75247348668e54c3e4652faea7231d40dded9b6cfcbf2b3e5956"
+        }
+      ],
+      "image": "assets/af4f317cf918333dc1312c95.webp",
+      "zoom_image": "assets/af4f317cf918333dc1312c95.png",
+      "original_image": "assets/a2934d33ac6e75247348668e.png",
+      "original_filename": "R23/Plasma ADH vs Plasma Tonicity Thirst Graph - Diagram.png",
+      "category": "Graph",
+      "collection": "R23",
       "source_origin": "lecture",
       "status": "USABLE",
       "case_context": "",

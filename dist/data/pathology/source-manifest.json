@@ -47332,12 +47332,12 @@
       "system": "Renal",
       "status": "USABLE",
       "modality": "Graph",
-      "tested_concept": "Osmotic ADH threshold",
+      "tested_concept": "Osmotic ADH threshold and onset of shaded thirst zone",
       "review_reason": "Distinct source-backed visual target retained in full unmodified learner view.",
-      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R23 - Fluid Regulation Disorders (Pathophysiology)/R23 - Detailed Notes.md; exact RLS page not independently established.",
+      "ground_truth_basis": "Manual course capture visually matched to R23 RLS p. 27; both plotted thresholds are directly visible.",
       "source_citation": {
         "document": "R23 Fluid Regulation Disorders (Pathophysiology) RLS.pdf",
-        "page": null,
+        "page": 27,
         "sha256": "5fbc73a2e3005cdf9def3b32410f4bd4eb194e02f32b704486dfeded13c50e1d"
       },
       "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
@@ -47400,6 +47400,18 @@
             "axes, legends, and labels when present"
           ],
           "reason": "Course-backed visual target visible in full capture."
+        },
+        {
+          "type": "Graph interpretation",
+          "supported": "YES",
+          "visual_target": "Left boundary of the shaded thirst zone on the plasma-tonicity x-axis",
+          "full_image_required": true,
+          "preserve": [
+            "plasma-tonicity x-axis and units",
+            "shaded thirst region",
+            "red ADH curve"
+          ],
+          "reason": "Distinct visible threshold from the existing ADH-curve-breakpoint question; supported by R23 RLS p. 27."
         }
       ]
     },

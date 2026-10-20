@@ -271,13 +271,14 @@
     "R23": {
       "status": "Partial coverage",
       "tested_summary": [
-        "Osmotic ADH threshold"
+        "Osmotic ADH threshold",
+        "Onset of the shaded thirst zone on the ADH-versus-tonicity graph"
       ],
       "gaps": [
         "Other manual captures retained as reference-only after visual triage; no forced question for answer-labeled, repeated, or ambiguous visuals."
       ],
       "next_capture": "No additional capture required for this reviewed manual set.",
-      "basis": "34 eligible manual PNGs contact-sheet triaged; 1 selected for scored questions. _Not for quiz excluded."
+      "basis": "34 manual R23 captures reviewed; 2 scored graph questions from one complete course figure, matched to RLS p. 27. Other captures remain reference-only."
     },
     "R30": {
       "status": "Partial coverage",
