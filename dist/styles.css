@@ -13,3 +13,5 @@
 
 .top-actions{display:flex;align-items:center;gap:14px}.view-nav,.bank-switch{display:flex;gap:5px}.bank-switch{padding:4px;border:1px solid var(--line);border-radius:12px;background:#fff}.bank-switch a{padding:8px 11px;border-radius:8px;color:#476158;text-decoration:none;font-size:12px;font-weight:700;white-space:nowrap}.bank-switch a:hover{background:#edf5f0;color:#173e34}.bank-switch a[aria-current=page]{background:#173e34;color:#fff}
 @media(max-width:850px){.top-actions{display:grid;width:100%;gap:8px}.bank-switch,.view-nav{justify-content:center}.bank-switch a{flex:1;text-align:center}.view-nav .quiet{flex:1}}
+
+.bank-switch button{padding:8px 11px;border:0;border-radius:8px;background:transparent;color:#476158;font:inherit;font-size:12px;font-weight:700;white-space:nowrap;cursor:pointer}.bank-switch button:hover{background:#edf5f0;color:#173e34}.bank-switch button[aria-current=page]{background:#173e34;color:#fff}.bank-boxes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}@media(max-width:850px){.bank-switch button{flex:1;text-align:center}}

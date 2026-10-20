@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "bank_version": "renal-2026-10-19-r23-thirst-zone",
+  "bank_version": "renal-2026-10-19-r23-thirst-zone+2026-10-20-r12-r13-r36-r37+2026-10-20-r17-table-mask+2026-10-20-mask-fixes",
   "title": "Renal Pathology and Related Topics Picture Quiz",
   "lecture": "mixed",
   "questions": [
@@ -1307,11 +1307,11 @@
       "asset_id": "asset-3b0c6ce91762d719",
       "source_group_id": "group-r17-diuretic-table",
       "source_id": "src-3b0c6ce91762d719",
-      "variant_id": "var-5fdd538cd7eed1aba5585313",
+      "variant_id": "var-8505e62e48029b25baec3fb2",
       "question_type": "Table Interpretation",
       "tested_concept": "Thiazide urinary calcium pattern",
-      "stem": "Reading the urinary-excretion columns in this table, which listed diuretic class increases urinary Na⁺ yet decreases urinary Ca²⁺?",
-      "visual_target": "Na⁺ and Ca²⁺ arrows across the class rows in the cropped comparison table.",
+      "stem": "The urinary Na⁺ and Ca²⁺ columns are hidden. Which listed diuretic class increases urinary Na⁺ yet decreases urinary Ca²⁺?",
+      "visual_target": "Class rows with the Na⁺ and Ca²⁺ cells blocked; diuresis, K⁺, Mg²⁺, Cl⁻ and maximum filtered Na⁺ excreted remain as row context.",
       "joint_composite": false,
       "options": [
         "Thiazides",
@@ -1328,8 +1328,8 @@
       ],
       "explanation": "The thiazide row combines upward urinary Na⁺ arrows with a downward urinary Ca²⁺ arrow.",
       "visual_clues": [
-        "Na⁺ column rises in thiazide row",
-        "Ca²⁺ column falls in that row"
+        "Hidden Na⁺ and Ca²⁺ cells must be recalled for each class row",
+        "After answering, the teaching original shows the thiazide row with Na⁺ up and Ca²⁺ down"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
@@ -1345,8 +1345,8 @@
           "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
         }
       ],
-      "image": "assets/5fdd538cd7eed1aba5585313.webp",
-      "zoom_image": "assets/5fdd538cd7eed1aba5585313.png",
+      "image": "assets/8505e62e48029b25baec3fb2.webp",
+      "zoom_image": "assets/8505e62e48029b25baec3fb2.png",
       "original_image": "assets/3b0c6ce91762d719381655a1.png",
       "original_filename": "R17/Diuretic table full cropped.png",
       "category": "Table",
@@ -4425,11 +4425,11 @@
       "asset_id": "asset-2ab88295ada8f92a",
       "source_group_id": "group-2ab88295ada8f92a",
       "source_id": "src-2ab88295ada8f92a",
-      "variant_id": "var-ec8affe36be15403b6c54e94",
+      "variant_id": "var-f1e6a403acebae3d2fcffbd4",
       "question_type": "Visual Identification",
       "tested_concept": "Alpha-intercalated-cell acid-base direction",
-      "stem": "Which paired direction of transport is shown for H⁺ and HCO₃⁻?",
-      "visual_target": "The complete cell with tubular lumen at left and blood at right",
+      "stem": "The arrows beside the apical H⁺ ATPases and the basolateral HCO₃⁻ exchanger are hidden. Which paired direction of transport belongs in this alpha-intercalated cell?",
+      "visual_target": "Apical H⁺ pumps and basolateral HCO₃⁻ exchanger with their arrows hidden, lumen at left and blood at right",
       "joint_composite": false,
       "options": [
         "H⁺ to lumen and HCO₃⁻ to blood",
@@ -4446,8 +4446,8 @@
       ],
       "explanation": "Apical H⁺ pump arrows point left into the lumen, while HCO₃⁻ exits right into blood.",
       "visual_clues": [
-        "Leftward apical H⁺ arrows",
-        "Rightward basolateral HCO₃⁻ arrow"
+        "After answering, the teaching original shows leftward apical H⁺ arrows",
+        "After answering, the teaching original shows a rightward basolateral HCO₃⁻ arrow"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R30 - Acid-Base Balance/R30 - Detailed Notes.md; exact RLS page not independently established.",
@@ -4468,8 +4468,8 @@
           "sha256": "2ab88295ada8f92a1dd4fa052538184c072dd81210087431cca8c3498cc80346"
         }
       ],
-      "image": "assets/ec8affe36be15403b6c54e94.webp",
-      "zoom_image": "assets/ec8affe36be15403b6c54e94.png",
+      "image": "assets/f1e6a403acebae3d2fcffbd4.webp",
+      "zoom_image": "assets/f1e6a403acebae3d2fcffbd4.png",
       "original_image": "assets/2ab88295ada8f92a1dd4fa05.png",
       "original_filename": "R30/Proton Secretion Naked Alpha Intercalated Cell - Diagram.png",
       "category": "Cell transport diagram",
@@ -4484,11 +4484,11 @@
       "asset_id": "asset-c9f7743011d25544",
       "source_group_id": "group-c9f7743011d25544",
       "source_id": "src-c9f7743011d25544",
-      "variant_id": "var-7c798be868d10a348702e748",
+      "variant_id": "var-e8489c4062f44df1219d100a",
       "question_type": "Visual Identification",
       "tested_concept": "Combined GFR and albuminuria category",
-      "stem": "At the intersection of G4 and A3, what action and frequency are printed in the risk map?",
-      "visual_target": "G4 row crossed with A3 column, retaining the complete row and column headings",
+      "stem": "The text in the G4 and A3 cell is hidden, but its color is kept. Using the color scale and neighboring cells, which action and frequency belong there?",
+      "visual_target": "G4 row crossed with A3 column with the printed text hidden, retaining the complete row and column headings and every other cell",
       "joint_composite": false,
       "options": [
         "Monitor; 1",
@@ -4505,8 +4505,8 @@
       ],
       "explanation": "The G4–A3 cell reads Refer with 4+ below it.",
       "visual_clues": [
-        "G4 row",
-        "A3 column"
+        "The cell is the darkest maroon, matching every G5 cell",
+        "Cells above and to the left, G3b and A3 and G4 and A2, are the lighter red of Refer 3"
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
@@ -4527,8 +4527,8 @@
           "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
         }
       ],
-      "image": "assets/7c798be868d10a348702e748.webp",
-      "zoom_image": "assets/7c798be868d10a348702e748.png",
+      "image": "assets/e8489c4062f44df1219d100a.webp",
+      "zoom_image": "assets/e8489c4062f44df1219d100a.png",
       "original_image": "assets/c9f7743011d25544f315614e.png",
       "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
       "category": "Risk table",
@@ -7140,6 +7140,728 @@
       "collection": "R23",
       "source_origin": "lecture",
       "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-01b7c5fed40309655f6f",
+      "asset_id": "asset-841545289a8b3612",
+      "source_group_id": "group-841545289a8b3612",
+      "source_id": "src-841545289a8b3612",
+      "variant_id": "var-5bf8e9e55527baca44e4dfe3",
+      "question_type": "Finding Recognition",
+      "tested_concept": "ACE inhibitor-associated lip angioedema",
+      "stem": "In this lower-face photograph from the ACE-inhibitor case, which abnormality is visible?",
+      "visual_target": "Lower lip and adjacent mouth region.",
+      "joint_composite": false,
+      "options": [
+        "Marked lower-lip swelling",
+        "Clustered perioral vesicles",
+        "A solitary oral ulcer",
+        "Blue discoloration of both lips"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The lower lip is diffusely enlarged compared with the upper lip and surrounding skin.",
+        "No grouped small blisters are present around the mouth.",
+        "The visible mucosa shows no isolated crater-like lesion.",
+        "The lip is red and swollen rather than diffusely blue."
+      ],
+      "explanation": "The photo shows prominent lower-lip swelling, illustrating the lecture’s ACE-inhibitor angioedema case.",
+      "visual_clues": [
+        "The lower lip protrudes and is enlarged.",
+        "The upper lip is comparatively thin."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 3.",
+      "citations": [
+        {
+          "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+          "page": 3,
+          "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+        },
+        {
+          "document": "R36/ACE Inhibitor Angioedema Lip Swelling - Clinical Photo.png",
+          "page": null,
+          "sha256": "841545289a8b36124d217b5279805525ac1b5778e24d56234ac65a728d9671f4"
+        }
+      ],
+      "image": "assets/5bf8e9e55527baca44e4dfe3.webp",
+      "zoom_image": "assets/5bf8e9e55527baca44e4dfe3.png",
+      "original_image": "assets/841545289a8b36124d217b52.png",
+      "original_filename": "R36/ACE Inhibitor Angioedema Lip Swelling - Clinical Photo.png",
+      "category": "Clinical Photo",
+      "collection": "R36",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-10c43640a081a7dbe4d8",
+      "asset_id": "asset-66c0607bd6c915cc",
+      "source_group_id": "group-66c0607bd6c915cc",
+      "source_id": "src-66c0607bd6c915cc",
+      "variant_id": "var-d48113b66c6a6b16e69d1d05",
+      "question_type": "Morphology Recognition",
+      "tested_concept": "Elongated drug crystal morphology",
+      "stem": "In the urine-sediment image from the HAART case, what is the dominant crystal shape?",
+      "visual_target": "Central dark crystal in the urine microscopy field.",
+      "joint_composite": false,
+      "options": [
+        "Long, narrow needle-like form",
+        "Flat hexagonal plate",
+        "Envelope-shaped octahedron",
+        "Coffin-lid prism"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The dominant dark structure is elongated and narrow with pointed ends.",
+        "The target has no six-sided flat outline.",
+        "The target lacks the short envelope-like crossed outline.",
+        "The target is not a rectangular, beveled coffin-lid shape."
+      ],
+      "explanation": "The central urine-sediment crystal is long and narrow; the accompanying lecture case associates crystalline nephropathy with a protease inhibitor.",
+      "visual_clues": [
+        "The crystal spans much more width than height.",
+        "Its visible ends taper rather than forming a plate or prism."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 31.",
+      "citations": [
+        {
+          "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+          "page": 31,
+          "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+        },
+        {
+          "document": "R36/HAART Crystalline Nephropathy Urine Sediment Crystals - Urine Microscopy.png",
+          "page": null,
+          "sha256": "66c0607bd6c915cc73c93140e7a5b6f57c06437299c428e19e39146c1a751455"
+        }
+      ],
+      "image": "assets/d48113b66c6a6b16e69d1d05.webp",
+      "zoom_image": "assets/d48113b66c6a6b16e69d1d05.png",
+      "original_image": "assets/66c0607bd6c915cc73c93140.png",
+      "original_filename": "R36/HAART Crystalline Nephropathy Urine Sediment Crystals - Urine Microscopy.png",
+      "category": "Urine Microscopy",
+      "collection": "R36",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The course case describes a 27-year-old patient with newly treated HIV whose creatinine rose from 0.8 to 2 mg/dL after starting HAART.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b2f79cb7bb6d9908c0c6",
+      "asset_id": "asset-983079e7f2d7b576",
+      "source_group_id": "group-983079e7f2d7b576",
+      "source_id": "src-983079e7f2d7b576",
+      "variant_id": "var-eb835d5bd0fff68ca56ee24d",
+      "question_type": "Imaging Finding",
+      "tested_concept": "Collecting-system dilation on renal ultrasound",
+      "stem": "In the sagittal left-kidney ultrasound, what does the asterisk mark?",
+      "visual_target": "Asterisk within the central anechoic collecting-system space.",
+      "joint_composite": false,
+      "options": [
+        "Dilated fluid-filled collecting system",
+        "Solid cortical mass",
+        "Shadowing echogenic calculus",
+        "Normal bright renal sinus fat"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The asterisk lies inside a dark fluid-filled central space that branches into dilated calyces.",
+        "A solid mass would have tissue echogenicity rather than this connected black fluid space.",
+        "No bright stone with a posterior acoustic shadow occupies the marked space.",
+        "Normal sinus fat is echogenic, not the marked anechoic cavity."
+      ],
+      "explanation": "The marked connected anechoic spaces represent collecting-system dilation in the lecture’s postoperative urinary-retention case.",
+      "visual_clues": [
+        "The starred central region is black and fluid-filled.",
+        "Adjacent dark spaces branch toward the calyces."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 33.",
+      "citations": [
+        {
+          "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+          "page": 33,
+          "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+        },
+        {
+          "document": "R36/Renal Ultrasound Left Kidney Sagittal - Radiograph.png",
+          "page": null,
+          "sha256": "983079e7f2d7b576567637423384f42fbc4e555ee81e05e05c3b944714e8ceff"
+        }
+      ],
+      "image": "assets/eb835d5bd0fff68ca56ee24d.webp",
+      "zoom_image": "assets/eb835d5bd0fff68ca56ee24d.png",
+      "original_image": "assets/983079e7f2d7b57656763742.png",
+      "original_filename": "R36/Renal Ultrasound Left Kidney Sagittal - Radiograph.png",
+      "category": "Imaging",
+      "collection": "R36",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "The course case describes an 82-year-old postoperative patient who had not urinated for 12 hours; the slide presents renal-bladder imaging.",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-50a2ba6efde89040617e",
+      "asset_id": "asset-ed1262b32465c9a9",
+      "source_group_id": "group-ed1262b32465c9a9",
+      "source_id": "src-ed1262b32465c9a9",
+      "variant_id": "var-818c4f1fc037be94e32d761f",
+      "question_type": "Graph Interpretation",
+      "tested_concept": "Hemodialysis survival curves by ESRD-onset year",
+      "stem": "On the hemodialysis graph, which ESRD-onset cohort has the highest adjusted survival near 36 months?",
+      "visual_target": "Three colored survival curves at the 36-month tick.",
+      "joint_composite": false,
+      "options": [
+        "2015 cohort",
+        "2010 cohort",
+        "2005 cohort",
+        "All three cohorts overlap at 36 months"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The gray 2015 line is above the red and blue lines near month 36.",
+        "The red 2010 line runs below the gray line at that time.",
+        "The blue 2005 line is the lowest of the three near month 36.",
+        "The lines are separated rather than overlapping at month 36."
+      ],
+      "explanation": "On this lecture graph, the 2015 cohort has the highest plotted adjusted survival near 36 months; this is a reading of the historical figure, not a current survival estimate.",
+      "visual_clues": [
+        "Use the legend to identify the gray 2015 curve.",
+        "Compare the vertical positions at the 36-month tick."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 37.",
+      "citations": [
+        {
+          "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+          "page": 37,
+          "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+        },
+        {
+          "document": "R37/Adjusted Survival of Incident ESRD Patients Hemodialysis - Diagram.png",
+          "page": null,
+          "sha256": "ed1262b32465c9a95dafa5487a10749957505deb0f731df557820d190d43c398"
+        }
+      ],
+      "image": "assets/818c4f1fc037be94e32d761f.webp",
+      "zoom_image": "assets/818c4f1fc037be94e32d761f.png",
+      "original_image": "assets/ed1262b32465c9a95dafa548.png",
+      "original_filename": "R37/Adjusted Survival of Incident ESRD Patients Hemodialysis - Diagram.png",
+      "category": "Graph",
+      "collection": "R37",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-b162b5513142b1cac683",
+      "asset_id": "asset-ad1d0c300d99d121",
+      "source_group_id": "group-ad1d0c300d99d121",
+      "source_id": "src-ad1d0c300d99d121",
+      "variant_id": "var-1ed3b2b4546bdcdd6ad956ef",
+      "question_type": "Ultrastructural Finding",
+      "tested_concept": "Podocyte foot-process effacement",
+      "stem": "At the capillary-loop surface in this electron micrograph, which ultrastructural change is shown?",
+      "visual_target": "Smooth podocyte covering along the outer glomerular basement membrane.",
+      "joint_composite": false,
+      "options": [
+        "Effacement of podocyte foot processes",
+        "Split lamellated basement membrane",
+        "Discrete subepithelial immune-complex humps",
+        "Extracapillary cellular crescent"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The podocyte surface appears broad and smoothed rather than separated into distinct interdigitating feet.",
+        "The basement membrane is not shown splitting into layered lamellae.",
+        "No isolated dense hump-like deposits project from the outer membrane.",
+        "A cellular crescent is a light-microscopy pattern, not the ultrastructural target here."
+      ],
+      "explanation": "The right-hand EM panel on the R37 biopsy slide illustrates podocyte foot-process effacement. The lecture pairs this with a minimal-change-disease case but the EM finding alone is not uniquely diagnostic.",
+      "visual_clues": [
+        "The outer capillary-loop covering is smooth.",
+        "Individual podocyte foot processes are not discernible along the marked span."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "citations": [
+        {
+          "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+          "page": 31,
+          "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+        },
+        {
+          "document": "R37/Minimal Change Disease Foot Process Effacement (2) - EM.png",
+          "page": null,
+          "sha256": "ad1d0c300d99d121338434cc1d8f0ebcc8d7629264259bf61a063915e36e60f2"
+        }
+      ],
+      "image": "assets/1ed3b2b4546bdcdd6ad956ef.webp",
+      "zoom_image": "assets/1ed3b2b4546bdcdd6ad956ef.png",
+      "original_image": "assets/ad1d0c300d99d121338434cc.png",
+      "original_filename": "R37/Minimal Change Disease Foot Process Effacement (2) - EM.png",
+      "category": "EM",
+      "collection": "R37",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-c9f7743011d25544",
+      "source_group_id": "group-c9f7743011d25544",
+      "source_id": "src-c9f7743011d25544",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+          "page": null,
+          "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
+        }
+      ],
+      "category": "Risk table",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/c9f7743011d25544f315614e.png",
+      "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+      "question_id": "q-f66197b322f379f5ac25",
+      "variant_id": "var-5575d44019d67e44417ca7b9",
+      "question_type": "Table Interpretation",
+      "tested_concept": "G2 and A1 risk map cell",
+      "stem": "The text in the G2 and A1 cell is hidden, but its color is kept. Which action and frequency belong there?",
+      "visual_target": "G2 and A1 cell text hidden, cell color kept",
+      "joint_composite": false,
+      "options": [
+        "Monitor; 2",
+        "Monitor; 1",
+        "Refer; 3",
+        "Refer; 4+"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Monitor 2 is printed in orange cells such as G3b and A1, not in a dark green cell.",
+        "The dark green color marks the lowest-risk cells, and the G1 and A1 cell directly above prints Monitor with frequency 1.",
+        "Refer 3 is printed in red cells in the higher-risk part of the map.",
+        "Refer 4+ is printed only in the darkest maroon cells, not in a dark green cell."
+      ],
+      "explanation": "The dark green color marks the lowest-risk cells, and the G1 and A1 cell directly above prints Monitor with frequency 1.",
+      "visual_clues": [
+        "Dark green matches the visible G1 and A1 cell",
+        "Lowest-risk cells print Monitor with frequency 1"
+      ],
+      "image": "assets/5575d44019d67e44417ca7b9.webp",
+      "zoom_image": "assets/5575d44019d67e44417ca7b9.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-c9f7743011d25544",
+      "source_group_id": "group-c9f7743011d25544",
+      "source_id": "src-c9f7743011d25544",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+          "page": null,
+          "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
+        }
+      ],
+      "category": "Risk table",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/c9f7743011d25544f315614e.png",
+      "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+      "question_id": "q-3cd6baa7e6b44fa3e133",
+      "variant_id": "var-525f506ce8984a4a84d57710",
+      "question_type": "Table Interpretation",
+      "tested_concept": "G3a and A1 risk map cell",
+      "stem": "The text in the G3a and A1 cell is hidden, but its color is kept. Which action and frequency belong there?",
+      "visual_target": "G3a and A1 cell text hidden, cell color kept",
+      "joint_composite": false,
+      "options": [
+        "Monitor; 2",
+        "Refer; 2",
+        "Refer; 3",
+        "Monitor; 1"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Monitor 2 is printed in orange cells such as G3a and A2, not in a yellow cell.",
+        "Refer 2 appears with an asterisk in orange cells in the A3 column, not in a yellow cell.",
+        "Refer 3 is printed in red cells, which are darker than this yellow cell.",
+        "The yellow color matches the G1 and A2 cell and the G2 and A2 cell, which print Monitor with frequency 1."
+      ],
+      "explanation": "The yellow color matches the G1 and A2 cell and the G2 and A2 cell, which print Monitor with frequency 1.",
+      "visual_clues": [
+        "Yellow matches the visible G1 and A2 and G2 and A2 cells",
+        "Yellow cells print Monitor with frequency 1"
+      ],
+      "image": "assets/525f506ce8984a4a84d57710.webp",
+      "zoom_image": "assets/525f506ce8984a4a84d57710.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-c9f7743011d25544",
+      "source_group_id": "group-c9f7743011d25544",
+      "source_id": "src-c9f7743011d25544",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+          "page": null,
+          "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
+        }
+      ],
+      "category": "Risk table",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/c9f7743011d25544f315614e.png",
+      "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+      "question_id": "q-beb8c5de3fd2bb59901e",
+      "variant_id": "var-72cfd1a75d8bc3d5927fceb9",
+      "question_type": "Table Interpretation",
+      "tested_concept": "G3b and A3 risk map cell",
+      "stem": "The text in the G3b and A3 cell is hidden, but its color is kept. Which action and frequency belong there?",
+      "visual_target": "G3b and A3 cell text hidden, cell color kept",
+      "joint_composite": false,
+      "options": [
+        "Refer; 3",
+        "Monitor; 2",
+        "Refer; 4+",
+        "Monitor; 1"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The red color matches the G3a and A3 cell directly above, which prints Refer with frequency 3.",
+        "Monitor 2 is printed in orange cells, not in a red cell.",
+        "Refer 4+ is printed in the darkest maroon cells at G5 and G4 and A3, which are darker than this red cell.",
+        "Monitor 1 is printed in green and yellow cells, which are lower risk than this red cell."
+      ],
+      "explanation": "The red color matches the G3a and A3 cell directly above, which prints Refer with frequency 3.",
+      "visual_clues": [
+        "Red matches the visible G3a and A3 cell above",
+        "Red cells in the A3 column print Refer 3"
+      ],
+      "image": "assets/72cfd1a75d8bc3d5927fceb9.webp",
+      "zoom_image": "assets/72cfd1a75d8bc3d5927fceb9.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-c9f7743011d25544",
+      "source_group_id": "group-c9f7743011d25544",
+      "source_id": "src-c9f7743011d25544",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual course capture visually reviewed against Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md; exact RLS page not independently established.",
+      "citations": [
+        {
+          "document": "R31 Treatment Strategies & Dialysis RLS.pdf",
+          "page": null,
+          "sha256": "d9271f033afe4585132ca20f04d5fb67c8ab1b35fa911951099f2475e74a930b"
+        },
+        {
+          "document": "Renal/Lecture/R31 - Treatment Strategies & Dialysis/R31 - Detailed Notes.md",
+          "page": null,
+          "sha256": "9866ab396128c0d6529aae025239bc5577318e4861a0c821118f656b6aada3ea"
+        },
+        {
+          "document": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+          "page": null,
+          "sha256": "c9f7743011d25544f315614e2fec3fa57caf5c04167a93b011a4e51af7fc1789"
+        }
+      ],
+      "category": "Risk table",
+      "collection": "R31",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/c9f7743011d25544f315614e.png",
+      "original_filename": "R31/CKD Risk Map GFR and Albuminuria Category - Diagram.png",
+      "question_id": "q-ce7f4e2a31d55c620f47",
+      "variant_id": "var-a7b41040e1b048ada6a4b61d",
+      "question_type": "Table Interpretation",
+      "tested_concept": "G5 and A1 risk map cell",
+      "stem": "The text in the G5 and A1 cell is hidden, but its color is kept. Which action and frequency belong there?",
+      "visual_target": "G5 and A1 cell text hidden, cell color kept",
+      "joint_composite": false,
+      "options": [
+        "Refer; 3",
+        "Monitor; 2",
+        "Refer; 4+",
+        "Refer; 2"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Refer 3 is printed in red cells, which are lighter than this maroon cell.",
+        "Monitor 2 is printed in orange cells, not in a maroon cell.",
+        "The maroon color matches the G5 and A2 cell, the G5 and A3 cell and the G4 and A3 cell, which all print Refer with 4+.",
+        "Refer 2 appears in orange cells in the A3 column, not in a maroon cell."
+      ],
+      "explanation": "The maroon color matches the G5 and A2 cell, the G5 and A3 cell and the G4 and A3 cell, which all print Refer with 4+.",
+      "visual_clues": [
+        "Maroon matches the other G5 cells",
+        "Maroon cells print Refer with 4+"
+      ],
+      "image": "assets/a7b41040e1b048ada6a4b61d.webp",
+      "zoom_image": "assets/a7b41040e1b048ada6a4b61d.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-3b0c6ce91762d719",
+      "source_group_id": "group-r17-diuretic-table",
+      "source_id": "src-3b0c6ce91762d719",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 24,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Diuretic table full cropped.png",
+          "page": null,
+          "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
+        }
+      ],
+      "category": "Table",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/3b0c6ce91762d719381655a1.png",
+      "original_filename": "R17/Diuretic table full cropped.png",
+      "question_id": "q-2eed50dcd6c648d4f77f",
+      "variant_id": "var-8f67c5c98450269d9519bb02",
+      "question_type": "Table Interpretation",
+      "tested_concept": "Aldosterone antagonist urinary potassium pattern",
+      "stem": "The urinary K⁺ cell for aldosterone antagonists is hidden. Which change belongs there?",
+      "visual_target": "Aldosterone antagonist K+ cell hidden",
+      "joint_composite": false,
+      "options": [
+        "Decrease (↓)",
+        "Increase (↑)",
+        "Marked increase (↑↑)",
+        "No change (↔)"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Aldosterone antagonists are potassium sparing, and the ENaC blocker row below shows the same downward red arrow.",
+        "A single upward K⁺ arrow is shown for classes such as osmotic diuretics and thiazides, not for potassium-sparing drugs.",
+        "Two upward K⁺ arrows are shown for carbonic anhydrase inhibitors and loop diuretics, which waste potassium.",
+        "No class in the K⁺ column shows a horizontal arrow, and potassium-sparing drugs lower urinary K⁺."
+      ],
+      "explanation": "Aldosterone antagonists are potassium sparing, and the ENaC blocker row below shows the same downward red arrow.",
+      "visual_clues": [
+        "The ENaC blocker row below shows a downward red K⁺ arrow",
+        "Potassium-sparing classes are the only downward K⁺ arrows"
+      ],
+      "image": "assets/8f67c5c98450269d9519bb02.webp",
+      "zoom_image": "assets/8f67c5c98450269d9519bb02.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-3b0c6ce91762d719",
+      "source_group_id": "group-r17-diuretic-table",
+      "source_id": "src-3b0c6ce91762d719",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 24,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Diuretic table full cropped.png",
+          "page": null,
+          "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
+        }
+      ],
+      "category": "Table",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/3b0c6ce91762d719381655a1.png",
+      "original_filename": "R17/Diuretic table full cropped.png",
+      "question_id": "q-a74667d9787b195b1d47",
+      "variant_id": "var-b2b2538e0efcb6205245efae",
+      "question_type": "Table Interpretation",
+      "tested_concept": "Loop diuretic diuresis magnitude",
+      "stem": "The diuresis circles for loop diuretics are hidden. Which relative diuresis belongs in that cell?",
+      "visual_target": "Loop diuretic diuresis circles hidden",
+      "joint_composite": false,
+      "options": [
+        "Three circles",
+        "Two circles",
+        "Four circles (greatest diuresis)",
+        "One circle"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "No class in the table is shown with three circles.",
+        "Two circles mark carbonic anhydrase inhibitors, osmotic diuretics and thiazides, which excrete far less filtered Na⁺ than loop diuretics.",
+        "Loop diuretics have the greatest diuretic effect in the table, shown by four circles and the largest maximum filtered Na⁺ excretion.",
+        "One circle marks the potassium-sparing classes, which have the smallest diuresis."
+      ],
+      "explanation": "Loop diuretics have the greatest diuretic effect in the table, shown by four circles and the largest maximum filtered Na⁺ excretion.",
+      "visual_clues": [
+        "Other rows show two circles or one circle",
+        "Loop diuretics have the largest maximum Na⁺ excretion"
+      ],
+      "image": "assets/b2b2538e0efcb6205245efae.webp",
+      "zoom_image": "assets/b2b2538e0efcb6205245efae.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-3b0c6ce91762d719",
+      "source_group_id": "group-r17-diuretic-table",
+      "source_id": "src-3b0c6ce91762d719",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 24,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Diuretic table full cropped.png",
+          "page": null,
+          "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
+        }
+      ],
+      "category": "Table",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/3b0c6ce91762d719381655a1.png",
+      "original_filename": "R17/Diuretic table full cropped.png",
+      "question_id": "q-dcd494abd0d9afd12719",
+      "variant_id": "var-d1aa95605294e287a7a16405",
+      "question_type": "Table Interpretation",
+      "tested_concept": "Loop diuretic maximum filtered sodium excreted",
+      "stem": "The maximum percent of filtered Na⁺ excreted for loop diuretics is hidden. Which value belongs there?",
+      "visual_target": "Loop diuretic maximum Na+ excreted cell hidden",
+      "joint_composite": false,
+      "options": [
+        "8%",
+        "25%",
+        "50%",
+        "3%"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "8% is the thiazide value, which is shown in its own row.",
+        "Loop diuretics have the highest maximum fraction of filtered Na⁺ excreted in the table, 25%, above the 20% shown for osmotic diuretics.",
+        "50% is far above any value in the table, whose largest entry is 25%.",
+        "3% is the value for the potassium-sparing classes, the weakest diuretics in the table."
+      ],
+      "explanation": "Loop diuretics have the highest maximum fraction of filtered Na⁺ excreted in the table, 25%, above the 20% shown for osmotic diuretics.",
+      "visual_clues": [
+        "Osmotic diuretics show 20% and thiazides show 8%",
+        "Loop diuretics have the greatest diuresis"
+      ],
+      "image": "assets/d1aa95605294e287a7a16405.webp",
+      "zoom_image": "assets/d1aa95605294e287a7a16405.png",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "asset_id": "asset-3b0c6ce91762d719",
+      "source_group_id": "group-r17-diuretic-table",
+      "source_id": "src-3b0c6ce91762d719",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
+      "citations": [
+        {
+          "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
+          "page": 24,
+          "sha256": "7fd9f21caa78dee237219cfe50374abb9f2a89d0bdbb9be1243ef01e78870ef4"
+        },
+        {
+          "document": "R17/Diuretic table full cropped.png",
+          "page": null,
+          "sha256": "3b0c6ce91762d719381655a127ff4e339bf8f8f580ae2bd244ad01daa6cdee88"
+        }
+      ],
+      "category": "Table",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "original_image": "assets/3b0c6ce91762d719381655a1.png",
+      "original_filename": "R17/Diuretic table full cropped.png",
+      "question_id": "q-08a827d3cc2058acd4b7",
+      "variant_id": "var-6307ace47ae03f1abc91ffea",
+      "question_type": "Table Interpretation",
+      "tested_concept": "Loop diuretic urinary calcium pattern",
+      "stem": "The urinary Ca²⁺ cell for loop diuretics is hidden. Which change belongs there?",
+      "visual_target": "Loop diuretic Ca2+ cell hidden",
+      "joint_composite": false,
+      "options": [
+        "Decrease (↓)",
+        "No change (↔)",
+        "Single increase (↑)",
+        "Marked increase (↑↑)"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "A downward Ca²⁺ arrow belongs to thiazides, which lower urinary Ca²⁺.",
+        "Horizontal Ca²⁺ arrows mark carbonic anhydrase inhibitors, osmotic diuretics, aldosterone antagonists and ENaC blockers.",
+        "A single upward arrow understates the loop effect, which the table shows with two arrows.",
+        "Loop diuretics remove the lumen-positive drive for paracellular Ca²⁺ reabsorption, so urinary Ca²⁺ rises and the cell shows two upward arrows."
+      ],
+      "explanation": "Loop diuretics remove the lumen-positive drive for paracellular Ca²⁺ reabsorption, so urinary Ca²⁺ rises and the cell shows two upward arrows.",
+      "visual_clues": [
+        "The thiazide row shows the opposite, a downward Ca²⁺ arrow",
+        "Loop diuretics have the largest Na⁺ effect"
+      ],
+      "image": "assets/6307ace47ae03f1abc91ffea.webp",
+      "zoom_image": "assets/6307ace47ae03f1abc91ffea.png",
       "case_context": "",
       "accepted_synonyms": []
     }

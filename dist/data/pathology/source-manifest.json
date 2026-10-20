@@ -3,10 +3,10 @@
   "system": "Renal",
   "lecture_id": "mixed",
   "source_directory": "../Renal/Manual",
-  "source_count_physical": 834,
-  "approval": "User approved full Renal quiz prompt and explicitly requested inclusion of completed R34 manual captures; prior bank approvals preserved.",
-  "stage": "Full eligible manual Renal set inventoried; selected variants passed native-size source comparison",
-  "generated_at": "2026-10-18T23:14:48-04:00",
+  "source_count_physical": 852,
+  "approval": "User approved full Renal quiz prompt and explicitly requested inclusion of completed R34 manual captures; prior bank approvals preserved. User approved the displayed R12/R13/R36/R37 quiz prompt on 2026-10-20.",
+  "stage": "R12/R13/R36/R37 manual batch appended; scored variants passed native-size review",
+  "generated_at": "2026-10-20T14:45:06-04:00",
   "sources": [
     {
       "relative_path": "R14/Jones Stain.png",
@@ -3539,7 +3539,7 @@
       "status": "USABLE",
       "modality": "Table",
       "tested_concept": "Thiazide urinary calcium pattern",
-      "review_reason": "Source-backed visually dependent question; complete unmodified image.",
+      "review_reason": "Source-backed visually dependent question; Na+ and Ca2+ cells blocked after learner flag.",
       "ground_truth_basis": "Manual capture visually matched to R17 RLS p. 24.",
       "source_citation": {
         "document": "R17 Diuretics II (Pharmacology) RLS.pdf",
@@ -3551,11 +3551,11 @@
       "batch_id": "2026-10-14-r16-r17-approved",
       "variants": [
         {
-          "variant_id": "var-5fdd538cd7eed1aba5585313",
-          "image": "assets/5fdd538cd7eed1aba5585313.webp",
-          "zoom_image": "assets/5fdd538cd7eed1aba5585313.png",
+          "variant_id": "var-8505e62e48029b25baec3fb2",
+          "image": "assets/8505e62e48029b25baec3fb2.webp",
+          "zoom_image": "assets/8505e62e48029b25baec3fb2.png",
           "transform": {
-            "type": "unmodified",
+            "type": "mask",
             "input_dimensions": [
               1448,
               776
@@ -3563,17 +3563,345 @@
             "coordinate_basis": "immutable_original_pixels",
             "crop_box": null,
             "normalized_crop": null,
-            "reason": "Complete original image, no transformation."
+            "masks": [
+              {
+                "box": [
+                  367,
+                  123,
+                  545,
+                  252
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  367,
+                  254,
+                  545,
+                  352
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  367,
+                  354,
+                  545,
+                  457
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  367,
+                  459,
+                  545,
+                  568
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  367,
+                  571,
+                  545,
+                  670
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  367,
+                  672,
+                  545,
+                  770
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  123,
+                  906,
+                  252
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  254,
+                  906,
+                  352
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  354,
+                  906,
+                  457
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  459,
+                  906,
+                  568
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  571,
+                  906,
+                  670
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              },
+              {
+                "box": [
+                  728,
+                  672,
+                  906,
+                  770
+                ],
+                "fill": "opaque light-gray block with a question mark",
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ]
+              }
+            ],
+            "output_dimensions": [
+              1448,
+              776
+            ],
+            "target": "Na+ and Ca2+ columns blocked; remaining columns give row context",
+            "reason": "Urinary Na+ and Ca2+ body cells were blocked because their arrows state the answer. Row names, diuresis circles, K+, Mg2+, Cl- and maximum filtered Na+ excreted remain unchanged.",
+            "supersedes_variant": "var-5fdd538cd7eed1aba5585313"
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-8f67c5c98450269d9519bb02",
+          "image": "assets/8f67c5c98450269d9519bb02.webp",
+          "zoom_image": "assets/8f67c5c98450269d9519bb02.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1448,
+              776
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  549,
+                  571,
+                  725,
+                  670
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1448,
+              776
+            ],
+            "target": "Aldosterone antagonist K+ cell hidden",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-b2b2538e0efcb6205245efae",
+          "image": "assets/b2b2538e0efcb6205245efae.webp",
+          "zoom_image": "assets/b2b2538e0efcb6205245efae.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1448,
+              776
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  188,
+                  354,
+                  363,
+                  457
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1448,
+              776
+            ],
+            "target": "Loop diuretic diuresis circles hidden",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-d1aa95605294e287a7a16405",
+          "image": "assets/d1aa95605294e287a7a16405.webp",
+          "zoom_image": "assets/d1aa95605294e287a7a16405.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1448,
+              776
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  1271,
+                  354,
+                  1446,
+                  457
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1448,
+              776
+            ],
+            "target": "Loop diuretic maximum Na+ excreted cell hidden",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-6307ace47ae03f1abc91ffea",
+          "image": "assets/6307ace47ae03f1abc91ffea.webp",
+          "zoom_image": "assets/6307ace47ae03f1abc91ffea.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1448,
+              776
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  728,
+                  354,
+                  906,
+                  457
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1448,
+              776
+            ],
+            "target": "Loop diuretic Ca2+ cell hidden",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
           },
           "visual_review": "passed at native size against original"
         }
       ],
       "variant_review_complete": true,
-      "variant_id": "var-5fdd538cd7eed1aba5585313",
-      "image": "assets/5fdd538cd7eed1aba5585313.webp",
-      "zoom_image": "assets/5fdd538cd7eed1aba5585313.png",
+      "variant_id": "var-8505e62e48029b25baec3fb2",
+      "image": "assets/8505e62e48029b25baec3fb2.webp",
+      "zoom_image": "assets/8505e62e48029b25baec3fb2.png",
       "transform": {
-        "type": "unmodified",
+        "type": "mask",
         "input_dimensions": [
           1448,
           776
@@ -3581,13 +3909,189 @@
         "coordinate_basis": "immutable_original_pixels",
         "crop_box": null,
         "normalized_crop": null,
-        "reason": "Complete original image, no transformation."
+        "masks": [
+          {
+            "box": [
+              367,
+              123,
+              545,
+              252
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              367,
+              254,
+              545,
+              352
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              367,
+              354,
+              545,
+              457
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              367,
+              459,
+              545,
+              568
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              367,
+              571,
+              545,
+              670
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              367,
+              672,
+              545,
+              770
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              123,
+              906,
+              252
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              254,
+              906,
+              352
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              354,
+              906,
+              457
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              459,
+              906,
+              568
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              571,
+              906,
+              670
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          },
+          {
+            "box": [
+              728,
+              672,
+              906,
+              770
+            ],
+            "fill": "opaque light-gray block with a question mark",
+            "rgb": [
+              222,
+              226,
+              232
+            ]
+          }
+        ],
+        "output_dimensions": [
+          1448,
+          776
+        ],
+        "target": "Na+ and Ca2+ columns blocked; remaining columns give row context",
+        "reason": "Urinary Na+ and Ca2+ body cells were blocked because their arrows state the answer. Row names, diuresis circles, K+, Mg2+, Cl- and maximum filtered Na+ excreted remain unchanged.",
+        "supersedes_variant": "var-5fdd538cd7eed1aba5585313"
       },
       "visual_review": {
         "status": "passed",
-        "checked_at": "2026-10-14T10:49:25-04:00",
+        "checked_at": "2026-10-20T18:48:39+00:00",
         "original_and_variant_compared": true,
-        "answer_leakage": "none observed; labels retained only as data to interpret",
+        "answer_leakage": "Na+ and Ca2+ columns blocked; no answer-bearing cell remains",
         "diagnostic_pixels_preserved": true
       }
     },
@@ -53582,11 +54086,11 @@
       ],
       "variants": [
         {
-          "variant_id": "var-ec8affe36be15403b6c54e94",
-          "image": "assets/ec8affe36be15403b6c54e94.webp",
-          "zoom_image": "assets/ec8affe36be15403b6c54e94.png",
+          "variant_id": "var-f1e6a403acebae3d2fcffbd4",
+          "image": "assets/f1e6a403acebae3d2fcffbd4.webp",
+          "zoom_image": "assets/f1e6a403acebae3d2fcffbd4.png",
           "transform": {
-            "type": "unmodified",
+            "type": "mask",
             "input_dimensions": [
               2301,
               1197
@@ -53594,17 +54098,109 @@
             "coordinate_basis": "immutable_original_pixels",
             "crop_box": null,
             "normalized_crop": null,
-            "reason": "Full diagnostic source retained without cropping or answer-bearing diagnosis text in the tested target."
+            "masks": [
+              {
+                "box": [
+                  232,
+                  253,
+                  336,
+                  300
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              },
+              {
+                "box": [
+                  541,
+                  253,
+                  636,
+                  300
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              },
+              {
+                "box": [
+                  232,
+                  1098,
+                  336,
+                  1142
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              },
+              {
+                "box": [
+                  541,
+                  1098,
+                  636,
+                  1142
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              },
+              {
+                "box": [
+                  1783,
+                  740,
+                  1893,
+                  785
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              },
+              {
+                "box": [
+                  2097,
+                  740,
+                  2182,
+                  785
+                ],
+                "rgb": [
+                  222,
+                  226,
+                  232
+                ],
+                "fill": "opaque light-gray block with a question mark"
+              }
+            ],
+            "output_dimensions": [
+              2301,
+              1197
+            ],
+            "target": "H+ pump arrows and the HCO3- exchanger arrow hidden; pumps, labels, pH boxes and Cl- arrow kept",
+            "reason": "The arrowheads and shafts beside the two apical H+ ATPases and the basolateral HCO3- exchanger were hidden because the arrows state the answer.",
+            "supersedes_variant": "var-ec8affe36be15403b6c54e94"
           },
-          "visual_review": "passed at native size against immutable original"
+          "visual_review": "passed at native size against original"
         }
       ],
       "variant_review_complete": true,
-      "variant_id": "var-ec8affe36be15403b6c54e94",
-      "image": "assets/ec8affe36be15403b6c54e94.webp",
-      "zoom_image": "assets/ec8affe36be15403b6c54e94.png",
+      "variant_id": "var-f1e6a403acebae3d2fcffbd4",
+      "image": "assets/f1e6a403acebae3d2fcffbd4.webp",
+      "zoom_image": "assets/f1e6a403acebae3d2fcffbd4.png",
       "transform": {
-        "type": "unmodified",
+        "type": "mask",
         "input_dimensions": [
           2301,
           1197
@@ -53612,13 +54208,105 @@
         "coordinate_basis": "immutable_original_pixels",
         "crop_box": null,
         "normalized_crop": null,
-        "reason": "Full diagnostic source retained without cropping or answer-bearing diagnosis text in the tested target."
+        "masks": [
+          {
+            "box": [
+              232,
+              253,
+              336,
+              300
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          },
+          {
+            "box": [
+              541,
+              253,
+              636,
+              300
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          },
+          {
+            "box": [
+              232,
+              1098,
+              336,
+              1142
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          },
+          {
+            "box": [
+              541,
+              1098,
+              636,
+              1142
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          },
+          {
+            "box": [
+              1783,
+              740,
+              1893,
+              785
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          },
+          {
+            "box": [
+              2097,
+              740,
+              2182,
+              785
+            ],
+            "rgb": [
+              222,
+              226,
+              232
+            ],
+            "fill": "opaque light-gray block with a question mark"
+          }
+        ],
+        "output_dimensions": [
+          2301,
+          1197
+        ],
+        "target": "H+ pump arrows and the HCO3- exchanger arrow hidden; pumps, labels, pH boxes and Cl- arrow kept",
+        "reason": "The arrowheads and shafts beside the two apical H+ ATPases and the basolateral HCO3- exchanger were hidden because the arrows state the answer.",
+        "supersedes_variant": "var-ec8affe36be15403b6c54e94"
       },
       "visual_review": {
         "status": "passed",
-        "checked_at": "2026-10-18T23:20:09-04:00",
+        "checked_at": "2026-10-20T19:07:28+00:00",
         "original_and_variant_compared": true,
-        "answer_leakage": "none observed for tested target",
+        "answer_leakage": "answer-bearing region blocked 2026-10-20",
         "diagnostic_pixels_preserved": true
       },
       "question_type_matrix": [
@@ -54177,11 +54865,11 @@
       ],
       "variants": [
         {
-          "variant_id": "var-7c798be868d10a348702e748",
-          "image": "assets/7c798be868d10a348702e748.webp",
-          "zoom_image": "assets/7c798be868d10a348702e748.png",
+          "variant_id": "var-e8489c4062f44df1219d100a",
+          "image": "assets/e8489c4062f44df1219d100a.webp",
+          "zoom_image": "assets/e8489c4062f44df1219d100a.png",
           "transform": {
-            "type": "unmodified",
+            "type": "mask",
             "input_dimensions": [
               1805,
               1606
@@ -54189,17 +54877,191 @@
             "coordinate_basis": "immutable_original_pixels",
             "crop_box": null,
             "normalized_crop": null,
-            "reason": "Full diagnostic source retained without cropping or answer-bearing diagnosis text in the tested target."
+            "masks": [
+              {
+                "box": [
+                  1494,
+                  1330,
+                  1788,
+                  1455
+                ],
+                "rgb": [
+                  132,
+                  33,
+                  36
+                ],
+                "fill": "cell background color kept, printed text hidden behind a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1805,
+              1606
+            ],
+            "target": "G4 and A3 cell text hidden; cell color and every other cell and heading kept",
+            "reason": "The printed action and frequency in the G4 and A3 cell were hidden behind a question mark. The cell keeps its own color, so the map color scale and neighboring cells still support the answer.",
+            "supersedes_variant": "var-7c798be868d10a348702e748"
           },
-          "visual_review": "passed at native size against immutable original"
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-5575d44019d67e44417ca7b9",
+          "image": "assets/5575d44019d67e44417ca7b9.webp",
+          "zoom_image": "assets/5575d44019d67e44417ca7b9.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1805,
+              1606
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  864,
+                  912,
+                  1180,
+                  1036
+                ],
+                "rgb": [
+                  54,
+                  107,
+                  53
+                ],
+                "fill": "cell background color kept, printed text hidden behind a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1805,
+              1606
+            ],
+            "target": "G2 and A1 cell text hidden, cell color kept",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-525f506ce8984a4a84d57710",
+          "image": "assets/525f506ce8984a4a84d57710.webp",
+          "zoom_image": "assets/525f506ce8984a4a84d57710.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1805,
+              1606
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  864,
+                  1042,
+                  1180,
+                  1180
+                ],
+                "rgb": [
+                  242,
+                  233,
+                  101
+                ],
+                "fill": "cell background color kept, printed text hidden behind a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1805,
+              1606
+            ],
+            "target": "G3a and A1 cell text hidden, cell color kept",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-72cfd1a75d8bc3d5927fceb9",
+          "image": "assets/72cfd1a75d8bc3d5927fceb9.webp",
+          "zoom_image": "assets/72cfd1a75d8bc3d5927fceb9.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1805,
+              1606
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  1494,
+                  1185,
+                  1788,
+                  1325
+                ],
+                "rgb": [
+                  215,
+                  33,
+                  46
+                ],
+                "fill": "cell background color kept, printed text hidden behind a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1805,
+              1606
+            ],
+            "target": "G3b and A3 cell text hidden, cell color kept",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
+        },
+        {
+          "variant_id": "var-a7b41040e1b048ada6a4b61d",
+          "image": "assets/a7b41040e1b048ada6a4b61d.webp",
+          "zoom_image": "assets/a7b41040e1b048ada6a4b61d.png",
+          "transform": {
+            "type": "mask",
+            "input_dimensions": [
+              1805,
+              1606
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "crop_box": null,
+            "normalized_crop": null,
+            "masks": [
+              {
+                "box": [
+                  864,
+                  1462,
+                  1180,
+                  1585
+                ],
+                "rgb": [
+                  143,
+                  29,
+                  37
+                ],
+                "fill": "cell background color kept, printed text hidden behind a question mark"
+              }
+            ],
+            "output_dimensions": [
+              1805,
+              1606
+            ],
+            "target": "G5 and A1 cell text hidden, cell color kept",
+            "reason": "Answer-bearing region blocked for a recall question; every other pixel unchanged."
+          },
+          "visual_review": "passed at native size against original"
         }
       ],
       "variant_review_complete": true,
-      "variant_id": "var-7c798be868d10a348702e748",
-      "image": "assets/7c798be868d10a348702e748.webp",
-      "zoom_image": "assets/7c798be868d10a348702e748.png",
+      "variant_id": "var-e8489c4062f44df1219d100a",
+      "image": "assets/e8489c4062f44df1219d100a.webp",
+      "zoom_image": "assets/e8489c4062f44df1219d100a.png",
       "transform": {
-        "type": "unmodified",
+        "type": "mask",
         "input_dimensions": [
           1805,
           1606
@@ -54207,13 +55069,35 @@
         "coordinate_basis": "immutable_original_pixels",
         "crop_box": null,
         "normalized_crop": null,
-        "reason": "Full diagnostic source retained without cropping or answer-bearing diagnosis text in the tested target."
+        "masks": [
+          {
+            "box": [
+              1494,
+              1330,
+              1788,
+              1455
+            ],
+            "rgb": [
+              132,
+              33,
+              36
+            ],
+            "fill": "cell background color kept, printed text hidden behind a question mark"
+          }
+        ],
+        "output_dimensions": [
+          1805,
+          1606
+        ],
+        "target": "G4 and A3 cell text hidden; cell color and every other cell and heading kept",
+        "reason": "The printed action and frequency in the G4 and A3 cell were hidden behind a question mark. The cell keeps its own color, so the map color scale and neighboring cells still support the answer.",
+        "supersedes_variant": "var-7c798be868d10a348702e748"
       },
       "visual_review": {
         "status": "passed",
-        "checked_at": "2026-10-18T23:20:09-04:00",
+        "checked_at": "2026-10-20T19:07:28+00:00",
         "original_and_variant_compared": true,
-        "answer_leakage": "none observed for tested target",
+        "answer_leakage": "answer-bearing region blocked 2026-10-20",
         "diagnostic_pixels_preserved": true
       },
       "question_type_matrix": [
@@ -56869,12 +57753,1091 @@
         "dimensions_preserved": true,
         "source_original_in_hosted_build": false
       }
+    },
+    {
+      "relative_path": "R36/ACE Inhibitor Angioedema Lip Swelling - Clinical Photo.png",
+      "extension": ".png",
+      "bytes": 1577280,
+      "sha256": "841545289a8b36124d217b5279805525ac1b5778e24d56234ac65a728d9671f4",
+      "kind": "raster",
+      "width": 1284,
+      "height": 709,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-841545289a8b3612",
+      "source_id": "src-841545289a8b3612",
+      "source_group_id": "group-841545289a8b3612",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "USABLE",
+      "modality": "Clinical Photo",
+      "tested_concept": "ACE inhibitor-associated lip angioedema",
+      "review_reason": "Image-dependent answer and distinct visual target verified against lecture source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 3.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 3,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/841545289a8b36124d217b52.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/ACE Inhibitor Angioedema Lip Swelling - Clinical Photo.png"
+      ],
+      "variants": [
+        {
+          "variant_id": "var-5bf8e9e55527baca44e4dfe3",
+          "image": "assets/5bf8e9e55527baca44e4dfe3.webp",
+          "zoom_image": "assets/5bf8e9e55527baca44e4dfe3.png",
+          "transform": {
+            "crop": null,
+            "masks": [],
+            "input_dimensions": [
+              1284,
+              709
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "method": "Lossless complete image",
+            "normalized_crop": null
+          },
+          "visual_review": "Original and learner crop visually inspected at native size; complete target preserved; no answer cue in learner image."
+        }
+      ],
+      "variant_review_complete": true,
+      "question_type_matrix": [
+        {
+          "type": "Finding Recognition",
+          "supported": "YES",
+          "visual_target": "Lower lip and adjacent mouth region.",
+          "full_image_required": true,
+          "reason": "One best answer from retained image and course context."
+        }
+      ]
+    },
+    {
+      "relative_path": "R36/ACE Inhibitor Angioedema Lip Swelling with caption - Clinical Photo.png",
+      "extension": ".png",
+      "bytes": 2580139,
+      "sha256": "0dd19d906786ae8a11ab1246e6dcbe1225745d1e6e7070c68d507f213ed1dfa4",
+      "kind": "raster",
+      "width": 4000,
+      "height": 2250,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-0dd19d906786ae8a",
+      "source_id": "src-0dd19d906786ae8a",
+      "source_group_id": "group-0dd19d906786ae8a",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "ACE Inhibitor Angioedema Lip Swelling with caption - Clinical Photo",
+      "review_reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 3.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 3,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/0dd19d906786ae8a11ab1246.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/ACE Inhibitor Angioedema Lip Swelling with caption - Clinical Photo.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source."
+        }
+      ],
+      "display_asset": "assets/review/0dd19d906786ae8a11ab1246.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/0dd19d906786ae8a11ab1246.png",
+        "source_sha256": "0dd19d906786ae8a11ab1246e6dcbe1225745d1e6e7070c68d507f213ed1dfa4",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/ACE Inhibitor Bradykinin Pathway - Diagram.png",
+      "extension": ".png",
+      "bytes": 411618,
+      "sha256": "9fe4e35ec8b0b14b3a3a79e94b5b354f0269279e0fd2db7dff761bcea19ec1c1",
+      "kind": "raster",
+      "width": 1305,
+      "height": 1097,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-9fe4e35ec8b0b14b",
+      "source_id": "src-9fe4e35ec8b0b14b",
+      "source_group_id": "group-9fe4e35ec8b0b14b",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "ACE Inhibitor Bradykinin Pathway - Diagram",
+      "review_reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 3.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 3,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/9fe4e35ec8b0b14b3a3a79e9.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/ACE Inhibitor Bradykinin Pathway - Diagram.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch."
+        }
+      ],
+      "display_asset": "assets/review/9fe4e35ec8b0b14b3a3a79e9.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/9fe4e35ec8b0b14b3a3a79e9.png",
+        "source_sha256": "9fe4e35ec8b0b14b3a3a79e94b5b354f0269279e0fd2db7dff761bcea19ec1c1",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/Bladder Imaging Panel C - Radiograph.png",
+      "extension": ".png",
+      "bytes": 262757,
+      "sha256": "3a49a8c4bc8cd6b58bd343102d99f0df6c655cfd6f9e6cde6736a9f0a21c01d3",
+      "kind": "raster",
+      "width": 855,
+      "height": 621,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-3a49a8c4bc8cd6b5",
+      "source_id": "src-3a49a8c4bc8cd6b5",
+      "source_group_id": "group-3a49a8c4bc8cd6b5",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Bladder Imaging Panel C - Radiograph",
+      "review_reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 33.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 33,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/3a49a8c4bc8cd6b58bd34310.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Bladder Imaging Panel C - Radiograph.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch."
+        }
+      ],
+      "display_asset": "assets/review/3a49a8c4bc8cd6b58bd34310.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/3a49a8c4bc8cd6b58bd34310.png",
+        "source_sha256": "3a49a8c4bc8cd6b58bd343102d99f0df6c655cfd6f9e6cde6736a9f0a21c01d3",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/HAART Crystalline Nephropathy Urine Sediment Crystals - Urine Microscopy.png",
+      "extension": ".png",
+      "bytes": 701976,
+      "sha256": "66c0607bd6c915cc73c93140e7a5b6f57c06437299c428e19e39146c1a751455",
+      "kind": "raster",
+      "width": 1526,
+      "height": 1184,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-66c0607bd6c915cc",
+      "source_id": "src-66c0607bd6c915cc",
+      "source_group_id": "group-66c0607bd6c915cc",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "USABLE",
+      "modality": "Urine Microscopy",
+      "tested_concept": "Elongated drug crystal morphology",
+      "review_reason": "Image-dependent answer and distinct visual target verified against lecture source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 31,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/66c0607bd6c915cc73c93140.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/HAART Crystalline Nephropathy Urine Sediment Crystals - Urine Microscopy.png"
+      ],
+      "variants": [
+        {
+          "variant_id": "var-d48113b66c6a6b16e69d1d05",
+          "image": "assets/d48113b66c6a6b16e69d1d05.webp",
+          "zoom_image": "assets/d48113b66c6a6b16e69d1d05.png",
+          "transform": {
+            "crop": null,
+            "masks": [],
+            "input_dimensions": [
+              1526,
+              1184
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "method": "Lossless complete image",
+            "normalized_crop": null
+          },
+          "visual_review": "Original and learner crop visually inspected at native size; complete target preserved; no answer cue in learner image."
+        }
+      ],
+      "variant_review_complete": true,
+      "question_type_matrix": [
+        {
+          "type": "Morphology Recognition",
+          "supported": "YES",
+          "visual_target": "Central dark crystal in the urine microscopy field.",
+          "full_image_required": true,
+          "reason": "One best answer from retained image and course context."
+        }
+      ]
+    },
+    {
+      "relative_path": "R36/HAART Crystalline Nephropathy Urine Sediment Crystals with caption - Urine Microscopy.png",
+      "extension": ".png",
+      "bytes": 1139137,
+      "sha256": "bf2cd953524e2f771a37b8478a4a97a246c9120b515d98f09717a6e78b0d7e6c",
+      "kind": "raster",
+      "width": 4000,
+      "height": 2250,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-bf2cd953524e2f77",
+      "source_id": "src-bf2cd953524e2f77",
+      "source_group_id": "group-bf2cd953524e2f77",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "HAART Crystalline Nephropathy Urine Sediment Crystals with caption - Urine Microscopy",
+      "review_reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 31,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/bf2cd953524e2f771a37b847.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/HAART Crystalline Nephropathy Urine Sediment Crystals with caption - Urine Microscopy.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source."
+        }
+      ],
+      "display_asset": "assets/review/bf2cd953524e2f771a37b847.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/bf2cd953524e2f771a37b847.png",
+        "source_sha256": "bf2cd953524e2f771a37b8478a4a97a246c9120b515d98f09717a6e78b0d7e6c",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/Nephrogenic Systemic Fibrosis Skin Plaques - Clinical Photo.png",
+      "extension": ".png",
+      "bytes": 11691994,
+      "sha256": "0c77adcc37129b9dde5af6104d589bed74fc447ead542705544cc37b43597e15",
+      "kind": "raster",
+      "width": 4000,
+      "height": 2250,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-0c77adcc37129b9d",
+      "source_id": "src-0c77adcc37129b9d",
+      "source_group_id": "group-0c77adcc37129b9d",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Nephrogenic Systemic Fibrosis Skin Plaques - Clinical Photo",
+      "review_reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 16.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 16,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/0c77adcc37129b9dde5af610.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Nephrogenic Systemic Fibrosis Skin Plaques - Clinical Photo.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch."
+        }
+      ],
+      "display_asset": "assets/review/0c77adcc37129b9dde5af610.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/0c77adcc37129b9dde5af610.png",
+        "source_sha256": "0c77adcc37129b9dde5af6104d589bed74fc447ead542705544cc37b43597e15",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/Polyuria Workup Algorithm - Algorithm.png",
+      "extension": ".png",
+      "bytes": 222364,
+      "sha256": "c338d4d6426c396cf0e612b9e6651050943719892e841c18ce4acecfc18c1789",
+      "kind": "raster",
+      "width": 2826,
+      "height": 1776,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-c338d4d6426c396c",
+      "source_id": "src-c338d4d6426c396c",
+      "source_group_id": "group-c338d4d6426c396c",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Polyuria Workup Algorithm - Algorithm",
+      "review_reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 23.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 23,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/c338d4d6426c396cf0e612b9.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Polyuria Workup Algorithm - Algorithm.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch."
+        }
+      ],
+      "display_asset": "assets/review/c338d4d6426c396cf0e612b9.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/c338d4d6426c396cf0e612b9.png",
+        "source_sha256": "c338d4d6426c396cf0e612b9e6651050943719892e841c18ce4acecfc18c1789",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/Renal Ultrasound Left Kidney Sagittal - Radiograph.png",
+      "extension": ".png",
+      "bytes": 288907,
+      "sha256": "983079e7f2d7b576567637423384f42fbc4e555ee81e05e05c3b944714e8ceff",
+      "kind": "raster",
+      "width": 801,
+      "height": 709,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-983079e7f2d7b576",
+      "source_id": "src-983079e7f2d7b576",
+      "source_group_id": "group-983079e7f2d7b576",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "USABLE",
+      "modality": "Imaging",
+      "tested_concept": "Collecting-system dilation on renal ultrasound",
+      "review_reason": "Image-dependent answer and distinct visual target verified against lecture source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 33.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 33,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/983079e7f2d7b57656763742.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Renal Ultrasound Left Kidney Sagittal - Radiograph.png"
+      ],
+      "variants": [
+        {
+          "variant_id": "var-eb835d5bd0fff68ca56ee24d",
+          "image": "assets/eb835d5bd0fff68ca56ee24d.webp",
+          "zoom_image": "assets/eb835d5bd0fff68ca56ee24d.png",
+          "transform": {
+            "crop": null,
+            "masks": [],
+            "input_dimensions": [
+              801,
+              709
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "method": "Lossless complete image",
+            "normalized_crop": null
+          },
+          "visual_review": "Original and learner crop visually inspected at native size; complete target preserved; no answer cue in learner image."
+        }
+      ],
+      "variant_review_complete": true,
+      "question_type_matrix": [
+        {
+          "type": "Imaging Finding",
+          "supported": "YES",
+          "visual_target": "Asterisk within the central anechoic collecting-system space.",
+          "full_image_required": true,
+          "reason": "One best answer from retained image and course context."
+        }
+      ]
+    },
+    {
+      "relative_path": "R36/Renal Ultrasound Right Kidney Sagittal - Radiograph.png",
+      "extension": ".png",
+      "bytes": 258968,
+      "sha256": "eec79a1b05895cc1d5ead28ad9419f8ff0b47194a2f67245f377fbeff81fb870",
+      "kind": "raster",
+      "width": 809,
+      "height": 660,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-eec79a1b05895cc1",
+      "source_id": "src-eec79a1b05895cc1",
+      "source_group_id": "group-eec79a1b05895cc1",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Renal Ultrasound Right Kidney Sagittal - Radiograph",
+      "review_reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 33.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 33,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/eec79a1b05895cc1d5ead28a.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Renal Ultrasound Right Kidney Sagittal - Radiograph.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Labeled algorithm, alternate case panel, or image without a distinct defensible scored target in this batch."
+        }
+      ],
+      "display_asset": "assets/review/eec79a1b05895cc1d5ead28a.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/eec79a1b05895cc1d5ead28a.png",
+        "source_sha256": "eec79a1b05895cc1d5ead28ad9419f8ff0b47194a2f67245f377fbeff81fb870",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R36/Renal Ultrasound Right Kidney Sagittal with caption - Radiograph.png",
+      "extension": ".png",
+      "bytes": 1396851,
+      "sha256": "c002f0e56bf00d2220e4bd8ecd441e7c3fc6f4adaea56c6cf95214d2f8eb48af",
+      "kind": "raster",
+      "width": 4000,
+      "height": 2250,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-c002f0e56bf00d22",
+      "source_id": "src-c002f0e56bf00d22",
+      "source_group_id": "group-c002f0e56bf00d22",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R36",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Renal Ultrasound Right Kidney Sagittal with caption - Radiograph",
+      "review_reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf p. 33.",
+      "source_citation": {
+        "document": "R36 Treatment Pitfalls & AI Use Case Studies (Clinical) RLS.pdf",
+        "page": 33,
+        "sha256": "3f2de39a13db06d044833f176f85333fb352ad1f042e0a2cc960e7ff27042ef5"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/c002f0e56bf00d2220e4bd8e.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R36/Renal Ultrasound Right Kidney Sagittal with caption - Radiograph.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source."
+        }
+      ],
+      "display_asset": "assets/review/c002f0e56bf00d2220e4bd8e.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/c002f0e56bf00d2220e4bd8e.png",
+        "source_sha256": "c002f0e56bf00d2220e4bd8ecd441e7c3fc6f4adaea56c6cf95214d2f8eb48af",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R37/Adjusted Survival of Incident ESRD Patients Hemodialysis - Diagram.png",
+      "extension": ".png",
+      "bytes": 545990,
+      "sha256": "ed1262b32465c9a95dafa5487a10749957505deb0f731df557820d190d43c398",
+      "kind": "raster",
+      "width": 1796,
+      "height": 1542,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-ed1262b32465c9a9",
+      "source_id": "src-ed1262b32465c9a9",
+      "source_group_id": "group-ed1262b32465c9a9",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "USABLE",
+      "modality": "Graph",
+      "tested_concept": "Hemodialysis survival curves by ESRD-onset year",
+      "review_reason": "Image-dependent answer and distinct visual target verified against lecture source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 37.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 37,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/ed1262b32465c9a95dafa548.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Adjusted Survival of Incident ESRD Patients Hemodialysis - Diagram.png"
+      ],
+      "variants": [
+        {
+          "variant_id": "var-818c4f1fc037be94e32d761f",
+          "image": "assets/818c4f1fc037be94e32d761f.webp",
+          "zoom_image": "assets/818c4f1fc037be94e32d761f.png",
+          "transform": {
+            "crop": null,
+            "masks": [],
+            "input_dimensions": [
+              1796,
+              1542
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "method": "Lossless complete image",
+            "normalized_crop": null
+          },
+          "visual_review": "Original and learner crop visually inspected at native size; complete target preserved; no answer cue in learner image."
+        }
+      ],
+      "variant_review_complete": true,
+      "question_type_matrix": [
+        {
+          "type": "Graph Interpretation",
+          "supported": "YES",
+          "visual_target": "Three colored survival curves at the 36-month tick.",
+          "full_image_required": true,
+          "reason": "One best answer from retained image and course context."
+        }
+      ]
+    },
+    {
+      "relative_path": "R37/Adjusted Survival of Incident ESRD Patients Peritoneal Dialysis - Diagram.png",
+      "extension": ".png",
+      "bytes": 568635,
+      "sha256": "b8e4cf5b4ae1897eba854c039b148bb829d0225f845bb828f408151e7125eefe",
+      "kind": "raster",
+      "width": 1926,
+      "height": 1542,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-b8e4cf5b4ae1897e",
+      "source_id": "src-b8e4cf5b4ae1897e",
+      "source_group_id": "group-b8e4cf5b4ae1897e",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Adjusted Survival of Incident ESRD Patients Peritoneal Dialysis - Diagram",
+      "review_reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 37.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 37,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/b8e4cf5b4ae1897eba854c03.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Adjusted Survival of Incident ESRD Patients Peritoneal Dialysis - Diagram.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring."
+        }
+      ],
+      "display_asset": "assets/review/b8e4cf5b4ae1897eba854c03.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/b8e4cf5b4ae1897eba854c03.png",
+        "source_sha256": "b8e4cf5b4ae1897eba854c039b148bb829d0225f845bb828f408151e7125eefe",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R37/Minimal Change Disease Foot Process Effacement (2) - EM.png",
+      "extension": ".png",
+      "bytes": 270014,
+      "sha256": "ad1d0c300d99d121338434cc1d8f0ebcc8d7629264259bf61a063915e36e60f2",
+      "kind": "raster",
+      "width": 1030,
+      "height": 509,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-ad1d0c300d99d121",
+      "source_id": "src-ad1d0c300d99d121",
+      "source_group_id": "group-ad1d0c300d99d121",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "USABLE",
+      "modality": "EM",
+      "tested_concept": "Podocyte foot-process effacement",
+      "review_reason": "Image-dependent answer and distinct visual target verified against lecture source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 31,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/ad1d0c300d99d121338434cc.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Minimal Change Disease Foot Process Effacement (2) - EM.png"
+      ],
+      "variants": [
+        {
+          "variant_id": "var-1ed3b2b4546bdcdd6ad956ef",
+          "image": "assets/1ed3b2b4546bdcdd6ad956ef.webp",
+          "zoom_image": "assets/1ed3b2b4546bdcdd6ad956ef.png",
+          "transform": {
+            "crop": null,
+            "masks": [],
+            "input_dimensions": [
+              1030,
+              509
+            ],
+            "coordinate_basis": "immutable_original_pixels",
+            "method": "Lossless complete image",
+            "normalized_crop": null
+          },
+          "visual_review": "Original and learner crop visually inspected at native size; complete target preserved; no answer cue in learner image."
+        }
+      ],
+      "variant_review_complete": true,
+      "question_type_matrix": [
+        {
+          "type": "Ultrastructural Finding",
+          "supported": "YES",
+          "visual_target": "Smooth podocyte covering along the outer glomerular basement membrane.",
+          "full_image_required": true,
+          "reason": "One best answer from retained image and course context."
+        }
+      ]
+    },
+    {
+      "relative_path": "R37/Minimal Change Disease Foot Process Effacement - EM.png",
+      "extension": ".png",
+      "bytes": 349325,
+      "sha256": "6e756b4ce118f29aaaee0612ff24938509aee6678586a36549f7e6c924323d5a",
+      "kind": "raster",
+      "width": 1009,
+      "height": 509,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-6e756b4ce118f29a",
+      "source_id": "src-6e756b4ce118f29a",
+      "source_group_id": "group-6e756b4ce118f29a",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Minimal Change Disease Foot Process Effacement - EM",
+      "review_reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 31,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/6e756b4ce118f29aaaee0612.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Minimal Change Disease Foot Process Effacement - EM.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring."
+        }
+      ],
+      "display_asset": "assets/review/6e756b4ce118f29aaaee0612.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/6e756b4ce118f29aaaee0612.png",
+        "source_sha256": "6e756b4ce118f29aaaee0612ff24938509aee6678586a36549f7e6c924323d5a",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R37/Minimal Change Disease Glomerulus (2) - Histology.png",
+      "extension": ".png",
+      "bytes": 1902682,
+      "sha256": "96394c898d7be80721e29fec5bb836b7fb31a6a81cd5f327ff3d1ac931e60f42",
+      "kind": "raster",
+      "width": 1009,
+      "height": 771,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-96394c898d7be807",
+      "source_id": "src-96394c898d7be807",
+      "source_group_id": "group-96394c898d7be807",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Minimal Change Disease Glomerulus (2) - Histology",
+      "review_reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 31,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/96394c898d7be80721e29fec.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Minimal Change Disease Glomerulus (2) - Histology.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source."
+        }
+      ],
+      "display_asset": "assets/review/96394c898d7be80721e29fec.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/96394c898d7be80721e29fec.png",
+        "source_sha256": "96394c898d7be80721e29fec5bb836b7fb31a6a81cd5f327ff3d1ac931e60f42",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R37/Minimal Change Disease Glomerulus - Histology.png",
+      "extension": ".png",
+      "bytes": 1719549,
+      "sha256": "c55abfd3f552b53decbc7e6afc1aafcfbdd484cb87c22553e763131515d0d931",
+      "kind": "raster",
+      "width": 1009,
+      "height": 771,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-c55abfd3f552b53d",
+      "source_id": "src-c55abfd3f552b53d",
+      "source_group_id": "group-c55abfd3f552b53d",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Minimal Change Disease Glomerulus - Histology",
+      "review_reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 31,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/c55abfd3f552b53decbc7e6a.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Minimal Change Disease Glomerulus - Histology.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternate biopsy view or parallel survival graph; retained without redundant scoring."
+        }
+      ],
+      "display_asset": "assets/review/c55abfd3f552b53decbc7e6a.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/c55abfd3f552b53decbc7e6a.png",
+        "source_sha256": "c55abfd3f552b53decbc7e6afc1aafcfbdd484cb87c22553e763131515d0d931",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
+    },
+    {
+      "relative_path": "R37/Minimal Change Disease Glomerulus with caption - Histology.png",
+      "extension": ".png",
+      "bytes": 4755745,
+      "sha256": "3fa847f741be73cf9aa355ef4cad60031158b28c2c6a60404e964b5ade104beb",
+      "kind": "raster",
+      "width": 4000,
+      "height": 2250,
+      "format": "PNG",
+      "mode": "RGB",
+      "decode_status": "ok",
+      "asset_id": "asset-3fa847f741be73cf",
+      "source_id": "src-3fa847f741be73cf",
+      "source_group_id": "group-3fa847f741be73cf",
+      "source_origin": "lecture",
+      "acquisition": "user-supplied manual capture from scoped Renal RLS",
+      "lecture_id": "R37",
+      "system": "Renal",
+      "status": "REFERENCE_ONLY",
+      "modality": "Reference",
+      "tested_concept": "Minimal Change Disease Glomerulus with caption - Histology",
+      "review_reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source.",
+      "ground_truth_basis": "Manual capture visually reviewed against R37 Clinical Nephrology Case Studies SEA Session RLS.pdf p. 31.",
+      "source_citation": {
+        "document": "R37 Clinical Nephrology Case Studies SEA Session RLS.pdf",
+        "page": 31,
+        "sha256": "97b75b47df3a7c5af6e0dcf8eed04ecaed0a3259e9bbdde4580fd27651050222"
+      },
+      "rights_status": "User-supplied course material, local educational use only; redistribution rights not established",
+      "original_asset": "assets/3fa847f741be73cf9aa355ef.png",
+      "batch_id": "2026-10-20-r12-r13-r36-r37",
+      "quality_warnings": [],
+      "aliases": [
+        "R37/Minimal Change Disease Glomerulus with caption - Histology.png"
+      ],
+      "variants": [],
+      "variant_review_complete": false,
+      "question_type_matrix": [
+        {
+          "type": "Distinct visual target",
+          "supported": "NO",
+          "visual_target": null,
+          "full_image_required": true,
+          "reason": "Alternative or answer-bearing view retained for reviewer comparison, not a separate scored source."
+        }
+      ],
+      "display_asset": "assets/review/3fa847f741be73cf9aa355ef.webp",
+      "display_asset_transform": {
+        "purpose": "GitHub Pages review derivative",
+        "source_original_asset": "assets/3fa847f741be73cf9aa355ef.png",
+        "source_sha256": "3fa847f741be73cf9aa355ef4cad60031158b28c2c6a60404e964b5ade104beb",
+        "format": "WebP",
+        "quality": 90,
+        "method": 4,
+        "dimensions_preserved": true,
+        "source_original_in_hosted_build": false
+      }
     }
   ],
-  "visual_review_completed_at": "2026-10-18T23:20:09-04:00",
+  "visual_review_completed_at": "2026-10-20T14:45:06-04:00",
   "reviewed_at": "2026-10-13T12:53:40-04:00",
   "app_qa": {
-    "status": "pending browser checks",
-    "checked_at": "2026-10-18T23:20:09-04:00"
+    "status": "passed local desktop and mobile home-screen review; bank validators, automated tests, and production build passed",
+    "checked_at": "2026-10-20T15:05:20-04:00"
   }
 }

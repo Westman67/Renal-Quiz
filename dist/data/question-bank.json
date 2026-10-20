@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "bank_version": "renal-physiology-2026-10-18-full-manual",
+  "bank_version": "renal-physiology-2026-10-18-full-manual+2026-10-20-r12-r13-r36-r37+2026-10-20-mask-fixes",
   "title": "Renal Picture Quiz",
   "lecture": "mixed",
   "questions": [
@@ -4165,7 +4165,7 @@
       "asset_id": "asset-7b2ac503e70de7cc",
       "source_group_id": "group-7b2ac503e70de7cc",
       "source_id": "src-7b2ac503e70de7cc",
-      "variant_id": "var-8bd6100554969b2af122aadf",
+      "variant_id": "var-c239ebe54451cb1c507603bc",
       "question_type": "Graph Interpretation",
       "tested_concept": "R6 filtered excreted and reabsorbed glucose curves after saturation",
       "stem": "On this plasma-glucose graph, which pattern is shown after the orange reabsorbed curve reaches its plateau?",
@@ -4203,8 +4203,8 @@
           "sha256": "7b2ac503e70de7ccdf4cf241f5627e968b9952e9fee2c2b37e1a36b1ede0b38d"
         }
       ],
-      "image": "assets/8bd6100554969b2af122aadf.webp",
-      "zoom_image": "assets/8bd6100554969b2af122aadf.png",
+      "image": "assets/c239ebe54451cb1c507603bc.webp",
+      "zoom_image": "assets/c239ebe54451cb1c507603bc.png",
       "original_image": "assets/7b2ac503e70de7ccdf4cf241.png",
       "original_filename": "R6/Glucose Threshold.png",
       "category": "Graph",
@@ -5289,6 +5289,222 @@
       "original_filename": "R9/Where NH3 Comes from.png",
       "category": "Diagram",
       "collection": "R9",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-50974bb5a3c9a279897d",
+      "asset_id": "asset-d45a1b26983e0591",
+      "source_group_id": "group-d45a1b26983e0591",
+      "source_id": "src-d45a1b26983e0591",
+      "variant_id": "var-4c9c25a0e1b18213a24cdff6",
+      "question_type": "Graph Interpretation",
+      "tested_concept": "Earliest acid-base defense response",
+      "stem": "At about two hours after the plotted H⁺ or HCO₃⁻ load, which process is already near completion while renal acid excretion has barely begun?",
+      "visual_target": "Compare the completion curves at the two-hour mark.",
+      "joint_composite": false,
+      "options": [
+        "Extracellular distribution and buffering",
+        "Cellular buffering",
+        "Respiratory compensation",
+        "Renal acid excretion"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The leftmost ECF curve is already close to its plateau near two hours.",
+        "The cellular-buffering curve has risen but remains far below its plateau at two hours.",
+        "The respiratory curve is still early on its rise at the two-hour tick.",
+        "The renal acid-excretion curve remains near the baseline at two hours."
+      ],
+      "explanation": "The earliest curve is extracellular distribution and buffering; renal acid excretion develops later on the plotted time scale.",
+      "visual_clues": [
+        "The ECF curve rises sharply just to the right of zero.",
+        "The renal acid-excretion curve rises much later, across the 24–72-hour portion."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R12 Acid-Base Case Studies Beginners (Physiology) RLS.pdf p. 6.",
+      "citations": [
+        {
+          "document": "R12 Acid-Base Case Studies Beginners (Physiology) RLS.pdf",
+          "page": 6,
+          "sha256": "200e643583ba3e898c07d3444c324bdc0e01108bac2410ba792771be9410c385"
+        },
+        {
+          "document": "R12/Timing of Acid-Base Defense Responses - Diagram.png",
+          "page": null,
+          "sha256": "d45a1b26983e0591c0f88bcd3104ab57c96498c9fa2d9b6afb3c275fed94470e"
+        }
+      ],
+      "image": "assets/4c9c25a0e1b18213a24cdff6.webp",
+      "zoom_image": "assets/4c9c25a0e1b18213a24cdff6.png",
+      "original_image": "assets/d45a1b26983e0591c0f88bcd.png",
+      "original_filename": "R12/Timing of Acid-Base Defense Responses - Diagram.png",
+      "category": "Graph",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-56c3332ad4899df12189",
+      "asset_id": "asset-a16695c2e518a4a3",
+      "source_group_id": "group-a16695c2e518a4a3",
+      "source_id": "src-a16695c2e518a4a3",
+      "variant_id": "var-4606cef3c5ecf54de6777d01",
+      "question_type": "Finding Recognition",
+      "tested_concept": "Pitting edema",
+      "stem": "After pressure is applied to the shin, which visible finding remains?",
+      "visual_target": "Depression in the lower-leg skin beside the examining finger.",
+      "joint_composite": false,
+      "options": [
+        "A persistent indentation in swollen tissue",
+        "A raised fluid-filled blister",
+        "A sharply demarcated red plaque",
+        "A branching superficial vein"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The photographed shin retains a small depression where the finger pressed.",
+        "No elevated fluid-filled lesion is visible at the pressure site.",
+        "There is no discrete erythematous plaque at the pressure site.",
+        "No branching superficial vessel is the photographed target."
+      ],
+      "explanation": "The persistent depression after pressure is the visible basis for calling this pitting edema.",
+      "visual_clues": [
+        "The finger presses into the swollen shin on the left.",
+        "The adjacent view shows a residual pit."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf p. 16.",
+      "citations": [
+        {
+          "document": "R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf",
+          "page": 16,
+          "sha256": "68d0b5918ebcb6e7e55b1f566ff332503fbd67f1f724c4529aa73e317a09a763"
+        },
+        {
+          "document": "R13/Pitting Edema - Clinical Photo.png",
+          "page": null,
+          "sha256": "a16695c2e518a4a310715980fa32444c6e554684263eee780f98d19a510bc5e2"
+        }
+      ],
+      "image": "assets/4606cef3c5ecf54de6777d01.webp",
+      "zoom_image": "assets/4606cef3c5ecf54de6777d01.png",
+      "original_image": "assets/a16695c2e518a4a310715980.png",
+      "original_filename": "R13/Pitting Edema - Clinical Photo.png",
+      "category": "Clinical Photo",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-9fca121cb3e5cc78eb2d",
+      "asset_id": "asset-b05659292af706db",
+      "source_group_id": "group-b05659292af706db",
+      "source_id": "src-b05659292af706db",
+      "variant_id": "var-4c616c9b647464aef7c84541",
+      "question_type": "Graph Interpretation",
+      "tested_concept": "Renal oxygen consumption versus GFR",
+      "stem": "On the plotted line, what happens to renal O₂ consumption as GFR rises from about 50 to 200 mL/min?",
+      "visual_target": "Red line between the 50 and 200 mL/min GFR ticks.",
+      "joint_composite": false,
+      "options": [
+        "It increases approximately linearly",
+        "It decreases approximately linearly",
+        "It stays near 5 mL/min",
+        "It rises at first and then reverses"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The red line climbs steadily from near 6 to near 25 mL/min across these ticks.",
+        "The line slopes upward rather than downward as GFR increases.",
+        "The line is not horizontal and exceeds 5 mL/min soon after 50 GFR.",
+        "There is no peak or downturn in the shown interval."
+      ],
+      "explanation": "The lecture graph shows greater renal oxygen consumption at higher GFR, linked in the accompanying slide to increased filtered sodium reabsorption.",
+      "visual_clues": [
+        "The red line has a positive slope across the full x-axis.",
+        "At 200 mL/min, the y-value is much higher than at 50 mL/min."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf p. 23.",
+      "citations": [
+        {
+          "document": "R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf",
+          "page": 23,
+          "sha256": "68d0b5918ebcb6e7e55b1f566ff332503fbd67f1f724c4529aa73e317a09a763"
+        },
+        {
+          "document": "R13/Renal O2 Consumption vs GFR - Diagram.png",
+          "page": null,
+          "sha256": "b05659292af706dbb7af63f10ef9220691cee7fc8e7e6d80cdae92cecf65e87c"
+        }
+      ],
+      "image": "assets/4c616c9b647464aef7c84541.webp",
+      "zoom_image": "assets/4c616c9b647464aef7c84541.png",
+      "original_image": "assets/b05659292af706dbb7af63f1.png",
+      "original_filename": "R13/Renal O2 Consumption vs GFR - Diagram.png",
+      "category": "Graph",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "status": "USABLE",
+      "case_context": "",
+      "accepted_synonyms": []
+    },
+    {
+      "question_id": "q-e85486f42629c08b46f9",
+      "asset_id": "asset-3bc75f211c713686",
+      "source_group_id": "group-3bc75f211c713686",
+      "source_id": "src-3bc75f211c713686",
+      "variant_id": "var-92431d809a7490e93205dbf6",
+      "question_type": "Graph Interpretation",
+      "tested_concept": "Creatinine response to falling GFR",
+      "stem": "Reading the red curve, approximately how does serum creatinine change as GFR falls from 60 to 15 mL/min?",
+      "visual_target": "Red serum-creatinine curve between the 60 and 15 mL/min x-axis ticks.",
+      "joint_composite": false,
+      "options": [
+        "It rises from about 1 to about 4 mg/dL",
+        "It falls from about 4 to about 1 mg/dL",
+        "It stays near 1 mg/dL",
+        "It rises from about 1 to about 7 mg/dL"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The curve is near 1 mg/dL at 60 mL/min and near 4 mg/dL at 15 mL/min.",
+        "The curve moves upward, not downward, as the x-axis value falls.",
+        "The curve does not remain flat over this interval.",
+        "About 7 mg/dL appears only at a still lower GFR near the left edge."
+      ],
+      "explanation": "The plotted relationship is inverse and nonlinear: a fall in GFR from roughly 60 to 15 mL/min accompanies a creatinine rise from roughly 1 to 4 mg/dL.",
+      "visual_clues": [
+        "Read the descending GFR values from right to left.",
+        "Follow the red curve up toward the 15 mL/min tick."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Manual capture visually reviewed against R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf p. 3.",
+      "citations": [
+        {
+          "document": "R13 Physiologist and Physician Mini-Case Study Review (Physiology) RLS.pdf",
+          "page": 3,
+          "sha256": "68d0b5918ebcb6e7e55b1f566ff332503fbd67f1f724c4529aa73e317a09a763"
+        },
+        {
+          "document": "R13/Serum Creatinine vs GFR Curve - Diagram.png",
+          "page": null,
+          "sha256": "3bc75f211c7136869d388f843328d4dcfc031d5b1d97e05f678dc0989e8335db"
+        }
+      ],
+      "image": "assets/92431d809a7490e93205dbf6.webp",
+      "zoom_image": "assets/92431d809a7490e93205dbf6.png",
+      "original_image": "assets/3bc75f211c7136869d388f84.png",
+      "original_filename": "R13/Serum Creatinine vs GFR Curve - Diagram.png",
+      "category": "Graph",
+      "collection": "R13",
       "source_origin": "lecture",
       "status": "USABLE",
       "case_context": "",

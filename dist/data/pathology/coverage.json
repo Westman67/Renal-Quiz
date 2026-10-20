@@ -63,7 +63,11 @@
         "ADH-triggered AQP2 apical insertion",
         "ENaC-linked K⁺ secretion",
         "DCT thiazide-associated calcium retention",
-        "Thiazide urinary calcium pattern"
+        "Thiazide urinary calcium pattern",
+        "Aldosterone antagonist urinary potassium pattern",
+        "Loop diuretic diuresis magnitude",
+        "Loop diuretic maximum filtered sodium excreted",
+        "Loop diuretic urinary calcium pattern"
       ],
       "gaps": [
         "Fully labeled or repetitive captures remain Source review, not scored."
@@ -307,7 +311,11 @@
       "tested_summary": [
         "Combined GFR and albuminuria category",
         "Finerenone UACR dose response",
-        "Automated peritoneal dialysis apparatus"
+        "Automated peritoneal dialysis apparatus",
+        "G2 and A1 risk map cell",
+        "G3a and A1 risk map cell",
+        "G3b and A3 risk map cell",
+        "G5 and A1 risk map cell"
       ],
       "gaps": [
         "Other manual captures retained as reference-only after visual triage; no forced question for answer-labeled, repeated, or ambiguous visuals."
@@ -335,6 +343,31 @@
       ],
       "next_capture": "No additional capture required for this reviewed manual set.",
       "basis": "5 eligible manual PNGs contact-sheet triaged; 0 selected for scored questions. _Not for quiz excluded."
+    },
+    "R36": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "ACE inhibitor-associated lip angioedema",
+        "Elongated drug crystal morphology",
+        "Collecting-system dilation on renal ultrasound"
+      ],
+      "gaps": [
+        "Other captured diagrams or alternate views remain reference-only; this is not exhaustive lecture coverage."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "11 eligible manual PNGs visually reviewed; 3 distinct image-dependent questions scored. RLS pages and source hashes recorded in manifest."
+    },
+    "R37": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Hemodialysis survival curves by ESRD-onset year",
+        "Podocyte foot-process effacement"
+      ],
+      "gaps": [
+        "Other captured diagrams or alternate views remain reference-only; this is not exhaustive lecture coverage."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "7 eligible manual PNGs visually reviewed; 2 distinct image-dependent questions scored. RLS pages and source hashes recorded in manifest."
     }
   }
 }

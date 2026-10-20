@@ -112,6 +112,30 @@
       ],
       "next_capture": "Supply clear complete visual R9 diagrams if broader visual coverage is wanted.",
       "basis": "Four manual R9 captures visually matched to R9 Acid-Base Regulation (Physiology) RLS pp. 22, 30, 32–33; three scored image captures, four questions, one reference-only card. Coverage remains partial."
+    },
+    "R12": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Earliest acid-base defense response"
+      ],
+      "gaps": [
+        "Other captured diagrams or alternate views remain reference-only; this is not exhaustive lecture coverage."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "29 eligible manual PNGs visually reviewed; 1 distinct image-dependent questions scored. RLS pages and source hashes recorded in manifest."
+    },
+    "R13": {
+      "status": "Partial coverage",
+      "tested_summary": [
+        "Pitting edema",
+        "Renal oxygen consumption versus GFR",
+        "Creatinine response to falling GFR"
+      ],
+      "gaps": [
+        "Other captured diagrams or alternate views remain reference-only; this is not exhaustive lecture coverage."
+      ],
+      "next_capture": "No additional capture required for this reviewed manual set.",
+      "basis": "12 eligible manual PNGs visually reviewed; 3 distinct image-dependent questions scored. RLS pages and source hashes recorded in manifest."
     }
   }
 }
